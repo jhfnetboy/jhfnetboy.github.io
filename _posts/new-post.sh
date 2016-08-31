@@ -2,7 +2,8 @@
 if [ -n "$1" ];then 
 	dtime=`date '+%Y-%m-%d %H:%M'`
 	ndate=`date +%Y-%m-%d`
-	file_name="${ndate}-jhfnetboy-blog.markdown"
+	num=$(date +%s)
+	file_name="${ndate}-jhfnetboy-blog${num}.markdown"
 	echo $file_name
 	touch $file_name
 echo "---
