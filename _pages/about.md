@@ -3,7 +3,7 @@ layout:    about
 permalink: "/about/"
 author:    jhfnetboy
 keywords:  about jLab.tech
-title:     About jLab
+title:     About jLab and me
 menutitle: About
 weight:    90
 excerpt:   This page contains the curriculum vitae (CV) of the jhfnetboy.
@@ -15,13 +15,14 @@ excerpt:   This page contains the curriculum vitae (CV) of the jhfnetboy.
 + and the CV you can see here:
 ![jLab.tech.cv](/assets/jiaohuifeng.curriculum.vitae.png)
 +  and now working in TQMall which located in HangZhou
++ Now i am in the assistant of CTO,do some management jobs after 9,2016
 ---
 
 ## Skills
 
 - Strong competence in contruct a system: outlook describe and solidate,communicate and collect requirments from cusotmer,the system design which including conception,logic and physics .
 - About ten years experince in team building and construction:how to trainning new guys,to orgnization,giving targets and checking the boys who called programmer.
-- That i am proud of  is coding in Python,PHP,Go,JS or some other programming languages,It is a great feelings when you aretyping on the keyboard with noise kaka .
+- That i am proud of  is coding in Python,PHP,Go,JS or some other programming languages,It is a great feelings when you are typing on the keyboard with noise kaka .
 - Thinking and find the way to solve the problem,which i call this powerfull logical abiblity.
 - Smile and always be curious to this world,aspirations to create a foundation to help others,to build a own robot etc, never fears to facing challenge.
 
