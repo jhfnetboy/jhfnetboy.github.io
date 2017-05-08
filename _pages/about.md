@@ -13,7 +13,7 @@ excerpt:   This page contains the curriculum vitae (CV) of the jhfnetboy.
 
 + This Jason's Lab which be called jLab and the author is Jason who was born in 1976
 + and the CV you can see here:
-![jLab.tech.cv](/assets/jiaohuifeng.curriculum.vitae.png)
+![jLab.tech.cv](/assets/jhfnetboy.jpg)
 +  and now working in TQMall which located in HangZhou
 + Now i am in the assistant of CTO,do some management jobs after 9,2016
 ---
