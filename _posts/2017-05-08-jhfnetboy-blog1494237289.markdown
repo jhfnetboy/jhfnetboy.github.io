@@ -22,5 +22,5 @@ categories: [Creative_Innovation]
 + Blockchain innovators: Select private companies 
 + Blockchain innovators: Public company enablers 
 + Disclosure Appendix 
-+ ![Goldman Sachs--BlcokChain-Putting Theory into Practice-reading this report]()../assets/goldman-blockchain.png) 
++ ![Goldman Sachs--BlcokChain-Putting Theory into Practice-reading this report](../assets/goldman-blockchain.png) 
 # Wait for me: i will read and analysis and give a report:)
