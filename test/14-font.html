@@ -1,0 +1,94 @@
+
+<!DOCTYPE html><html class=''>
+<head>
+
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+<style class="cp-pen-styles">html,
+body {
+  background: #e4e2f2;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Rig Shaded Bold Face', sans-serif;
+  text-transform: uppercase;
+  font-size: 18vw;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  color: #91d4ff;
+  letter-spacing: .6rem;
+}
+h1:before, h1:after,
+h1 span:before,
+h1 span:after {
+  content: attr(data-heading);
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  font-weight: normal;
+  text-shadow: none;
+}
+h1:before {
+  color: #fff;
+  font-family: 'Rig Shaded Bold Inline', sans-serif;
+  -webkit-transform: translate(0, -1.5%);
+          transform: translate(0, -1.5%);
+}
+h1:after {
+  font-family: 'Rig Shaded Bold Shading Coarse', sans-serif;
+  color: #040351;
+  -webkit-transform: translate(0, 10%);
+          transform: translate(0, 10%);
+}
+
+span::before {
+  font-family: 'Rig Shaded Bold Shadow', sans-serif;
+  color: #cbc7e3;
+  -webkit-transform: translate(0, 17%);
+          transform: translate(0, 17%);
+  z-index: -1;
+}
+span::after {
+  font-family: 'Rig Shaded Bold Extrude', sans-serif;
+  color: #4d8bea;
+  -webkit-transform: translate(0, 10%);
+          transform: translate(0, 10%);
+  z-index: -1;
+}
+</style></head><body>
+<h1 data-heading="Magic">
+	<span data-heading="Magic">Magic</span>
+</h1>
+<script>// MY FONTS
+/*
+font-family: 'Rig Shaded Bold Shadow'
+font-family: 'Rig Shaded Bold Inline'
+font-family: 'Rig Shaded Bold Face'
+font-family: 'Rig Shaded Bold Shading Coarse'
+font-family: 'Rig Shaded Bold Extrude'
+
+*/
+
+(function() {
+        var path = '//easy.myfonts.net/v2/js?sid=301600(font-family=Rig+Shaded+Bold+Shadow)&sid=301602(font-family=Rig+Shaded+Bold+Inline)&sid=301605(font-family=Rig+Shaded+Bold+Extrude)&sid=301604(font-family=Rig+Shaded+Bold+Face)&sid=301606(font-family=Rig+Shaded+Bold+Shading+Coarse)&key=WLXLrpyfD4',
+            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+            trial = document.createElement('script');
+        trial.type = 'text/javascript';
+        trial.async = true;
+        trial.src = protocol + path;
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(trial);
+    })();
+//# sourceURL=pen.js
+</script>
+</body></html>

@@ -1,0 +1,100 @@
+
+<!DOCTYPE html><html class=''>
+<head>
+
+
+<style class="cp-pen-styles">@import url(https://fonts.googleapis.com/css?family=Russo+One);
+
+.preloader{
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/stardust.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+ }
+.preloader h1{
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin: -120px 0 0 -209px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+.status{
+  margin: -30px 0 0 -105px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+ }
+.path {
+  animation: dash 60s linear infinite;
+  stroke-dasharray: 512;
+  stroke-dashoffset: 0;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 3000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.mainContent{
+  display: none;
+  width: 100%;
+}</style></head><body>
+<div class="preloader">
+  
+  <h1>Orion's Preloader</h1>
+  
+  <div class="status">
+    <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       width="205px" height="105px" viewBox="0 0 205 105" enable-background="new 0 0 205 105" xml:space="preserve">
+    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0.5249" y1="50.103" x2="199.6387" y2="50.103">
+      <stop  offset="0.0054" style="stop-color:#EA1515"/>
+      <stop  offset="0.5" style="stop-color:#00BF71"/>
+      <stop  offset="1" style="stop-color:#3E30FF"/>
+    </linearGradient>
+    <polygon class="path2" fill="#FFFFFF"  fill-opacity="0.0" stroke="gray" stroke-width="1" stroke-miterlimit="10" points="1.165,50.349 37.484,26.987 102.863,42.971 
+      182.898,1.167 198.997,80.646 119.725,63.61 24.359,99.161 "/>
+    <rect fill="none" width="200" height="100"/>
+    <polygon class="path" fill="#FFFFFF"  fill-opacity="0.0"stroke-width="4" stroke="url(#SVGID_1_)" stroke-miterlimit="10" points="1.165,50.349 37.484,26.987 102.863,42.971 
+      182.898,1.167 198.997,80.646 119.725,63.61 24.359,99.161 "/>
+    <rect fill="none" width="200" height="100"/>
+    </svg>
+  </div>
+  
+</div>
+</script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>/*
+function setDimensions(){
+  var windowsHeight = $(window).height();
+  $(".preloader").css("height", windowsHeight + "px");
+}
+
+$(window).resize(function() {
+  setDimensions();
+});
+
+// Makes sure the whole site is loaded
+$(window).load(function() {
+  // Will first fade out the loading animation
+	$(".status").fadeOut("slow");
+  // Will fade out the whole DIV that covers the website
+  $(".preloader").delay(1000).fadeOut("slow");
+  // Will fade out the whole DIV that covers the website
+  $(".mainContent").fadeIn("slow");
+})
+*/
+//# sourceURL=pen.js
+</script>
+</body></html>
