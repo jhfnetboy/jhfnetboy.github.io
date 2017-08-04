@@ -49,4 +49,4 @@ categories: [Creative_Innovation]
 + 高素质不一定是名校，高学历，海归等等，高素质的核心，是心智，思维模式，是应对变化的能力，这才是最重要的
 + 汗，随手写的，乱七八糟，大家看看就行
 + 奉上一张清理硬盘发现的老照片
-+ ![../assets/jhf8-4.jpg](jhf2017-8-4.jpg)
++![jhfnetboy's photo](/assets/jhf8-4.jpg)
