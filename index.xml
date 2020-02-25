@@ -10,5 +10,14 @@
 	<atom:link href="http://jlab.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title></title>
+      <link>http://jlab.github.io/post/2020-02-25_jlab_blog1582624561/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jlab.github.io/post/2020-02-25_jlab_blog1582624561/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
