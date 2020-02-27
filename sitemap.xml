@@ -3,131 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://jlab.github.io/tags/development/</loc>
-    <lastmod>2019-04-05T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/go/</loc>
-    <lastmod>2019-04-05T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/history/</loc>
-    <lastmod>2019-04-05T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/presentation/</loc>
-    <lastmod>2019-04-05T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/</loc>
-    <lastmod>2019-04-05T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/</loc>
-    <lastmod>2019-04-05T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/presentation/what-should-a-modern-practical-programming-language-look-like/</loc>
-    <lastmod>2019-04-05T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/Blogging/</loc>
-    <lastmod>2013-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/golang/</loc>
-    <lastmod>2013-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/project/hugo/</loc>
-    <lastmod>2013-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/project/</loc>
-    <lastmod>2013-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/management/</loc>
-    <lastmod>2010-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/post/</loc>
-    <lastmod>2010-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/Project-Management/</loc>
-    <lastmod>2010-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/post/why-projects-fail/</loc>
-    <lastmod>2010-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/shopping/</loc>
-    <lastmod>2008-09-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/post/why-are-you-still-shopping-offline/</loc>
-    <lastmod>2008-09-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/git/</loc>
-    <lastmod>2008-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/subversion/</loc>
-    <lastmod>2008-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/svk/</loc>
-    <lastmod>2008-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/svn/</loc>
-    <lastmod>2008-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/post/using-svk-to-increase-productivity/</loc>
-    <lastmod>2008-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/social-media/</loc>
-    <lastmod>2008-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/tags/twitter/</loc>
-    <lastmod>2008-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jlab.github.io/post/why-are-you-not-on-twitter/</loc>
-    <lastmod>2008-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jlab.github.io/post/2020-02-25_jlab_blog1582624561/</loc>
   </url>
   
@@ -141,6 +16,18 @@
   
   <url>
     <loc>http://jlab.github.io/post/2020-02-27_jlab_blog1582789748/</loc>
+  </url>
+  
+  <url>
+    <loc>http://jlab.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>http://jlab.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>http://jlab.github.io/tags/</loc>
   </url>
   
   <url>
