@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud computing on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Cloud-computing/</link>
+    <description>Recent content in Cloud computing on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Nov 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MongoDB, PHP and the Cloud - PHP Cloud Summit 2011</title>
+      <link>http://localhost:888/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</link>
+      <pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</guid>
+      <description>I had the opportunity to present at the PHP Cloud Summit 2011 among some great presenters. This was first time speaking at an online conference. Thanks to the diligent efforts from Cal, Keith and Jeremy at PHPArch it was a really successful experience. I actually presented with two Macbooks. One open to IRC where questions were coming in and the other open to the presentation. In spite of it being all online, the audience asked some great questions and it was really fun to interact with them.</description>
+    </item>
+    
+    <item>
+      <title>Competition for the Cloud Heats Up</title>
+      <link>http://localhost:888/post/competition-for-the-cloud-heats-up/</link>
+      <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/competition-for-the-cloud-heats-up/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/clouds.jpg&amp;quot; alt=&amp;quot;cloud&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; &amp;lt;a href=&amp;quot;http://www.flickr.com/photos/52859023@N00/644335254&amp;quot;&amp;gt; karindalziel &amp;lt;/a&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Cloud no longer a single vendor game. For years cloud computing has been synonymous with Amazon whose Amazon Web Services really created and defined the space. In the past year other providers have matured and in some areas even surpassing Amazon.
+In a conversation with Scott White, the VP of Sales from Rackspace, he related to me their approach on the cloud and how customers are utilizing their cloud offering.</description>
+    </item>
+    
+  </channel>
+</rss>

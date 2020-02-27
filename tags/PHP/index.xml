@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/PHP/</link>
+    <description>Recent content in PHP on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/PHP/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal and the secret of my success</title>
+      <link>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</guid>
+      <description>&lt;p&gt;As my tenure on the &lt;a href=&#34;https://www.drupal.org/association&#34;&gt;Drupal Association&lt;/a&gt; was concluding, I was asked to give the Keynote for DrupalCon. It was my privilage to talk about my 20 year history with open source and how much I learned from and valued the Drupal community. &lt;a href=&#34;https://dri.es&#34;&gt;Dries&lt;/a&gt;, Drupal&amp;rsquo;s founder gave a touching &lt;a href=&#34;https://dri.es/how-drupal-influences-other-open-source-projects&#34;&gt;shoutout on his blog&lt;/a&gt; afterwards.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pointers vs References</title>
+      <link>http://localhost:888/post/go-pointers-vs-references/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/go-pointers-vs-references/</guid>
+      <description>Some languages including C, C++ support pointers. Other languages including C++, Java, Python, Ruby, Perl and PHP all support references. On the surface both references and pointers are very similar, both are used to have one variable provide access to another. With both providing a lot of the same capabilities, it’s often unclear what is different between these different mechanisms. In this article I will illustrate the difference between pointers and references.</description>
+    </item>
+    
+    <item>
+      <title>9 MongoDB 2.6 Drivers Released</title>
+      <link>http://localhost:888/post/mongodb2-6-drivers-released/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/mongodb2-6-drivers-released/</guid>
+      <description>I’m pleased to announce the coordinated release of drivers in 9 languages in preparation for the release of MongoDB 2.6. This is the largest driver release in the history of MongoDB, both in terms of code changes as well as in terms of drivers released. Official Drivers for C, C++, C# (.net), Java, Node.js, PHP, Python, Ruby and Scala were all released with Perl following shortly. In the upcoming weeks community drivers will be updated to take advantage of the new features present in MongoDB 2.</description>
+    </item>
+    
+    <item>
+      <title>Building Modern Web Applications</title>
+      <link>http://localhost:888/presentation/building-modern-web-applications/</link>
+      <pubDate>Mon, 05 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/building-modern-web-applications/</guid>
+      <description>I gave this presentation to a packed house at DevCon5 in NYC July 24th. DevCon5 is a web developers conference and this year it focused on HTML5. This was one of the hardest presentations I&amp;rsquo;ve worked on for the simple fact that the audience had name recognition, but not familiarity with the database industry. Typically I&amp;rsquo;ve leaned on the fact that most participants were familiar with at least one database prior to my presentation, I had no such luxury here.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB and PHP Webinar</title>
+      <link>http://localhost:888/presentation/mongodb-and-php/</link>
+      <pubDate>Fri, 12 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-and-php/</guid>
+      <description>This is a 90 minute MongoDB tutorial on using MongoDB in PHP which I gave as a webcast for O&amp;rsquo;Reilly last year.. The tutorial covers everything from Installing MongoDB along with installing and configuring the MongoDB PHP driver. You will learn how to work with MongoDB from within PHP as well as within the MongoDB shell.
+What would happen if you optimized a data store for the operations application developers to actually use?</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with MongoDB and PHP</title>
+      <link>http://localhost:888/post/getting-started-with-mongodb-and-php/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/getting-started-with-mongodb-and-php/</guid>
+      <description>Nearly 3 years ago I discovered a new database that literally changed my life. I know, that’s a pretty bold claim, but it’s true. While leading the engineering team at OpenSky I faced a problem I was well familiar with. How to build a e-commerce product that: 1. Provided performance and scale 2. Handled many verticals and 3. Provided proper indexing on key attributes. In search for a better solution to this problem I encountered MongoDB.</description>
+    </item>
+    
+    <item>
+      <title>spf13-vim : Steve Francia&#39;s Vim Distribution</title>
+      <link>http://localhost:888/project/spf13-vim/</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/project/spf13-vim/</guid>
+      <description>spf13-vim is a distribution of vim plugins and resources for Vim, Gvim and MacVim.
+It is a good starting point for anyone intending to use VIM for development running equally well on Windows, Linux, *nix and Mac.
+The distribution is completely customisable using a ~/.vimrc.local and ~/.vimrc.bundles.local Vim RC files.
+Unlike traditional VIM plugin structure, which similar to UNIX throws all files into common directories, making updating or disabling plugins a real mess, spf13-vim 3 uses the Vundle plugin management system to have a well organized vim directory (Similar to mac&amp;rsquo;s app folders).</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Drupal and MongoDB</title>
+      <link>http://localhost:888/post/getting-started-with-drupal-and-mongodb/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/getting-started-with-drupal-and-mongodb/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Drupal-Admin.png&amp;quot; alt=&amp;quot;Drupal&amp;quot; /&amp;gt;  MongoDB is the most full featured scalable database taking the tech world by storm. Drupal is the standard in content management powering magazines, blogs online newspapers and much more. It’s only natural that they would get together to provide a fast dynamic scalable CMS system. Whenever a Drupal site needs to scale dynamic content they turn to MongoDB to be able to deliver. The Examiner.</description>
+    </item>
+    
+    <item>
+      <title>PIV : PHP Integration for VIM</title>
+      <link>http://localhost:888/project/piv/</link>
+      <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/project/piv/</guid>
+      <description>This project contains the most feature complete and up to date PHP Integration for Vim. It began as a fork of the largely outdated VIP (formerly PDV), but has morphed into it’s own project.
+It is intended to include the best PHP specific plugins, configurations and resources for editing PHP. Special care has been taken to include the best, keep them up to date and make sure everything plays well together.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB, PHP and the Cloud - PHP Cloud Summit 2011</title>
+      <link>http://localhost:888/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</link>
+      <pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</guid>
+      <description>I had the opportunity to present at the PHP Cloud Summit 2011 among some great presenters. This was first time speaking at an online conference. Thanks to the diligent efforts from Cal, Keith and Jeremy at PHPArch it was a really successful experience. I actually presented with two Macbooks. One open to IRC where questions were coming in and the other open to the presentation. In spite of it being all online, the audience asked some great questions and it was really fun to interact with them.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB and PHP at ZendCon 2011</title>
+      <link>http://localhost:888/presentation/mongodb-and-php-at-zendcon-2011/</link>
+      <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-and-php-at-zendcon-2011/</guid>
+      <description>Presentation given at PHP’s biggest conference, ZendCon 2011. Covers the basics of using MongoDB with PHP.
+MongoDB and PHP ZendCon 2011
+View more presentations from Steve Francia.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Symfony2 Console Command</title>
+      <link>http://localhost:888/post/creating-a-symfony2-console-command/</link>
+      <pubDate>Mon, 20 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/creating-a-symfony2-console-command/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/symfony_ss.png&amp;quot; alt=&amp;quot;symfony&amp;quot; /&amp;gt;  One of the weaknesses of PHP as a languages has always been it’s ability to write proper command line utilities. Yes PHP is pretty much built to drive the web, and it does that rather well, but there are plenty of reasons to want to be able to write a program that is callable from the command line that interfaces with your web app. Symfony2 does a rather good job at providing a nice toolset to build command line applications in php.</description>
+    </item>
+    
+    <item>
+      <title>Creating your own Symfony2 Bundle</title>
+      <link>http://localhost:888/post/creating-your-own-symfony2-bundle/</link>
+      <pubDate>Tue, 24 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/creating-your-own-symfony2-bundle/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/symfony_ss.png&amp;quot; alt=&amp;quot;symfony&amp;quot; /&amp;gt;  Symfony2 is a great web framework. OpenSky is built on this framework and we are one of the largest contributors to it. The primary building block for Symfony2 is a bundle. Through it’s bundle system Symfony 2.0 achieves a level of modularity I haven’t seen in other web frameworks. A bundle permits a developer to add functionality to the framework and is the best way to develop applications with Symfony2.</description>
+    </item>
+    
+    <item>
+      <title>Augmenting RDBMS with NoSQL for e-commerce</title>
+      <link>http://localhost:888/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</link>
+      <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/postgresconNYC_ss.png&amp;quot; alt=&amp;quot;postgres con&amp;quot; /&amp;gt;  Justin Hileman and I gave a presentation on “Augmenting RDBMS with NoSQL for e-commerce” at the PgEast 2011 conference. This presentation is really the sequel (no pun intended) to my presentation, MongoDB &amp;amp; Ecommerce : A Perfect Combination. This presentation takes you through how we created a hybrid solution blending both sql and nosql to achieve an optimal solution.
+Augmenting RDBMS with MongoDB for ecommerce</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Symfony2</title>
+      <link>http://localhost:888/post/getting-started-with-symfony2/</link>
+      <pubDate>Mon, 07 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/getting-started-with-symfony2/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/symfony_ss.png&amp;quot; alt=&amp;quot;symfony&amp;quot; /&amp;gt;  In a follow up to my popular post on Symfony2, the open source PHP framework we use at OpenSky, I’m providing an easy guide to getting started using Symfony2. This isn’t your basic “Hello World”, but a practical guide to beginning a project with Symfony2.
+Requirements To get started with Symfony2 you should have a working install of Git as well as a well made install of PHP version 5.</description>
+    </item>
+    
+    <item>
+      <title>On Symfony2</title>
+      <link>http://localhost:888/post/symfony2/</link>
+      <pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/symfony2/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/symfony_ss.png&amp;quot; alt=&amp;quot;symfony&amp;quot; /&amp;gt;  Disclaimer I’ve got a couple disclaimers in writing this. 1. I’m one of the primary authors of the Zoop Framework for PHP. It’s pretty much the first web framework for PHP dating back to 2001. In spite of it’s age it’s still quite relevant and in use by thousands worldwide. 2. I run engineering for OpenSky where we elected to build our ecommerce platform on the Symfony2 framework and have since become the 2nd largest contributors to it.</description>
+    </item>
+    
+    <item>
+      <title>WP GitHub Code Viewer</title>
+      <link>http://localhost:888/post/wp-github-code-viewer/</link>
+      <pubDate>Thu, 09 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/wp-github-code-viewer/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/github-logo.png&amp;quot; alt=&amp;quot;github&amp;quot; /&amp;gt;  GitHub Code Viewer 2 is a plugin for wordpress that will automatically pull a file from github and place into any post using a shortcode [github_cv url=&#39;$url&amp;rsquo;]. It caches the code locally (in db), so it’s quite fast and can be even faster when combined with wp_super_cache or w3c_total_cache. It will re-request the code from github every 24 hours (by default, but it’s configurable) so the code in your post will always remain up to date.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB &amp; Ecommerce : A Perfect Combination</title>
+      <link>http://localhost:888/presentation/mongodb-ecommerce-a-perfect-combination/</link>
+      <pubDate>Wed, 20 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-ecommerce-a-perfect-combination/</guid>
+      <description>Last night I gave a presentation on MongoDB &amp;amp; Ecommerce. OpenSky is the first company to use MongoDB in production for ecommerce. I shared why we went this route, and why it’s an obvious and powerful combination. At OpenSky we use MongoDB to develop the next ecommerce platform. OpenSky also uses Symfony 2, Doctrine 2, PHP 5.3, PHPUnit 3.5, jQuery, node.js, Git (with gitflow) and a touch of Java and Python.</description>
+    </item>
+    
+    <item>
+      <title>Ultimate Vim Config</title>
+      <link>http://localhost:888/post/ultimate-vim-config/</link>
+      <pubDate>Fri, 25 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/ultimate-vim-config/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/vim_logo.png&amp;quot; alt=&amp;quot;vim&amp;quot; /&amp;gt;  I have spent the last few years tweaking and refining my VIM configuration until I had the Ultimate Vim Config. It is well organized and documented taking full advantage of Tpope’s pathogen for a excellent clean and modular configuration. The Ultimate vim config contains the perfect .vimrc file combined with an excellent set of plugins all easily managed thanks to pathogen and git. It is on GitHub so you can always grab the latest.</description>
+    </item>
+    
+    <item>
+      <title>Moving to WordPress</title>
+      <link>http://localhost:888/post/moving-to-wordpress/</link>
+      <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/moving-to-wordpress/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/wordpress-logo.png&amp;quot; alt=&amp;quot;wordpress logo&amp;quot; /&amp;gt;  I’ve used Drupal to power my blog since I started it over 2 years ago. It has been a bitter sweet relationship, but in general I’ve been pleased. In those two years, WordPress as a product has rocketed past Drupal, and feels much more mature. While Drupal 7 should level the field a bit, it’s a ways away and WordPress 3.0 is already here.</description>
+    </item>
+    
+    <item>
+      <title>Next Gen PHP Frameworks</title>
+      <link>http://localhost:888/post/next-gen-php-frameworks/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/next-gen-php-frameworks/</guid>
+      <description>With the release of PHP 5.3, PHP released the most significant capabilities in years. Specifically the addition of Late Static Bindings, Lambda Functions and Closures, and Namespaces has changed everything. These new features open new doors for solutions previously impossible. As a result in recent months there has been a flood of new frameworks and libraries taking advantage of these new features. Effectively we are approaching the third wave of PHP frameworks.</description>
+    </item>
+    
+    <item>
+      <title>Top Sites Running Drupal</title>
+      <link>http://localhost:888/post/top-sites-running-drupal/</link>
+      <pubDate>Mon, 21 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/top-sites-running-drupal/</guid>
+      <description>Image via Wikipedia
+Drupal is a very powerful Content Management Solution. Many other organizations both large and small have found it to be a perfect platform for managing their website including some Fortune 100 companies. I decided to compile a list of some of the more notable organizations running drupal. This list is not exhaustive, but intended to demonstrate top site powered by drupal. If you know other top sites also powered by drupal, please list them in the comments below.</description>
+    </item>
+    
+    <item>
+      <title>Scaling Web Sites (LAMP) : Top Resources</title>
+      <link>http://localhost:888/post/scaling-web-sites-lamp-top-resources-2/</link>
+      <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/scaling-web-sites-lamp-top-resources-2/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/failwhale.png&amp;quot; alt=&amp;quot;Image via Wikipedia&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image via Wikipedia &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Luckily it’s 2009 and there have been a bunch of successful websites that have had to deal with large scalability challenges. Many have been kind enough to share their knowledge with the world. Here is a list of the best books, articles, presentations and practices from the likes of Twitter, Facebook, Flickr and more.
+Books Building Scalable Web Sites Building, scaling, and optimizing the next generation of web applications by Cal Henderson</description>
+    </item>
+    
+  </channel>
+</rss>

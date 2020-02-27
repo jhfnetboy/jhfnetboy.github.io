@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recovery strategies on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/recovery-strategies/</link>
+    <description>Recent content in recovery strategies on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Oct 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/recovery-strategies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Biggest Myths Surrounding Disaster Recovery</title>
+      <link>http://localhost:888/post/top-4-biggest-myths-surrounding-disaster-recovery/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/top-4-biggest-myths-surrounding-disaster-recovery/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/5046906103_f14d189099_b.jpg&amp;quot; alt=&amp;quot;fire&amp;quot; /&amp;gt;  There are a variety of reasons businesses either do not have a disaster recovery plan or their current plan is substandard. The beliefs of the people in charge of developing these processes (business owners and IT department) play a significant role in how effective the overall strategy will be. This is problematic when the decision-makers have bought into one or more of the common myths surrounding disaster recovery.</description>
+    </item>
+    
+  </channel>
+</rss>

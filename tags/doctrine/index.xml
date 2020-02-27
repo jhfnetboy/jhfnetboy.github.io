@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>doctrine on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/doctrine/</link>
+    <description>Recent content in doctrine on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jun 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/doctrine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blending Mongo and RDBMS for ecommerce</title>
+      <link>http://localhost:888/presentation/blending-mongo-and-rdbms-for-ecommerce/</link>
+      <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/blending-mongo-and-rdbms-for-ecommerce/</guid>
+      <description>Justin Hileman and I presented at MongoNYC 2011 to a packed house. Our presentation outlines both why someone would want to use MongoDB for ecommerce and how we overcame some of it’s limitations by incorporating mysql into our infrastructure.
+ &amp;lt;img src=&amp;quot;/media/l6zwy.jpg&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;h4&amp;gt;Presenting at MongoNYC 2011&amp;lt;/h4&amp;gt; &amp;lt;/figcaption&amp;gt;  Blending MongoDB and RDBMS for ecommerce
+View more presentations from Steve Francia.</description>
+    </item>
+    
+  </channel>
+</rss>

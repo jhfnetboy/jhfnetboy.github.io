@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iPhone on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/iPhone/</link>
+    <description>Recent content in iPhone on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Nov 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/iPhone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How RIM handed the mobile market over to Apple</title>
+      <link>http://localhost:888/post/how-rim-handed-the-mobile-market-over-to-apple/</link>
+      <pubDate>Fri, 14 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/how-rim-handed-the-mobile-market-over-to-apple/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/iphone3.jpg&amp;quot; alt=&amp;quot;Image representing iPhone 3G as depicted in Crunchbase&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image representing iPhone 3G as depicted in Crunchbase &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Hint: It has nothing to do with touch screens.
+While RIM scrambles to create the next greatest device, or their “iPhone killer” it needs to recognize that it’s no longer about the device. RIM don’t you remember that touchscreens aren’t new.. Palm had them back in the 90′s … before you crushed them.</description>
+    </item>
+    
+  </channel>
+</rss>

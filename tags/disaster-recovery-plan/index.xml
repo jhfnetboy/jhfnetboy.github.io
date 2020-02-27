@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>disaster recovery plan on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/disaster-recovery-plan/</link>
+    <description>Recent content in disaster recovery plan on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Oct 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/disaster-recovery-plan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Biggest Myths Surrounding Disaster Recovery</title>
+      <link>http://localhost:888/post/top-4-biggest-myths-surrounding-disaster-recovery/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/top-4-biggest-myths-surrounding-disaster-recovery/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/5046906103_f14d189099_b.jpg&amp;quot; alt=&amp;quot;fire&amp;quot; /&amp;gt;  There are a variety of reasons businesses either do not have a disaster recovery plan or their current plan is substandard. The beliefs of the people in charge of developing these processes (business owners and IT department) play a significant role in how effective the overall strategy will be. This is problematic when the decision-makers have bought into one or more of the common myths surrounding disaster recovery.</description>
+    </item>
+    
+    <item>
+      <title>Backup, Replication and Disaster Recovery</title>
+      <link>http://localhost:888/post/backups-replication-and-disaster-recovery/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/backups-replication-and-disaster-recovery/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/disaster_day_of_crisis.jpg&amp;quot; alt=&amp;quot;crisis&amp;quot; /&amp;gt;  One of the most common concerns people have is how to ensure that their application is safe, secure and available in the event of an emergency. Often I have found that people are mistakenly believe that they are protected when in fact they often have ignored potential scenarios.
+The principles explained apply equally well in RDBMSs, MongoDB and other databases.
+Potential scenarios to protect against   Drive failure   Machine failure   Switch failure   Power circuit failure   Data center failure   Intrusion   Fat fingers   Programmer error   Raid To prevent drive failure use multiple drives in a single machine for high availability.</description>
+    </item>
+    
+  </channel>
+</rss>

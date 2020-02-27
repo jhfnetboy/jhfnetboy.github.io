@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="go, open source, development, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="What Every Open Source Project Needs : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://localhost:888/presentation/what-every-open-source-project-needs/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2015-03-20"/>
+<meta property="article:modified_time" content="2015-03-20"/>
+
+
+
+<meta property="article:tag" content="go">
+<meta property="article:tag" content="open source">
+<meta property="article:tag" content="development">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="What Every Open Source Project Needs : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://localhost:888/">
+    <title> What Every Open Source Project Needs - spf13.com </title>
+    <link rel="canonical" href="http://localhost:888/presentation/what-every-open-source-project-needs/">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="http://localhost:888/css/ZGS.min.8b403dad8c58a1830355fb210b5ead5e5472e11a4e5d7bfe5ee2931e6a2c54e8.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> articles </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> projects </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> presentations </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="follow">
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="https://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="https://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="https://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="https://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 40k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">What Every Open Source Project Needs</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>In the last few years open source has transformed the software industry. From
+Android to Wikipedia, open source is everywhere, but how does one succeed in
+it? While open source projects come in all shapes and sizes and all forms of
+governance, no matter what kind of project you’re a part of, there are a set of
+fundamentals that lead to success. I’d like to share some of the lessons I’ve
+learned from running two of the largest commercial open source projects,
+<a href="http://docker.com">Docker</a> &amp; <a href="http://mongodb.org">MongoDB</a> , as well as some
+very successful community based projects (<a href="http://gohugo.io">Hugo</a>,
+<a href="http://vim.spf13.com">spf13-vim</a>, <a href="http://github.com/spf13/cobra">Cobra</a>,
+<a href="http://github.com/spf13/viper">Viper</a>, Zoop).</p>
+<p>This presentation was delivered at <a href="http://sinfo.org">sinfo.org</a> in Feb 2015.</p>
+<p><em>Due to time constraints we only focused on 4 of the 6 principles.</em></p>
+<!-- raw HTML omitted -->
+<h2 id="transcript">Transcript</h2>
+<ol>
+<li>What Every Successful Open Source Project Needs</li>
+<li>@spf13 Chief Operator @ Docker    Former Chief Developer Advocate @ MongoDB,   Author of Hugo, spf13- vim, Cobra, Afero, Viper &amp; more</li>
+<li>Mainframe Era :   60s &amp; 70s • Computer companies sold hardware • Software was free • Software was colloborative • IBM dominates</li>
+<li>The Software Era:   80s - 90s • Software as a business emerged • Software companies sold “bits” • Software was private and proprietary • Microsoft dominates</li>
+<li>The Internet Era: 00s • Internet changes everything • Open source movement gains traction (Linux, Apache, MySQL, PHP) • Tech selling ads, bits, hardware &amp; services • Google Dominates</li>
+<li>The Free Source Era: 10s • Technology companies sell Hardware &amp; Services • Software is becoming free ($$) (Windows 10, OS X, Android, IOS) • Game companies still sell bits • Virtually all software companies are now participating in open source</li>
+<li>Open Source Companies • Redhat $13B • Cloudera $3B • MongoDB $1.6B • Docker $.5B • Hortonworks $1B • Wordpress $1B</li>
+<li>Open Source Companies • Google (Android, Chrome, Docker, Linux) • Apple (Webkit, LLVM) • Facebook (Cassandra, HipHop, Hive, PHP) • IBM (Linux, Eclipse, Docker) • Yahoo (Hadoop, Linux, YUI) • Oracle (Linux, MySQL, Java) • Microsoft (Linux, .net, Docker) • Intel (Linux)</li>
+<li>Open Source is taking over the world</li>
+<li>Successful Open Source Projects Need Purpose Values Communication Users Contributors Leadership</li>
+<li>Today we are focusing on Purpose Communication Users Contributors</li>
+<li>Successful Open Source Projects Need Purpose</li>
+<li>Why Start a Project ?</li>
+<li>To scratch   an itch</li>
+<li>Hugo Static Site Generator in Go   (200+ already existed, but none in Go)</li>
+<li>Missing tool or library</li>
+<li>Cobra &amp; Viper CLI commander &amp; Configuration management</li>
+<li>You wrote something others find useful</li>
+<li>spf13-vim My Personal Vim Configuration…   now 100+ contributors</li>
+<li>You’ve thought of a better way to do something</li>
+<li>MongoDB &amp; Docker Changing the way software is built and run</li>
+<li>Successful Open Source Projects Need Communication</li>
+<li>What is Communication • What you say • What you write • What you do • What you build</li>
+<li>Great Communication = Great writing</li>
+<li>Great Writing • Requires time • Requires editing • Requires effort • Requires practice</li>
+<li>Users will have questions • Need to establish a place for them to ask questions • Public is ideal: • Others can respond • Others benefit from the response</li>
+<li>Forums &amp; mailing lists • Google groups ok, but hard to search • Stack Overflow will happen, but not focused • Forums work best, Discourse is pretty good • IRC also works well, but realtime and without integrated search.</li>
+<li>README • Your single most important file • First thing everyone sees • Most projects don’t spend enough time on a readme • Where you convey your purpose &amp; values</li>
+<li>A Good README Vision, concrete examples, installation instructions, etc</li>
+<li>Challenging Communication</li>
+<li>One day at MongoDB a couple years ago we received a nasty bug report&hellip;</li>
+<li>Best way to read, leave only the facts</li>
+<li>Only respond to the facts</li>
+<li>Now it’s a definitive example on how to respond to trolls</li>
+<li>Successful Open Source Projects Need Users</li>
+<li>You need users • No matter how good a project is, it can’t succeed without users • Unless you tell the world about your project, people will not come • Unnatural behavior for most engineers</li>
+<li>To: Newsgroups: comp.os.inix  Subject: What would you like to see most in minix?  Summary: small poll for my new operating system  Message-ID: &lt;mailto: <a href="mailto:1991Aug25.205708.9541@klaava.Helsinki.Fi">1991Aug25.205708.9541@klaava.Helsinki.Fi</a> Hello everybody out there using minix — I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386 (486) AT clones. This has been brewing since april, and is starting to get ready. I’d like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things). I’ve currently ported bash (1.08) and gcc (1.40), and things seem to work. This implies that I’ll get something practical within a few months, and I’d like to know what features most people would want. Any suggestions are welcome, but I won’t promise I’ll implement them :-). Linus (mailto: <a href="mailto:torvalds@klaava.helsinki.fi">torvalds@klaava.helsinki.fi</a>) PS. Yes — it’s free of any minix code, and it has a multi-threaded fs. It is NOT protable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that’s all I have :-(.</li>
+<li>Focus on the User • Success depends on a good user experience • Contributions come from happy users</li>
+<li>User Experience • Starts with installation • What are the first 10 minutes like? • What could turn a user away?</li>
+<li>Good User Experience Requires Listening</li>
+<li>Successful Open Source Projects Need Contributors</li>
+<li>Contributors are the lifeblood of Open Source</li>
+<li>Why Contribute ?</li>
+<li>Why Contribute • It feels good to give back • Good way to make friends • Great way to make connections • Gain exposure / personal branding</li>
+<li>Best Software Education</li>
+<li>Why Contribute • Establish actual real life experience • Better than a resume • Demonstrates that you can do more than code</li>
+<li>I’m not a developer • Projects need much more than code • Like saying “I’m not an actor, so I can’t work at a movie studio”</li>
+<li>Join the mailing list/ forums</li>
+<li>Answer a question on the mailing list</li>
+<li>Review the documentation</li>
+<li>Write some documentation</li>
+<li>Write a tutorial</li>
+<li>Screencast a feature</li>
+<li>File a Bug Report</li>
+<li>Review tickets</li>
+<li>Try to reproduce bugs and add information</li>
+<li>Contribute logos, icons &amp; designs</li>
+<li>How to Contribute</li>
+<li>Instead of   “This is Wrong”&hellip; “How can I help?”</li>
+<li>Prepare • Learn the tools of the trade • Git &amp; Github • Read the Documentation • Familiarize yourself with IRC, forums, &amp; the correct channels</li>
+<li>Take Iniative • Don’t be afraid to try • Open source loves self starters • Open source authors are usually very approachable and open to ideas • Communicate and collaborate as much as possible</li>
+<li>Ask • What can I help with? • I would like to help with X, but would benefit from some guidance, can someone guide me? • If I contributed Y, would that help?</li>
+<li>No matter how slow you go, you will always lap those on the sidelines</li>
+<li>How to Get Contributors</li>
+<li>Most projects have very few contributors • You must give if you want to get • Contributors are an investment in the future of the project • Contributors pay back many times what you put in</li>
+<li>Make it Easy to Contribute • Use an “open” open source license (Apache 2.0, MIT, BSD) • Provide contribution guidelines • Provide contribution instructions &amp; tutorials</li>
+<li>Treat Contributors Well • Happier developers will contribute more • The more welcome people feel the more they will help your project</li>
+<li>Be Responsive • Respond to Pull Requests in a timely manner • Provide and contribute to a channel where people can ask questions • Respond to issues quickly</li>
+<li>Invite Contributors • Overcommunicate that contributions are welcome • Ask people to contribute • Ask. Ask. Ask. Invite. Invite. Invite.</li>
+<li>It’s Dangerous to Go Alone</li>
+<li>Empower Contributors • When someone shows initative and history of good contributions make them a committer • Resist tempation to control • If you aren’t able to be responsive, appoint more committers</li>
+<li>Teach • Don’t ever say no. • Teach contributors how it can become a yes • Newly empowered contributors contagiously help others</li>
+<li>Docker’s Birthday Open-source-a-thon 18 Cities + Online. Mentorship by Go &amp; Docker. Save Whales.   <a href="http://docker.party">http://docker.party</a></li>
+<li>We live in an open source world</li>
+<li>Without contributions open source would not exist</li>
+<li>You are the most important contributor</li>
+<li>Thank You !  Questions ?Icons made by Freepik are licensed by CC BY 3.0 @spf13</li>
+</ol>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Fri Mar 20, 2015 </h4>
+          <h5 id="wc"> 1400 Words </h5>
+          <h5 id="readtime"> Read in about 7 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://localhost:888//topics/Development">Development</a> </li>
+          
+            <li><a href="http://localhost:888//topics/golang">golang</a> </li>
+          
+            <li><a href="http://localhost:888//topics/Open-Source">Open Source</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://localhost:888//tags/go">go</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/open-source">open source</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/development">development</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://localhost:888/post/how-to-be-a-good-open-source-community-member/"><i class="icon-arrow-left"></i> How To Be A Good Open Source Community Member</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://localhost:888/presentation/7-common-mistakes-in-go-2015/">7 common mistakes in Go – GopherFest 2015 <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of 
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team 
+            of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users.
+            </p>
+
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a>, <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source. 
+            He formerly was a director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p> 
+            He is the creator of some of the world's most popular open source applications and libraries including <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">more</a>.
+            </p>
+            
+            <p>
+            Above all of these accomplishments, he is a father of 4. 
+            Outside of technology Steve likes travel, skateboarding, punk rock, and dystopian films.
+            </p>
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="1392">
+<meta itemprop="datePublished" content="2015-03-20">
+<meta itemprop="url" content="http://localhost:888/presentation/what-every-open-source-project-needs/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-19 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+</body>
+</html>
+

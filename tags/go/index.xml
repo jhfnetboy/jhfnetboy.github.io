@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>go on Sometimes we write something:)</title>
+    <link>http://jlab.github.io/tags/go/</link>
+    <description>Recent content in go on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://jlab.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What Should a Modern Practical Programming Language Look Like</title>
+      <link>http://jlab.github.io/presentation/what-should-a-modern-practical-programming-language-look-like/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jlab.github.io/presentation/what-should-a-modern-practical-programming-language-look-like/</guid>
+      <description>&lt;p&gt;Keynote delivered at &lt;a href=&#34;https://landingfestival.com/&#34;&gt;The Landing Festival – Berlin&lt;/a&gt;. This presentation describes the many inspirations and influences of the &lt;a href=&#34;http://golang.org&#34;&gt;Go programming language&lt;/a&gt; and goes into detail about how we shaped and created the language.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

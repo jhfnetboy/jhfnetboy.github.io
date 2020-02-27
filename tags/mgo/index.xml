@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mgo on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/mgo/</link>
+    <description>Recent content in mgo on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jul 2014 09:48:46 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/mgo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using MongoDB with Go and mgo</title>
+      <link>http://localhost:888/presentation/MongoDB-and-Go/</link>
+      <pubDate>Wed, 23 Jul 2014 09:48:46 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/MongoDB-and-Go/</guid>
+      <description>This presentation was given at OSCON 2014.
+This presentation will give developers an introduction and practical experience of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp;amp; Gopher Steve Francia presents plainly what you need to know about using MongoDB with Go.
+As an emerging language Go is able to start fresh without years of relational database dependencies. Application and library developers are able to build applications using the excellent Mgo MongoDB driver and the reliable go sql package for relational database.</description>
+    </item>
+    
+  </channel>
+</rss>

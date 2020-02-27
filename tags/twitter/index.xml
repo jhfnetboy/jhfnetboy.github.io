@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>twitter on Sometimes we write something:)</title>
+    <link>http://jlab.github.io/tags/twitter/</link>
+    <description>Recent content in twitter on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Jul 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://jlab.github.io/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why are you not on Twitter</title>
+      <link>http://jlab.github.io/post/why-are-you-not-on-twitter/</link>
+      <pubDate>Fri, 11 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://jlab.github.io/post/why-are-you-not-on-twitter/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Twitter_Badge_1.png&amp;quot; alt=&amp;quot;Image via Wikipedia&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image via Wikipedia &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Over the last 2 weeks I have found myself asking that question more times than I can remember. When I first heard about microblogging—or Twitter, the primary service that started the microblogging movement—over a year ago I thought it was a stupid fad and wouldn’t last. I mean what value can possibly be passed along in 140 characters or less.</description>
+    </item>
+    
+  </channel>
+</rss>

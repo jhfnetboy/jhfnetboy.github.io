@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/github/</link>
+    <description>Recent content in github on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Nov 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MongoDB Driver days hackathon round up</title>
+      <link>http://localhost:888/post/10gen-driver-days-mongodb-hack-a-thon/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/10gen-driver-days-mongodb-hack-a-thon/</guid>
+      <description>Two times a year the drivers team at 10gen gathers together for a face to face meeting to spend time together working on issues and setting forth our goals for the upcoming six months. In September 2012 we all converged on New York City for the second ever driver days. This time we split up into teams for a hack-a-thon. As maintainers of drivers &amp;amp; integrations in over a dozen different languages while we are on the same team, it isn’t often that we actually work together on the same codebase.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Code Viewer 2 for WordPress</title>
+      <link>http://localhost:888/project/github-code-viewer/</link>
+      <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/project/github-code-viewer/</guid>
+      <description>GitHub Code Viewer 2 automatically pulls a file from github and places into any post using a shortcode [github_cv url=&#39;$url&amp;rsquo;] Caches locally (in db), so there isn&amp;rsquo;t a performance hit. Heavily Modified from original plugin by Matt Curry http://www.pseudocoder.com
+Installation  Upload GitHub_Code_Viewer.php to the /wp-content/plugins/ directory Activate the plugin through the &amp;lsquo;Plugins&amp;rsquo; menu in WordPress Use the shortcode [github_cv url=&#39;&amp;rsquo;] in your post.  Changelog 2.0  Rewrote as a static class as only one instance is needed.</description>
+    </item>
+    
+    <item>
+      <title>WP GitHub Code Viewer</title>
+      <link>http://localhost:888/post/wp-github-code-viewer/</link>
+      <pubDate>Thu, 09 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/wp-github-code-viewer/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/github-logo.png&amp;quot; alt=&amp;quot;github&amp;quot; /&amp;gt;  GitHub Code Viewer 2 is a plugin for wordpress that will automatically pull a file from github and place into any post using a shortcode [github_cv url=&#39;$url&amp;rsquo;]. It caches the code locally (in db), so it’s quite fast and can be even faster when combined with wp_super_cache or w3c_total_cache. It will re-request the code from github every 24 hours (by default, but it’s configurable) so the code in your post will always remain up to date.</description>
+    </item>
+    
+  </channel>
+</rss>

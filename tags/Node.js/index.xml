@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node.js on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Node.js/</link>
+    <description>Recent content in Node.js on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Node.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>9 MongoDB 2.6 Drivers Released</title>
+      <link>http://localhost:888/post/mongodb2-6-drivers-released/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/mongodb2-6-drivers-released/</guid>
+      <description>I’m pleased to announce the coordinated release of drivers in 9 languages in preparation for the release of MongoDB 2.6. This is the largest driver release in the history of MongoDB, both in terms of code changes as well as in terms of drivers released. Official Drivers for C, C++, C# (.net), Java, Node.js, PHP, Python, Ruby and Scala were all released with Perl following shortly. In the upcoming weeks community drivers will be updated to take advantage of the new features present in MongoDB 2.</description>
+    </item>
+    
+  </channel>
+</rss>

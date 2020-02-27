@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/google/</link>
+    <description>Recent content in google on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal and the secret of my success</title>
+      <link>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</guid>
+      <description>&lt;p&gt;As my tenure on the &lt;a href=&#34;https://www.drupal.org/association&#34;&gt;Drupal Association&lt;/a&gt; was concluding, I was asked to give the Keynote for DrupalCon. It was my privilage to talk about my 20 year history with open source and how much I learned from and valued the Drupal community. &lt;a href=&#34;https://dri.es&#34;&gt;Dries&lt;/a&gt;, Drupal&amp;rsquo;s founder gave a touching &lt;a href=&#34;https://dri.es/how-drupal-influences-other-open-source-projects&#34;&gt;shoutout on his blog&lt;/a&gt; afterwards.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Death of Search</title>
+      <link>http://localhost:888/post/the-death-of-search/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/the-death-of-search/</guid>
+      <description>Social media will be the next innovation in the most unlikely of places, search ( leveraging the community to scale infinitely ). It’s not that people will all together stop searching, but the approach that they take to finding information will become increasingly social (rather than algorithmic) in nature.
+For the last decade, search always seems on the cusp of “intelligent” results. Each new engine promises to be able to overcome “search overload” as Microsoft puts is.</description>
+    </item>
+    
+  </channel>
+</rss>

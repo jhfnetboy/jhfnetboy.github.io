@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>frameworks on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/frameworks/</link>
+    <description>Recent content in frameworks on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/frameworks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Next Gen PHP Frameworks</title>
+      <link>http://localhost:888/post/next-gen-php-frameworks/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/next-gen-php-frameworks/</guid>
+      <description>With the release of PHP 5.3, PHP released the most significant capabilities in years. Specifically the addition of Late Static Bindings, Lambda Functions and Closures, and Namespaces has changed everything. These new features open new doors for solutions previously impossible. As a result in recent months there has been a flood of new frameworks and libraries taking advantage of these new features. Effectively we are approaching the third wave of PHP frameworks.</description>
+    </item>
+    
+  </channel>
+</rss>

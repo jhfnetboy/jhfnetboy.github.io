@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vc on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/vc/</link>
+    <description>Recent content in vc on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jan 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/vc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portero Raises 6.6 Million</title>
+      <link>http://localhost:888/post/portero-raises-6-6-million/</link>
+      <pubDate>Fri, 19 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/portero-raises-6-6-million/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/portero.png&amp;quot; /&amp;gt;  I am happy to announce that Portero has raised $6.6 million in funding. The round was led by LFE Capital joined by returning backers including Grosvenor Funds. TechCrunch picked up the announcement early this morning and featured us on their home page. As I have a bit of an insiders view, I felt it was my place to provide a bit of insight into why Portero is such a great company.</description>
+    </item>
+    
+  </channel>
+</rss>

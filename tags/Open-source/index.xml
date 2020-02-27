@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open source on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Open-source/</link>
+    <description>Recent content in Open source on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal and the secret of my success</title>
+      <link>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</guid>
+      <description>&lt;p&gt;As my tenure on the &lt;a href=&#34;https://www.drupal.org/association&#34;&gt;Drupal Association&lt;/a&gt; was concluding, I was asked to give the Keynote for DrupalCon. It was my privilage to talk about my 20 year history with open source and how much I learned from and valued the Drupal community. &lt;a href=&#34;https://dri.es&#34;&gt;Dries&lt;/a&gt;, Drupal&amp;rsquo;s founder gave a touching &lt;a href=&#34;https://dri.es/how-drupal-influences-other-open-source-projects&#34;&gt;shoutout on his blog&lt;/a&gt; afterwards.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Contribute to Go</title>
+      <link>http://localhost:888/presentation/how-to-contribute-to-go/</link>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/how-to-contribute-to-go/</guid>
+      <description>&lt;p&gt;I wrote this presentation with &lt;a href=&#34;https://blog.jessfraz.com/&#34;&gt;Jessie Frazelle&lt;/a&gt;. She made it look very nice and delivered it at the &amp;ldquo;Go Contributor Workshop&amp;rdquo; at &lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon&lt;/a&gt;. Some of the instructions are clearly only relevant to that workshop, but the vast majority of the presentation should be helpful to anyone wanting to contribute to Go.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What Every Open Source Project Needs</title>
+      <link>http://localhost:888/presentation/what-every-open-source-project-needs/</link>
+      <pubDate>Fri, 20 Mar 2015 18:00:02 -0400</pubDate>
+      
+      <guid>http://localhost:888/presentation/what-every-open-source-project-needs/</guid>
+      <description>In the last few years open source has transformed the software industry. From Android to Wikipedia, open source is everywhere, but how does one succeed in it? While open source projects come in all shapes and sizes and all forms of governance, no matter what kind of project you’re a part of, there are a set of fundamentals that lead to success. I’d like to share some of the lessons I’ve learned from running two of the largest commercial open source projects, Docker &amp;amp; MongoDB , as well as some very successful community based projects (Hugo, spf13-vim, Cobra, Viper, Zoop).</description>
+    </item>
+    
+    <item>
+      <title>How To Be A Good Open Source Community Member</title>
+      <link>http://localhost:888/post/how-to-be-a-good-open-source-community-member/</link>
+      <pubDate>Tue, 17 Mar 2015 15:24:07 -0500</pubDate>
+      
+      <guid>http://localhost:888/post/how-to-be-a-good-open-source-community-member/</guid>
+      <description>A friend of mine who is a very talented writer recently became intrigued with open source and asked me to help her to understand how to be a good open source community member.
+Open source is one of the most unusual things in the world. Is there any other profession where highly skilled professionals donate their free time to give their work away for free? Many spend long hours at their day jobs, just to spend their nights and weekends doing the same thing.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with MongoDB and PHP</title>
+      <link>http://localhost:888/post/getting-started-with-mongodb-and-php/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/getting-started-with-mongodb-and-php/</guid>
+      <description>Nearly 3 years ago I discovered a new database that literally changed my life. I know, that’s a pretty bold claim, but it’s true. While leading the engineering team at OpenSky I faced a problem I was well familiar with. How to build a e-commerce product that: 1. Provided performance and scale 2. Handled many verticals and 3. Provided proper indexing on key attributes. In search for a better solution to this problem I encountered MongoDB.</description>
+    </item>
+    
+    <item>
+      <title>My take on open source licenses</title>
+      <link>http://localhost:888/post/my-take-on-open-source-licenses/</link>
+      <pubDate>Wed, 21 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/my-take-on-open-source-licenses/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/opensource.png&amp;quot; alt=&amp;quot;open source&amp;quot; /&amp;gt;  Open Source licensing can be a confusing and daunting task. Most developers simply adopt licenses of other popular projects. I wanted to shed some light on the most popular licenses and provide some guidance on which one should be used and when.
+Disclaimer: I’m not a lawyer, I am not qualified to nor am I imparting sound legal advice.
+BSD &amp;amp; MIT Both licenses are very similar.</description>
+    </item>
+    
+    <item>
+      <title>Ultimate Vim Config</title>
+      <link>http://localhost:888/post/ultimate-vim-config/</link>
+      <pubDate>Fri, 25 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/ultimate-vim-config/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/vim_logo.png&amp;quot; alt=&amp;quot;vim&amp;quot; /&amp;gt;  I have spent the last few years tweaking and refining my VIM configuration until I had the Ultimate Vim Config. It is well organized and documented taking full advantage of Tpope’s pathogen for a excellent clean and modular configuration. The Ultimate vim config contains the perfect .vimrc file combined with an excellent set of plugins all easily managed thanks to pathogen and git. It is on GitHub so you can always grab the latest.</description>
+    </item>
+    
+  </channel>
+</rss>

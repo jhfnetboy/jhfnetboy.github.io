@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/bash/</link>
+    <description>Recent content in bash on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Apr 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>spf13-vim : Steve Francia&#39;s Vim Distribution</title>
+      <link>http://localhost:888/project/spf13-vim/</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/project/spf13-vim/</guid>
+      <description>spf13-vim is a distribution of vim plugins and resources for Vim, Gvim and MacVim.
+It is a good starting point for anyone intending to use VIM for development running equally well on Windows, Linux, *nix and Mac.
+The distribution is completely customisable using a ~/.vimrc.local and ~/.vimrc.bundles.local Vim RC files.
+Unlike traditional VIM plugin structure, which similar to UNIX throws all files into common directories, making updating or disabling plugins a real mess, spf13-vim 3 uses the Vundle plugin management system to have a well organized vim directory (Similar to mac&amp;rsquo;s app folders).</description>
+    </item>
+    
+    <item>
+      <title>Easy bash scripting with shflags</title>
+      <link>http://localhost:888/post/easy-bash-scripting-with-shflags/</link>
+      <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/easy-bash-scripting-with-shflags/</guid>
+      <description>One of the most frustrating things about bash scripts is how challenging it is to create unix style executables. You know, the ones where you can pass in -h or –help and see the set of options for the program. Up until now this has been a very manual process in bash, but no longer. Enter the shflags project from Kate Ward where a bash library takes care of all the nasty work and producing an elegant way to add option (or argument) support to your scripts.</description>
+    </item>
+    
+    <item>
+      <title>Human readable du sorted by size</title>
+      <link>http://localhost:888/post/human-readable-du-sorted-by-size/</link>
+      <pubDate>Sat, 23 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/human-readable-du-sorted-by-size/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/du.png&amp;quot; alt=&amp;quot;example output of du UNIX command&amp;quot; /&amp;gt;  du is the *nix command for disk usage. It tells you how much space everything in the given directory is taking up. GNU du introduced a handy option -h making it human readable, or showing sizes using K, M, G rather than bytes. Unfortunately this makes it not sortable numerically. Here’s how to sort du by size and keep it as human readable.</description>
+    </item>
+    
+    <item>
+      <title>Mastering the Command Line</title>
+      <link>http://localhost:888/post/mastering-the-command-line/</link>
+      <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/mastering-the-command-line/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Keyboard-left_keys.jpg&amp;quot; /&amp;gt;  If you use *nix, no doubt you’ve spent some time on the command line. Here are a few of the most helpful tricks you can use in the bash shell to really optimize your time, impress your friends, and make everyone else feel inferior… not to mention become more productive. People familar with the command line can usually work considerably faster (for most tasks) than you can through a gui.</description>
+    </item>
+    
+  </channel>
+</rss>

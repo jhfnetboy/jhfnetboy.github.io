@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plugins on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/plugins/</link>
+    <description>Recent content in plugins on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/plugins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why I use spf13-vim</title>
+      <link>http://localhost:888/post/why-i-use-spf13-vim/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/why-i-use-spf13-vim/</guid>
+      <description>spf13-vim, a completely cross platform distribution of vim plugins and resources for Vim, GVim and MacVim stays true to it&amp;rsquo;s vim roots while adding modern features including a plugin management system, a curated plugin set with customized configuration, advanced autocomplete, tags, support for dozens of languages and much more.
+I recently read a thread where the author asked for feedback on whether or not to use spf13-vim. Responses varied greatly with some people loving it to others claiming it was bloated and overkill.</description>
+    </item>
+    
+    <item>
+      <title>spf13-vim 3.0 release and new website</title>
+      <link>http://localhost:888/post/spf13-vim-3-0-release-and-new-website/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/spf13-vim-3-0-release-and-new-website/</guid>
+      <description>This post is a bit behind the actual releases, but should be announced here nevertheless. Announcing the 3rd major release of spf13-vim. spf13-vim is a distribution of vim plugins and resources for Vim, GVim and MacVim. It is a completely cross platform distribution that stays true to the feel of vim while providing modern features like a plugin management system, autocomplete, tags and tons more. It grew out of my vim configuration which I put on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>WP GitHub Code Viewer</title>
+      <link>http://localhost:888/post/wp-github-code-viewer/</link>
+      <pubDate>Thu, 09 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/wp-github-code-viewer/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/github-logo.png&amp;quot; alt=&amp;quot;github&amp;quot; /&amp;gt;  GitHub Code Viewer 2 is a plugin for wordpress that will automatically pull a file from github and place into any post using a shortcode [github_cv url=&#39;$url&amp;rsquo;]. It caches the code locally (in db), so it’s quite fast and can be even faster when combined with wp_super_cache or w3c_total_cache. It will re-request the code from github every 24 hours (by default, but it’s configurable) so the code in your post will always remain up to date.</description>
+    </item>
+    
+    <item>
+      <title>Vim Plugins: snipMate</title>
+      <link>http://localhost:888/post/vim-plugins-snipmate/</link>
+      <pubDate>Sat, 12 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/vim-plugins-snipmate/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/vim_logo.png&amp;quot; /&amp;gt;  Why use it  It’s super easy to use It has tons of snippets It’s pretty well compatible with TextMate snippets for easy portability Dynamic variables, for all the times you use the same string multiple times It’s really easy to define your own snippets It’s better than anything else out there, trust me I’ve tried them all  Sometimes a video works better to explain things.</description>
+    </item>
+    
+    <item>
+      <title>Vim Plugins: NERD Commenter</title>
+      <link>http://localhost:888/post/vim-plugins-nerd-commenter/</link>
+      <pubDate>Mon, 09 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/vim-plugins-nerd-commenter/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/vim_logo.png&amp;quot; /&amp;gt;  The NERD Commenter is an indispensable tool when programming in VIM. It understands like a zillion different file types and properly comments each. It can handle single line, multi line, partial line commenting as well as nesting. If you’re programming in VIM you really should be using it.
+It is simple enough to use. Most commands are mapped to ,c[character]. The command you are probably going to use the most is ,c&amp;lt;space&amp;gt; which intelligently toggles a comment on or off.</description>
+    </item>
+    
+    <item>
+      <title>The 15 Best Vim Plugins</title>
+      <link>http://localhost:888/post/the-15-best-vim-plugins/</link>
+      <pubDate>Wed, 30 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/the-15-best-vim-plugins/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/vim_logo.png&amp;quot; alt=&amp;quot;vim&amp;quot; /&amp;gt;  One of the things that makes vim great is that it can be extended through plugins. There are plugins for more than you would expect. I have gathered together the 15 best plugins. I’ve included these plugins as part of my ultimate VIM configuration which has been featured on many sites and is hosted on github. I’ve also begun a series of posts on some of these plugins including snipmate and NerdCommenter.</description>
+    </item>
+    
+  </channel>
+</rss>

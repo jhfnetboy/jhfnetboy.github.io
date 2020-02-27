@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Systems/</link>
+    <description>Recent content in Systems on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Feb 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unix Jobs Management</title>
+      <link>http://localhost:888/post/unix-jobs-management/</link>
+      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/unix-jobs-management/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/300px-GNU_Screen.png&amp;quot; alt=&amp;quot;GNU Screen&amp;quot; /&amp;gt;  Every self respecting linux, mac os X or *nix user should have a solid handle on managing jobs in unix. The following will explain how to run tasks in the background, bring tasks to the foreground, background already running tasks and keeping a task running while logged out.
+Run a task in the background All you need to to is follow a command with the ‘&amp;amp;’ character.</description>
+    </item>
+    
+  </channel>
+</rss>

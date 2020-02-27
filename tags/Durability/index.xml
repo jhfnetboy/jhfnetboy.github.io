@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Durability on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Durability/</link>
+    <description>Recent content in Durability on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jun 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Durability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Replication, Durability, and Disaster Recovery</title>
+      <link>http://localhost:888/presentation/replication-durability-and-disaster-recovery/</link>
+      <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/replication-durability-and-disaster-recovery/</guid>
+      <description>This session introduces the basic components of high availability before going into a deep dive on MongoDB replication. We’ll explore some of the advanced capabilities with MongoDB replication and best practices to ensure data durability and redundancy. We’ll also look at various deployment scenarios and disaster recovery configurations.
+Replication, Durability, and Disaster Recovery
+View more presentations from Steve Francia</description>
+    </item>
+    
+  </channel>
+</rss>

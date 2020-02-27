@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apple on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/apple/</link>
+    <description>Recent content in apple on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Dec 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software Development&#39;s Magic Triangle</title>
+      <link>http://localhost:888/post/software-developments-magic-triangle/</link>
+      <pubDate>Sat, 18 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/software-developments-magic-triangle/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Magic-Triangle-Development.png&amp;quot; alt=&amp;quot;Magic Triangle&amp;quot; /&amp;gt;  There’s an old adage “Fast, Cheap, Good; Pick Two”. This situation is called a magic triangle. You can have two and only two, if you try for all three you will compromise all three. Fools often try, losing everything.
+In the world of software development, another magic triangle exists. You can pick any two of the three, but not all three, so figure out what’s truly important.</description>
+    </item>
+    
+    <item>
+      <title>Fascinating interview with Steve Jobs and Bill Gates</title>
+      <link>http://localhost:888/post/fascinating-interview-with-steve-jobs-and-bill-gates/</link>
+      <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/fascinating-interview-with-steve-jobs-and-bill-gates/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Steve_Jobs_and_Bill_Gates.jpg&amp;quot; /&amp;gt;  In 2007, All Things Digital held a fascinating interview with both Bill Gates and Steve Jobs.
+The interview runs long and is spread out over multiple clips. I’ve only included the first handful here. Watch the rest on youtube.
+It’s clear that they have a reasonably good relationship and clearly know each other well. They have a genuine and sincere respect for each other. It’s amazing how firm a grasp both have on the industry as a whole.</description>
+    </item>
+    
+    <item>
+      <title>Apple&#39;s iconic presentations</title>
+      <link>http://localhost:888/post/apples-iconic-presentations/</link>
+      <pubDate>Thu, 12 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/apples-iconic-presentations/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/stevejobs.jpg&amp;quot; alt=&amp;quot;Image via CrunchBase&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image via CrunchBase &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Recently a book came out The Presentation Secrets of Steve Jobs: How to be Insanely Great in Front of Any Audience. Jobs has mastered the art of presenting. I thought it would be interesting to look at his presentations over the years. Here are the three biggest announcements Apple has made.. iMac (Jobs first product after returning),iPod, iPhone.</description>
+    </item>
+    
+    <item>
+      <title>How RIM handed the mobile market over to Apple</title>
+      <link>http://localhost:888/post/how-rim-handed-the-mobile-market-over-to-apple/</link>
+      <pubDate>Fri, 14 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/how-rim-handed-the-mobile-market-over-to-apple/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/iphone3.jpg&amp;quot; alt=&amp;quot;Image representing iPhone 3G as depicted in Crunchbase&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image representing iPhone 3G as depicted in Crunchbase &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Hint: It has nothing to do with touch screens.
+While RIM scrambles to create the next greatest device, or their “iPhone killer” it needs to recognize that it’s no longer about the device. RIM don’t you remember that touchscreens aren’t new.. Palm had them back in the 90′s … before you crushed them.</description>
+    </item>
+    
+  </channel>
+</rss>

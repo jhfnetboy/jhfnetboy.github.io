@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wiki on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/wiki/</link>
+    <description>Recent content in wiki on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jul 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/wiki/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Implementing a Corporate Wiki</title>
+      <link>http://localhost:888/post/implementing-a-corporate-wiki/</link>
+      <pubDate>Fri, 25 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/implementing-a-corporate-wiki/</guid>
+      <description>It seems all of a sudden, the two buzz words in the corporate IT world are wiki and blog. Corporate wikis are emerging as cheap, intelligent, flexible systems for shared-document collaboration and content management. Because they are browser based, wikis are quite easy to implement and deploy.
+The wiki works well in the corporate world as it solves two problematic areas, the need for internal collaboration and document management.
+Collaboration A wiki aims to replace the email, review, reply-to-all, repeat cycle most corporate environments are more than familiar with.</description>
+    </item>
+    
+  </channel>
+</rss>

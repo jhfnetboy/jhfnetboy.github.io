@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contributing on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/contributing/</link>
+    <description>Recent content in contributing on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jul 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/contributing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Contribute to Go</title>
+      <link>http://localhost:888/presentation/how-to-contribute-to-go/</link>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/how-to-contribute-to-go/</guid>
+      <description>&lt;p&gt;I wrote this presentation with &lt;a href=&#34;https://blog.jessfraz.com/&#34;&gt;Jessie Frazelle&lt;/a&gt;. She made it look very nice and delivered it at the &amp;ldquo;Go Contributor Workshop&amp;rdquo; at &lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon&lt;/a&gt;. Some of the instructions are clearly only relevant to that workshop, but the vast majority of the presentation should be helpful to anyone wanting to contribute to Go.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

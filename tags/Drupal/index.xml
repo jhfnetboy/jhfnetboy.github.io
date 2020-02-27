@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drupal on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Drupal/</link>
+    <description>Recent content in Drupal on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Drupal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal and the secret of my success</title>
+      <link>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</guid>
+      <description>&lt;p&gt;As my tenure on the &lt;a href=&#34;https://www.drupal.org/association&#34;&gt;Drupal Association&lt;/a&gt; was concluding, I was asked to give the Keynote for DrupalCon. It was my privilage to talk about my 20 year history with open source and how much I learned from and valued the Drupal community. &lt;a href=&#34;https://dri.es&#34;&gt;Dries&lt;/a&gt;, Drupal&amp;rsquo;s founder gave a touching &lt;a href=&#34;https://dri.es/how-drupal-influences-other-open-source-projects&#34;&gt;shoutout on his blog&lt;/a&gt; afterwards.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Drupal and MongoDB</title>
+      <link>http://localhost:888/post/getting-started-with-drupal-and-mongodb/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/getting-started-with-drupal-and-mongodb/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Drupal-Admin.png&amp;quot; alt=&amp;quot;Drupal&amp;quot; /&amp;gt;  MongoDB is the most full featured scalable database taking the tech world by storm. Drupal is the standard in content management powering magazines, blogs online newspapers and much more. It’s only natural that they would get together to provide a fast dynamic scalable CMS system. Whenever a Drupal site needs to scale dynamic content they turn to MongoDB to be able to deliver. The Examiner.</description>
+    </item>
+    
+    <item>
+      <title>Moving to WordPress</title>
+      <link>http://localhost:888/post/moving-to-wordpress/</link>
+      <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/moving-to-wordpress/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/wordpress-logo.png&amp;quot; alt=&amp;quot;wordpress logo&amp;quot; /&amp;gt;  I’ve used Drupal to power my blog since I started it over 2 years ago. It has been a bitter sweet relationship, but in general I’ve been pleased. In those two years, WordPress as a product has rocketed past Drupal, and feels much more mature. While Drupal 7 should level the field a bit, it’s a ways away and WordPress 3.0 is already here.</description>
+    </item>
+    
+    <item>
+      <title>Top Sites Running Drupal</title>
+      <link>http://localhost:888/post/top-sites-running-drupal/</link>
+      <pubDate>Mon, 21 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/top-sites-running-drupal/</guid>
+      <description>Image via Wikipedia
+Drupal is a very powerful Content Management Solution. Many other organizations both large and small have found it to be a perfect platform for managing their website including some Fortune 100 companies. I decided to compile a list of some of the more notable organizations running drupal. This list is not exhaustive, but intended to demonstrate top site powered by drupal. If you know other top sites also powered by drupal, please list them in the comments below.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started With Drupal</title>
+      <link>http://localhost:888/post/getting-started-with-drupal/</link>
+      <pubDate>Mon, 14 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/getting-started-with-drupal/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Drupal_5_Screenshot.png&amp;quot; /&amp;gt;  Drupal is a very powerful content management solution. It powered an earlier version of this website as well as zoopframework.com. Drupal is a relatively easy to use system, but there are a few key concepts that you really need to understand in getting started. I often find that webcasts are fantastic resources for instruction. I recently helped a non-techie friend setup a drupal site and was surprised at how many (really bad) drupal videos existed online.</description>
+    </item>
+    
+    <item>
+      <title>Migrating to Feedburner</title>
+      <link>http://localhost:888/post/migrating-to-feedburner/</link>
+      <pubDate>Mon, 12 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/migrating-to-feedburner/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/feedburner-logo.png&amp;quot; /&amp;gt;  I’ve made the decision to take control of my feeds. I want to know how many users are reading my blog via syndication so I’ve decided to move to feedburner. The migration will be seamless for all readers. Additionally I’ll be able to provide syndication via email as well.
+How to Migrate from Drupal to FeedBurner These directions are written with Drupal in mind, though the approach used would work for pretty much any system.</description>
+    </item>
+    
+  </channel>
+</rss>

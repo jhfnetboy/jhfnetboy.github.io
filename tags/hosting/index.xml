@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hosting on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/hosting/</link>
+    <description>Recent content in hosting on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Aug 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Choosing a Hosting Partner</title>
+      <link>http://localhost:888/post/choosing-a-hosting-partner/</link>
+      <pubDate>Tue, 25 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/choosing-a-hosting-partner/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Server_Linux.jpg&amp;quot; alt=&amp;quot;Image via Wikipedia&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image via Wikipedia &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  No question about it, choosing a good hosting partner is one of the most important decisions a CTO / CIO can make, especially in a .com company. I recently had to choose a hosting partner for the new portero.com. Since the space changes so rapidly the last provider you used may no longer be the best fit for you now.</description>
+    </item>
+    
+  </channel>
+</rss>

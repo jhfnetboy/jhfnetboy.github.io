@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mongodb on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/mongodb/</link>
+    <description>Recent content in mongodb on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal and the secret of my success</title>
+      <link>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/drupal-and-the-secret-of-my-success/</guid>
+      <description>&lt;p&gt;As my tenure on the &lt;a href=&#34;https://www.drupal.org/association&#34;&gt;Drupal Association&lt;/a&gt; was concluding, I was asked to give the Keynote for DrupalCon. It was my privilage to talk about my 20 year history with open source and how much I learned from and valued the Drupal community. &lt;a href=&#34;https://dri.es&#34;&gt;Dries&lt;/a&gt;, Drupal&amp;rsquo;s founder gave a touching &lt;a href=&#34;https://dri.es/how-drupal-influences-other-open-source-projects&#34;&gt;shoutout on his blog&lt;/a&gt; afterwards.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using MongoDB with Go and mgo</title>
+      <link>http://localhost:888/presentation/MongoDB-and-Go/</link>
+      <pubDate>Wed, 23 Jul 2014 09:48:46 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/MongoDB-and-Go/</guid>
+      <description>This presentation was given at OSCON 2014.
+This presentation will give developers an introduction and practical experience of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp;amp; Gopher Steve Francia presents plainly what you need to know about using MongoDB with Go.
+As an emerging language Go is able to start fresh without years of relational database dependencies. Application and library developers are able to build applications using the excellent Mgo MongoDB driver and the reliable go sql package for relational database.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Go</title>
+      <link>http://localhost:888/presentation/first-go-app/</link>
+      <pubDate>Sun, 20 Jul 2014 08:51:33 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/first-go-app/</guid>
+      <description>This presentation was given as a Workshop at OSCON 2014.
+Description New to Go? This tutorial will give developers an introduction and practical experience in building applications with the Go language. Gopher Steve Francia, Author of Hugo, Cobra, and many other popular Go packages breaks it down step by step as you build your own full featured Go application.
+Starting with an introduction to the Go language. He then reviews the fantastic go tools available.</description>
+    </item>
+    
+    <item>
+      <title>Painless Datastorage With Mongodb and Go – Gophercon 2014</title>
+      <link>http://localhost:888/presentation/painless-datastorage-with-mongodb-and-go/</link>
+      <pubDate>Fri, 25 Apr 2014 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/painless-datastorage-with-mongodb-and-go/</guid>
+      <description>&lt;p&gt;Find out why some people claim Go and MongoDB are a &amp;ldquo;pair made in heaven&amp;rdquo; and &amp;ldquo;the best database driver they&amp;rsquo;ve ever used&amp;rdquo; in this talk by Gustavo Niemeyer, the author of the mgo driver, and Steve Francia, the drivers team lead at MongoDB Inc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>9 MongoDB 2.6 Drivers Released</title>
+      <link>http://localhost:888/post/mongodb2-6-drivers-released/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/mongodb2-6-drivers-released/</guid>
+      <description>I’m pleased to announce the coordinated release of drivers in 9 languages in preparation for the release of MongoDB 2.6. This is the largest driver release in the history of MongoDB, both in terms of code changes as well as in terms of drivers released. Official Drivers for C, C++, C# (.net), Java, Node.js, PHP, Python, Ruby and Scala were all released with Perl following shortly. In the upcoming weeks community drivers will be updated to take advantage of the new features present in MongoDB 2.</description>
+    </item>
+    
+    <item>
+      <title>Build your first MongoDB App in Ruby @ StrangeLoop 2013</title>
+      <link>http://localhost:888/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</link>
+      <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</guid>
+      <description>&lt;p&gt;An updated version of the &lt;a href=&#34;presentation/building-your-first-mongodb-app-oscon-2012/&#34;&gt;very popular workshop I gave at OSCON last year&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This presentation was given at Strangeloop 2013 as a 3 hour interactive workshop.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Building Modern Web Applications</title>
+      <link>http://localhost:888/presentation/building-modern-web-applications/</link>
+      <pubDate>Mon, 05 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/building-modern-web-applications/</guid>
+      <description>I gave this presentation to a packed house at DevCon5 in NYC July 24th. DevCon5 is a web developers conference and this year it focused on HTML5. This was one of the hardest presentations I&amp;rsquo;ve worked on for the simple fact that the audience had name recognition, but not familiarity with the database industry. Typically I&amp;rsquo;ve leaned on the fact that most participants were familiar with at least one database prior to my presentation, I had no such luxury here.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB and PHP Webinar</title>
+      <link>http://localhost:888/presentation/mongodb-and-php/</link>
+      <pubDate>Fri, 12 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-and-php/</guid>
+      <description>This is a 90 minute MongoDB tutorial on using MongoDB in PHP which I gave as a webcast for O&amp;rsquo;Reilly last year.. The tutorial covers everything from Installing MongoDB along with installing and configuring the MongoDB PHP driver. You will learn how to work with MongoDB from within PHP as well as within the MongoDB shell.
+What would happen if you optimized a data store for the operations application developers to actually use?</description>
+    </item>
+    
+    <item>
+      <title>The Future of Data</title>
+      <link>http://localhost:888/presentation/the-future-of-data/</link>
+      <pubDate>Wed, 27 Mar 2013 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/the-future-of-data/</guid>
+      <description>&lt;p&gt;A presentation given as part of &lt;a href=&#34;https://firstround.com/&#34;&gt;First Round Capital&amp;rsquo;s&lt;/a&gt; Hack+Startup conference.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MongoDB, Hadoop and humongous data at MongoSV 2012</title>
+      <link>http://localhost:888/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</guid>
+      <description>This presentation given at MongoSV 2012 focuses on data processing when using MongoDB as your primary database including integration with Hadoop &amp;amp; the new MongoDB aggregation framework. Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using tools like MapReduce, Pig and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With Hadoop MapReduce, Java and Scala programmers will find a native solution for using MapReduce to process their data with MongoDB.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB Driver days hackathon round up</title>
+      <link>http://localhost:888/post/10gen-driver-days-mongodb-hack-a-thon/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/10gen-driver-days-mongodb-hack-a-thon/</guid>
+      <description>Two times a year the drivers team at 10gen gathers together for a face to face meeting to spend time together working on issues and setting forth our goals for the upcoming six months. In September 2012 we all converged on New York City for the second ever driver days. This time we split up into teams for a hack-a-thon. As maintainers of drivers &amp;amp; integrations in over a dozen different languages while we are on the same team, it isn’t often that we actually work together on the same codebase.</description>
+    </item>
+    
+    <item>
+      <title>Not Just Hadoop: NoSQL in the Enterprise at Strata NYC 2012</title>
+      <link>http://localhost:888/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
+      <description>At the NYC Strata &amp;amp; Hadoop World conference I presented on ‘Not Just Hadoop: NoSQL in the Enterprise’. Robert Lancaster from Orbitz joined me on stage for the final presentation of the Bridge to Big Data track. Mark Madsen did a great job moderating the session and kept the energy high the entire day. Robert shared how Orbitz uses MongoDB with Apache Hadoop to provide real time rates. This is my second time presenting at Strata’s Big Data conference.</description>
+    </item>
+    
+    <item>
+      <title>Giving the most viewed presentation on slideshare ever at OSCON</title>
+      <link>http://localhost:888/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/oscon_spf13.jpg&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;h4&amp;gt;Steve Francia at OSCON&amp;lt;/h4&amp;gt; &amp;lt;/figcaption&amp;gt;  At OSCON 2012 in Portland I gave a presentation on building your first MongoDB application. Over 150 people were in the audience, a pretty significant number of this type of hands on tutorial. Certainly worth the weeks of preparation that went into developing it. While at OSCON I put the slides online at SlideShare where during the four day conference the amassed over 20k views and within a couple weeks over 30k views.</description>
+    </item>
+    
+    <item>
+      <title>How to deliver a great conference tutorial</title>
+      <link>http://localhost:888/post/how-to-deliver-great-conference-tutorials/</link>
+      <pubDate>Wed, 05 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/how-to-deliver-great-conference-tutorials/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/7585085614_5cdc8e9e44_c.jpeg&amp;quot; alt=&amp;quot;Steve Francia speaking at OSCON 2012&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;h4&amp;gt;OSCON 2012&amp;lt;/h4&amp;gt; &amp;lt;p&amp;gt; Steve Francia speaking at OSCON 2012 &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  I recently returned from OSCON where I was able to give one of the more popular presentations at the conference. I presented on the morning of the first day and throughout the entire week people kept coming up to me telling me how much they enjoyed my tutorial and how bored they were at the sessions they attended since.</description>
+    </item>
+    
+    <item>
+      <title>Building your first MongoDB app - OSCON 2012</title>
+      <link>http://localhost:888/presentation/building-your-first-mongodb-app-oscon-2012/</link>
+      <pubDate>Tue, 24 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/building-your-first-mongodb-app-oscon-2012/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/MongoDB-at-oscon-2012.png&amp;quot; /&amp;gt;  This is a 3 hour tutorial I wrote for and gave at OSCON 2012.
+Here is the summary:
+This tutorial will introduce the features of MongoDB by building a simple location-based application using MongoDB. The tutorial will cover the basics of MongoDB’s document model, query language, map-reduce framework and deployment architecture.
+The tutorial will be divided into 5 sections:
+ Data modeling with MongoDB: documents, collections and databases Querying your data: simple queries, geospatial queries, and text-searching Writes and updates: using MongoDB’s atomic update modifiers Trending and analytics: Using mapreduce and MongoDB’s aggregation framework Deploying the sample application  Besides the knowledge to start building their own applications with MongoDB, attendees will finish the session with a working application they use to check into locations around Portland from any HTML5 enabled phone!</description>
+    </item>
+    
+    <item>
+      <title>Replication, Durability, and Disaster Recovery</title>
+      <link>http://localhost:888/presentation/replication-durability-and-disaster-recovery/</link>
+      <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/replication-durability-and-disaster-recovery/</guid>
+      <description>This session introduces the basic components of high availability before going into a deep dive on MongoDB replication. We’ll explore some of the advanced capabilities with MongoDB replication and best practices to ensure data durability and redundancy. We’ll also look at various deployment scenarios and disaster recovery configurations.
+Replication, Durability, and Disaster Recovery
+View more presentations from Steve Francia</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with MongoDB and PHP</title>
+      <link>http://localhost:888/post/getting-started-with-mongodb-and-php/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/getting-started-with-mongodb-and-php/</guid>
+      <description>Nearly 3 years ago I discovered a new database that literally changed my life. I know, that’s a pretty bold claim, but it’s true. While leading the engineering team at OpenSky I faced a problem I was well familiar with. How to build a e-commerce product that: 1. Provided performance and scale 2. Handled many verticals and 3. Provided proper indexing on key attributes. In search for a better solution to this problem I encountered MongoDB.</description>
+    </item>
+    
+    <item>
+      <title>NoSQL databases and Managing Big Data</title>
+      <link>http://localhost:888/presentation/nosql-databases-and-managing-big-data/</link>
+      <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/nosql-databases-and-managing-big-data/</guid>
+      <description>I had the unique opportunity to present at the annual technology forum Insight Venture Partners holds for their portfolio companies. Over 100 CTOs gathered in NYC to hear from great presenters from companies like 10gen, Tumblr, Shutterstock and Buddy Media.
+I’ve included a slightly longer version of the presentation given which includes a few slides that I cut out for brevity to fit in the allocated time while still allowing time for questions.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB, Hadoop and Humongous Data</title>
+      <link>http://localhost:888/presentation/mongodb-hadoop-and-humongous-data/</link>
+      <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-hadoop-and-humongous-data/</guid>
+      <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using Hadoop’s MapReduce and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With support for Hadoop streaming support goes beyond the native Java enabling map reduce to be run in languages like Python and Ruby.
+MongoDB, Hadoop and Humongous Data
+View more presentations from Steve Francia</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Drupal and MongoDB</title>
+      <link>http://localhost:888/post/getting-started-with-drupal-and-mongodb/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/getting-started-with-drupal-and-mongodb/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Drupal-Admin.png&amp;quot; alt=&amp;quot;Drupal&amp;quot; /&amp;gt;  MongoDB is the most full featured scalable database taking the tech world by storm. Drupal is the standard in content management powering magazines, blogs online newspapers and much more. It’s only natural that they would get together to provide a fast dynamic scalable CMS system. Whenever a Drupal site needs to scale dynamic content they turn to MongoDB to be able to deliver. The Examiner.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB and Hadoop</title>
+      <link>http://localhost:888/presentation/mongodb-and-hadoop/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-and-hadoop/</guid>
+      <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using tools like MapReduce, Pig and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With Hadoop MapReduce, Java and Scala programmers will find a native solution for using MapReduce to process their data with MongoDB. Programmers of all kinds will find a new way to work with ETL using Pig to extract and analyze large datasets and persist the results to MongoDB.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB for Genealogy at RootsTech 2012</title>
+      <link>http://localhost:888/presentation/mongodb-for-genealogy-at-rootstech-2012/</link>
+      <pubDate>Fri, 03 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-for-genealogy-at-rootstech-2012/</guid>
+      <description>After an enjoyable time at the SORT conference in 2011 I was invited to come back to SLC to present at the RootsTech Genealogy conference.
+The two hardest data types to model are e-commerce and genealogy. There really just isn’t any good way to do it in a relational database. MongoDB is the answer Genealogy developers have been looking for for a very long time. A flexible schema that allows adhoc searching, horizontal scale and full data integrity.</description>
+    </item>
+    
+    <item>
+      <title>Backup, Replication and Disaster Recovery</title>
+      <link>http://localhost:888/post/backups-replication-and-disaster-recovery/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/backups-replication-and-disaster-recovery/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/disaster_day_of_crisis.jpg&amp;quot; alt=&amp;quot;crisis&amp;quot; /&amp;gt;  One of the most common concerns people have is how to ensure that their application is safe, secure and available in the event of an emergency. Often I have found that people are mistakenly believe that they are protected when in fact they often have ignored potential scenarios.
+The principles explained apply equally well in RDBMSs, MongoDB and other databases.
+Potential scenarios to protect against   Drive failure   Machine failure   Switch failure   Power circuit failure   Data center failure   Intrusion   Fat fingers   Programmer error   Raid To prevent drive failure use multiple drives in a single machine for high availability.</description>
+    </item>
+    
+    <item>
+      <title>Hybrid MongoDB / SQL Applications</title>
+      <link>http://localhost:888/presentation/hybrid-mongodb-sql-applications/</link>
+      <pubDate>Fri, 06 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/hybrid-mongodb-sql-applications/</guid>
+      <description>MongoDB is often used alongside a relational database such as Oracle or MySQL. It is often unclear when one should use one or the other, or if a combination is really ideal. During this online presentation, we will discuss the ideal use cases for each, and how they can be used in conjunction. We’ll make sure to touch on several real world examples.
+The full recording can be found at 10gen’s site at http://www.</description>
+    </item>
+    
+    <item>
+      <title>Building your First app with MongoDB at MongoSV 2011</title>
+      <link>http://localhost:888/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</link>
+      <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</guid>
+      <description>10gen had our flagship conference in Silicon Valley. I gave an introductory presentation at the first session on building an application in MongoDB. This talk will introduce the features of MongoDB by walking through how one can building a simple location-based application using MongoDB. It covers the basics of MongoDB’s document model, query language, map-reduce framework and deployment architecture.
+Building your first application w/mongoDB MongoSV2011
+View more presentations from Steve Francia</description>
+    </item>
+    
+    <item>
+      <title>MongoDB, PHP and the Cloud - PHP Cloud Summit 2011</title>
+      <link>http://localhost:888/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</link>
+      <pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</guid>
+      <description>I had the opportunity to present at the PHP Cloud Summit 2011 among some great presenters. This was first time speaking at an online conference. Thanks to the diligent efforts from Cal, Keith and Jeremy at PHPArch it was a really successful experience. I actually presented with two Macbooks. One open to IRC where questions were coming in and the other open to the presentation. In spite of it being all online, the audience asked some great questions and it was really fun to interact with them.</description>
+    </item>
+    
+    <item>
+      <title>LDS SORT Tech Conference 2011</title>
+      <link>http://localhost:888/post/lds-sort-tech-conference-2011/</link>
+      <pubDate>Fri, 21 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/lds-sort-tech-conference-2011/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/sort-win.png&amp;quot; alt=&amp;quot;sort conference&amp;quot; /&amp;gt;  Last week I had the opportunity to attend the LDS Church’s SORT tech conference. Nearly 1200 people were in attendance. There were 23 concurrent tracks and I was able to present two presentations and be on a panel with other NoSQL solutions including Cassandra, CouchDB, Neo4j, Riak and MarkLogic. The panel went for 90 minutes the first half being an 5 – 10 minute introduction of each technology and the second half being a QA period.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB and PHP at ZendCon 2011</title>
+      <link>http://localhost:888/presentation/mongodb-and-php-at-zendcon-2011/</link>
+      <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-and-php-at-zendcon-2011/</guid>
+      <description>Presentation given at PHP’s biggest conference, ZendCon 2011. Covers the basics of using MongoDB with PHP.
+MongoDB and PHP ZendCon 2011
+View more presentations from Steve Francia.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB at SORT Conference 2011</title>
+      <link>http://localhost:888/presentation/mongodb-sort-conference-2011/</link>
+      <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-sort-conference-2011/</guid>
+      <description>This presentation was given at the LDS Tech SORT Conference 2011 in Salt Lake City. The slides are quite comprehensive covering many topics on MongoDB. Rather than a traditional presentation, this was presented as more of a Q &amp;amp; A session. Topics covered include. Introduction to MongoDB, Use Cases, Schema design, High availability (replication) and Horizontal Scaling (sharding).
+MongoDB
+View more presentations from Steve Francia.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB, E-Commerce and Transactions</title>
+      <link>http://localhost:888/presentation/mongodb-e-commerce-and-transactions/</link>
+      <pubDate>Tue, 27 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-e-commerce-and-transactions/</guid>
+      <description>Last week I had the pleasure of attending MongoUK in London. I had a great time presenting and meeting new friends. I even survived two whiteboard sessions where people were invited to ask any question, any at all, about MongoDB.
+I gave a pretty significatly revised presentation on MongoDB and E-Commerce with emphasis on transactions. If you saw the presentation at MongoNYC this summer, it’s worth a revisit.</description>
+    </item>
+    
+    <item>
+      <title>Where have all the good databases gone?</title>
+      <link>http://localhost:888/post/where-have-all-the-good-databases-gone/</link>
+      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/where-have-all-the-good-databases-gone/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/mongodb-sq.png&amp;quot; alt=&amp;quot;mongodb&amp;quot; /&amp;gt;  Perhaps you’ll recognize these words, “About five years ago I started to notice an odd thing. The products that the database vendors were building had less and less to do with what the customers wanted. … So, what is this growing disconnect?” Those words were written in 2004 by Adam Bosworth, a veteren of Microsoft, Google and BEA. In the 7 years since things have only gotten worse.</description>
+    </item>
+    
+    <item>
+      <title>Blending Mongo and RDBMS for ecommerce</title>
+      <link>http://localhost:888/presentation/blending-mongo-and-rdbms-for-ecommerce/</link>
+      <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/blending-mongo-and-rdbms-for-ecommerce/</guid>
+      <description>Justin Hileman and I presented at MongoNYC 2011 to a packed house. Our presentation outlines both why someone would want to use MongoDB for ecommerce and how we overcame some of it’s limitations by incorporating mysql into our infrastructure.
+ &amp;lt;img src=&amp;quot;/media/l6zwy.jpg&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;h4&amp;gt;Presenting at MongoNYC 2011&amp;lt;/h4&amp;gt; &amp;lt;/figcaption&amp;gt;  Blending MongoDB and RDBMS for ecommerce
+View more presentations from Steve Francia.</description>
+    </item>
+    
+    <item>
+      <title>Augmenting RDBMS with NoSQL for e-commerce</title>
+      <link>http://localhost:888/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</link>
+      <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/postgresconNYC_ss.png&amp;quot; alt=&amp;quot;postgres con&amp;quot; /&amp;gt;  Justin Hileman and I gave a presentation on “Augmenting RDBMS with NoSQL for e-commerce” at the PgEast 2011 conference. This presentation is really the sequel (no pun intended) to my presentation, MongoDB &amp;amp; Ecommerce : A Perfect Combination. This presentation takes you through how we created a hybrid solution blending both sql and nosql to achieve an optimal solution.
+Augmenting RDBMS with MongoDB for ecommerce</description>
+    </item>
+    
+    <item>
+      <title>MongoDB &amp; Ecommerce : A Perfect Combination</title>
+      <link>http://localhost:888/presentation/mongodb-ecommerce-a-perfect-combination/</link>
+      <pubDate>Wed, 20 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-ecommerce-a-perfect-combination/</guid>
+      <description>Last night I gave a presentation on MongoDB &amp;amp; Ecommerce. OpenSky is the first company to use MongoDB in production for ecommerce. I shared why we went this route, and why it’s an obvious and powerful combination. At OpenSky we use MongoDB to develop the next ecommerce platform. OpenSky also uses Symfony 2, Doctrine 2, PHP 5.3, PHPUnit 3.5, jQuery, node.js, Git (with gitflow) and a touch of Java and Python.</description>
+    </item>
+    
+    <item>
+      <title>NoSQL Databases</title>
+      <link>http://localhost:888/post/nosql-databases/</link>
+      <pubDate>Thu, 08 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/nosql-databases/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/noSQL_people.jpg&amp;quot; alt=&amp;quot;nosql people&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; &amp;lt;a href=&amp;quot;http://www.flickr.com/photos/40888529@N00/4036996146&amp;quot;&amp;gt; langalex &amp;lt;/a&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Amazon, Digg, Facebook, LinkedIn, Twitter all started on sql databases (all but Amazon on MySQL) and have transitioned to incorporated nosql databases into their infrastructure, though many utilize both relational databases as well as non-relational ones.
+I’ve compiled a few resources to help bring you up to speed on nosql databases.
+Major sites using NoSQL  Amazon : (Dynamo) http://www.</description>
+    </item>
+    
+  </channel>
+</rss>

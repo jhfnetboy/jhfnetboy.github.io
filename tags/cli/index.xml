@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cli on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/cli/</link>
+    <description>Recent content in cli on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Nov 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mastering the Command Line</title>
+      <link>http://localhost:888/post/mastering-the-command-line/</link>
+      <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/mastering-the-command-line/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Keyboard-left_keys.jpg&amp;quot; /&amp;gt;  If you use *nix, no doubt you’ve spent some time on the command line. Here are a few of the most helpful tricks you can use in the bash shell to really optimize your time, impress your friends, and make everyone else feel inferior… not to mention become more productive. People familar with the command line can usually work considerably faster (for most tasks) than you can through a gui.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Subversion with multiple access methods</title>
+      <link>http://localhost:888/post/setting-up-subversion-with-multiple-access-methods/</link>
+      <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/setting-up-subversion-with-multiple-access-methods/</guid>
+      <description>One thing that makes subversion such a powerful revision system is it’s ability to permit multiple methods of access. Https, WebDAV, SSH and svnserve. In spite of svn’s ability to support multiple access methods, doing so simultaniously can be quite challenging. Typically one will run into permission issues as the http(s) access will all be written to the filesystem as the user running the webserver. The SSH access will all write to the filesystem under each users given account.</description>
+    </item>
+    
+    <item>
+      <title>Backup Your Files</title>
+      <link>http://localhost:888/post/backup-your-files/</link>
+      <pubDate>Mon, 29 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/backup-your-files/</guid>
+      <description>One of the worst experiences you can have as a computer operator is to realize you (or something else) just did something and wiped out your files. The purpose of this article is to show you how to automatically backup your files often and automatically. I use this setup to backup my documents every hour (I save more often then that). This gives me hourly versions of all my files I am working on.</description>
+    </item>
+    
+    <item>
+      <title>Be more productive using GNU Screen</title>
+      <link>http://localhost:888/post/be-more-productive-using-gnu-screen/</link>
+      <pubDate>Thu, 03 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/be-more-productive-using-gnu-screen/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/300px-GNU_Screen.png&amp;quot; alt=&amp;quot;Image via Wikipedia&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;h4&amp;gt;GNU Screen&amp;lt;/h4&amp;gt; &amp;lt;p&amp;gt; Image via Wikipedia &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Despite living in the age of multicore processors, GUI everything and mountains of ram, I continually find myself more productive with a terminal open. Especially when that terminal is running GNU Screen.
+About GNU Screen GNU Screen is a free terminal multiplexer developed by the GNU Project. It allows a user to access multiple separate terminal sessions inside a single terminal window or remote terminal session.</description>
+    </item>
+    
+  </channel>
+</rss>

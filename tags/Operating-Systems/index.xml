@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operating Systems on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Operating-Systems/</link>
+    <description>Recent content in Operating Systems on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jun 2015 10:43:50 +0900</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Operating-Systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>the future of the Operating System - LinuxCon 2015 keynote</title>
+      <link>http://localhost:888/presentation/the-future-of-the-os-linuxcon-2015-keynote/</link>
+      <pubDate>Fri, 05 Jun 2015 10:43:50 +0900</pubDate>
+      
+      <guid>http://localhost:888/presentation/the-future-of-the-os-linuxcon-2015-keynote/</guid>
+      <description>Given as a keynote at LinuxCon + CloudOpen Japan 2015.
+Linux has become the foundation for infrastructure everywhere as it defined application portability from the desktop to the phone and from to the data center to the cloud. As applications become increasingly distributed in nature, the Docker platform serves as the cornerstone of Linux’s evolution solidifying the dominance of Linux today and into tomorrow.
+Transcript  The Future of the Operating System What is an Operating System ?</description>
+    </item>
+    
+  </channel>
+</rss>

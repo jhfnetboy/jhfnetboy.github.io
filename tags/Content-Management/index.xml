@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content Management on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Content-Management/</link>
+    <description>Recent content in Content Management on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Mar 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Content-Management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started with Drupal and MongoDB</title>
+      <link>http://localhost:888/post/getting-started-with-drupal-and-mongodb/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/getting-started-with-drupal-and-mongodb/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Drupal-Admin.png&amp;quot; alt=&amp;quot;Drupal&amp;quot; /&amp;gt;  MongoDB is the most full featured scalable database taking the tech world by storm. Drupal is the standard in content management powering magazines, blogs online newspapers and much more. It’s only natural that they would get together to provide a fast dynamic scalable CMS system. Whenever a Drupal site needs to scale dynamic content they turn to MongoDB to be able to deliver. The Examiner.</description>
+    </item>
+    
+    <item>
+      <title>Top Sites Running Drupal</title>
+      <link>http://localhost:888/post/top-sites-running-drupal/</link>
+      <pubDate>Mon, 21 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/top-sites-running-drupal/</guid>
+      <description>Image via Wikipedia
+Drupal is a very powerful Content Management Solution. Many other organizations both large and small have found it to be a perfect platform for managing their website including some Fortune 100 companies. I decided to compile a list of some of the more notable organizations running drupal. This list is not exhaustive, but intended to demonstrate top site powered by drupal. If you know other top sites also powered by drupal, please list them in the comments below.</description>
+    </item>
+    
+  </channel>
+</rss>

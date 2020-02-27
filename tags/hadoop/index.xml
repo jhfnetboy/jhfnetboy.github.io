@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hadoop on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/hadoop/</link>
+    <description>Recent content in hadoop on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Dec 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/hadoop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MongoDB, Hadoop and humongous data at MongoSV 2012</title>
+      <link>http://localhost:888/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</guid>
+      <description>This presentation given at MongoSV 2012 focuses on data processing when using MongoDB as your primary database including integration with Hadoop &amp;amp; the new MongoDB aggregation framework. Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using tools like MapReduce, Pig and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With Hadoop MapReduce, Java and Scala programmers will find a native solution for using MapReduce to process their data with MongoDB.</description>
+    </item>
+    
+    <item>
+      <title>Not Just Hadoop: NoSQL in the Enterprise at Strata NYC 2012</title>
+      <link>http://localhost:888/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
+      <description>At the NYC Strata &amp;amp; Hadoop World conference I presented on ‘Not Just Hadoop: NoSQL in the Enterprise’. Robert Lancaster from Orbitz joined me on stage for the final presentation of the Bridge to Big Data track. Mark Madsen did a great job moderating the session and kept the energy high the entire day. Robert shared how Orbitz uses MongoDB with Apache Hadoop to provide real time rates. This is my second time presenting at Strata’s Big Data conference.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB, Hadoop and Humongous Data</title>
+      <link>http://localhost:888/presentation/mongodb-hadoop-and-humongous-data/</link>
+      <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-hadoop-and-humongous-data/</guid>
+      <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using Hadoop’s MapReduce and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With support for Hadoop streaming support goes beyond the native Java enabling map reduce to be run in languages like Python and Ruby.
+MongoDB, Hadoop and Humongous Data
+View more presentations from Steve Francia</description>
+    </item>
+    
+    <item>
+      <title>MongoDB and Hadoop</title>
+      <link>http://localhost:888/presentation/mongodb-and-hadoop/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-and-hadoop/</guid>
+      <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using tools like MapReduce, Pig and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With Hadoop MapReduce, Java and Scala programmers will find a native solution for using MapReduce to process their data with MongoDB. Programmers of all kinds will find a new way to work with ETL using Pig to extract and analyze large datasets and persist the results to MongoDB.</description>
+    </item>
+    
+  </channel>
+</rss>

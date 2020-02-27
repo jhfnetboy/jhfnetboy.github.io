@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on Sometimes we write something:)</title>
+    <link>http://jlab.github.io/tags/development/</link>
+    <description>Recent content in development on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://jlab.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What Should a Modern Practical Programming Language Look Like</title>
+      <link>http://jlab.github.io/presentation/what-should-a-modern-practical-programming-language-look-like/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jlab.github.io/presentation/what-should-a-modern-practical-programming-language-look-like/</guid>
+      <description>&lt;p&gt;Keynote delivered at &lt;a href=&#34;https://landingfestival.com/&#34;&gt;The Landing Festival – Berlin&lt;/a&gt;. This presentation describes the many inspirations and influences of the &lt;a href=&#34;http://golang.org&#34;&gt;Go programming language&lt;/a&gt; and goes into detail about how we shaped and created the language.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo: A fast and flexible static site generator built in GoLang</title>
+      <link>http://jlab.github.io/project/hugo/</link>
+      <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://jlab.github.io/project/hugo/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/hugo.png&amp;quot; alt=&amp;quot;Hugo Website&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Hugo Website &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.
+Hugo makes use of markdown files with front matter for meta data.
+Written in GoLang for speed, Hugo is significantly faster than most other static site generators.</description>
+    </item>
+    
+  </channel>
+</rss>

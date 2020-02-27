@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="An updated tutorial given at strageloop 2013 introduces the features of MongoDB by building a simple location-based application using MongoDB.">
+<meta name="keywords" content="MongoDB, Presentations, Ruby, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="An updated tutorial given at strageloop 2013 introduces the features of MongoDB by building a simple location-based application using MongoDB."/>
+<meta property="og:title" content="Build your first MongoDB App in Ruby @ StrangeLoop 2013 : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://localhost:888/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2013-09-23"/>
+<meta property="article:modified_time" content="2013-09-23"/>
+
+
+
+<meta property="article:tag" content="MongoDB">
+<meta property="article:tag" content="Presentations">
+<meta property="article:tag" content="Ruby">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Build your first MongoDB App in Ruby @ StrangeLoop 2013 : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="An updated tutorial given at strageloop 2013 introduces the features of MongoDB by building a simple location-based application using MongoDB.">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://localhost:888/">
+    <title> Build your first MongoDB App in Ruby @ StrangeLoop 2013 - spf13.com </title>
+    <link rel="canonical" href="http://localhost:888/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="http://localhost:888/css/ZGS.min.8b403dad8c58a1830355fb210b5ead5e5472e11a4e5d7bfe5ee2931e6a2c54e8.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> articles </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> projects </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> presentations </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="follow">
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="https://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="https://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="https://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="https://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 40k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Build your first MongoDB App in Ruby @ StrangeLoop 2013</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>An updated version of the <a href="presentation/building-your-first-mongodb-app-oscon-2012/">very popular workshop I gave at OSCON last year</a>.</p>
+<p>This presentation was given at Strangeloop 2013 as a 3 hour interactive workshop.</p>
+<p>This tutorial will introduce the features of
+<a href="http://www.mongodb.org/" title="MongoDB">MongoDB</a> by building a simple
+location-based application using MongoDB. The tutorial will cover the
+basics of MongoDB’s document model, query language, map-reduce framework
+and deployment architecture.</p>
+<p>The tutorial will be divided into 5 sections:</p>
+<ul>
+<li>Data modeling with MongoDB: documents, collections and databases</li>
+<li>Querying your data: simple queries, geospatial queries, and
+text-searching</li>
+<li>Writes and updates: using MongoDB’s atomic update modifiers</li>
+<li>Trending and analytics: Using mapreduce and MongoDB’s aggregation
+framework</li>
+<li>Deploying the sample application</li>
+</ul>
+<p>Besides the knowledge to start building their own applications with
+MongoDB, attendees will finish the session with a working application
+they use to check into locations around Portland from any HTML5 enabled
+phone!</p>
+<p><strong>TUTORIAL PREREQUISITES</strong><!-- raw HTML omitted -->
+Each attendee should have a running version of MongoDB. Preferably the latest stable release 2.4.6.
+You can dowload MongoDB at <a href="http://www.mongodb.org/downloads">http://www.mongodb.org/downloads</a>.</p>
+<p>Instructions for installing MongoDB are
+at <a href="http://docs.mongodb.org/manual/installation/">http://docs.mongodb.org/manual/installation/</a>.</p>
+<p>Additionally we will be building an app in Ruby. Ruby 1.9.3+ is required for this. The current latest version of ruby is 2.0.0-p247.</p>
+<p>There are many ways to install ruby, feel free to use your own solution if you have a preference.
+The following resources are also available:</p>
+<ul>
+<li>For windows download
+the <a href="http://rubyinstaller.org/">http://rubyinstaller.org/</a></li>
+<li>For OSX download <a href="http://unfiniti.com/software/mac/jewelrybox/">http://unfiniti.com/software/mac/jewelrybox/</a></li>
+<li>For linux most users should know how to for their own distributions.</li>
+</ul>
+<p>We will be using the following GEMs and they MUST BE installed ahead of time so you can be ahead of the game and safe in the event that the Internet isn’t accommodating.</p>
+<ul>
+<li>bson</li>
+<li>bson_ext</li>
+<li>haml</li>
+<li>mongo</li>
+<li>rack</li>
+<li>rack-protection</li>
+<li>rack shotgun</li>
+<li>sinatra</li>
+<li>tilt</li>
+</ul>
+<p>Prior ruby experience is NOT required for this, though you should be familiar with basic web programming in a similar language (javascript, php, perl, python, etc).</p>
+<p>We will NOT be using rails for this app.</p>
+<!-- raw HTML omitted -->
+<h2 id="transcript">Transcript</h2>
+<ol>
+<li>Building your first MongoDB Application</li>
+<li>Agenda Introduction to MongoDB MongoDB Fundamentals Running MongoDB Schema Design Ruby &amp; Sinatra Crash Course Building Our First App</li>
+<li>@spf13 Steve Francia AKA Chief Developer Advocate @ responsible for drivers, integrations, web &amp; docs</li>
+<li>Introduction to mongodb</li>
+<li>What Is MongoDB?</li>
+<li>
+<ul>
+<li>Document * Open source * High performance * Horizontally scalable * Full featured MongoDB is a ___________ database</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Not for .PDF &amp; .DOC files * A document is essentially an associative array * Document == JSON object * Document == PHP Array * Document == Python Dict * Document == Ruby Hash * etc Document Database</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>MongoDB is an open source project * On GitHub * Licensed under the AGPL * Commercial licenses available * Contributions welcome Open Source</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Written in C++ * Extensive use of memory-mapped files i.e. read-through write-through memory caching. * Runs nearly everywhere * Data serialized as BSON (fast parsing) * Full support for primary &amp; secondary indexes * Document model = less work High Performance</li>
+</ul>
+</li>
+<li>Horizontally Scalable</li>
+<li>
+<ul>
+<li>Ad Hoc queries * Real time aggregation * Rich query capabilities * Traditionally consistent * Geospatial features * Support for most programming languages * Flexible schema Full Featured</li>
+</ul>
+</li>
+<li>Depth of Functionality Scalability&amp;Performance Memcached MongoDB RDBMS Database landscape</li>
+<li><a href="http://www.mongodb.org/downloads">http://www.mongodb.org/downloads</a></li>
+<li>What is a Record?</li>
+<li>Key → Value * One-dimensional storage * Single value is a blob * Query on key only * No schema * Value cannot be updated, only replaced Key Blob</li>
+<li>Relational * Two-dimensional storage (tuples) * Each field contains a single value * Query on any field * Very structured schema (table) * In-place updates * Normalization process requires many tables, joins, indexes, and poor data locality Primary Key</li>
+<li>Document * N-dimensional storage * Each field can contain 0, 1, many, or embedded values * Query on any field &amp; level * Flexible schema * Inline updates * * Embedding related data has optimal data locality, requires fewer indexes, has better performance _id</li>
+<li>Running Mongodb</li>
+<li>MongoD</li>
+<li>Mongo Shell</li>
+<li>user = { username: &lsquo;fred.jones&rsquo;, first_name: &lsquo;fred&rsquo;, last_name: &lsquo;jones&rsquo;, } Start with an object (or array, hash, dict, etc)</li>
+<li>
+<blockquote>
+<p>db.users.insert(user) Insert the record No collection creation needed</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>db.users.findOne() { &ldquo;_id&rdquo; : ObjectId(&ldquo;50804d0bd94ccab2da652599&rdquo;), &ldquo;username&rdquo; : &ldquo;fred.jones&rdquo;, &ldquo;first_name&rdquo; : &ldquo;fred&rdquo;, &ldquo;last_name&rdquo; : &ldquo;jones&rdquo; } Querying for the user</p>
+</blockquote>
+</li>
+<li>
+<ul>
+<li>_id is the primary key in MongoDB * Automatically indexed * Automatically created as an ObjectId if not provided * Any unique immutable value could be used _id</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>ObjectId is a special 12 byte value * Guaranteed to be unique across your cluster * ObjectId(&ldquo;50804d0bd94ccab2da652599&rdquo;) |&mdash;&mdash;&mdash;&mdash;-||&mdash;&mdash;&mdash;||&mdash;&ndash;||&mdash;&mdash;&mdash;-| ts mac pid inc ObjectId</li>
+</ul>
+</li>
+<li>Schema Design</li>
+<li>Tradational schema design Focuses on data storage</li>
+<li>Document schema design Focuses on use</li>
+<li>4 Building blocks of Document Design</li>
+<li>flexibility * Choices for schema design * Each record can have different fields * Field names consistent for programming * Common structure can be enforced by application * Easy to evolve as needed</li>
+<li>Arrays * Each field can be: * Absent * Set to null * Set to a single value * Set to an array of many values * Query for any matching value * Can be indexed and each value in the array is in the index</li>
+<li>embedded Documents * An acceptable value is a document * Nested documents provide structure * Query any field at any level * Can be indexed</li>
+<li>
+<ul>
+<li>Object in your model * Associations with other entities entity Association Referencing (Relational) Embedding (Document) has_one embeds_one belongs_to embedded_in has_many embeds_many has_and_belongs_to_many MongoDB has both referencing and embedding for universal coverage</li>
+</ul>
+</li>
+<li>Exercise 1: Model a business card</li>
+<li>Business Card</li>
+<li>Contacts { “_id”: 2, “name”: “Steven Jobs”, “title”: “VP, New Product Development”, “company”: “Apple Computer”, “phone”: “408-996-1010”, “address_id”: 1 } Referencing Addresses { “_id”: 1, “street”: “10260 Bandley Dr”, “city”: “Cupertino”, “state”: “CA”, “zip_code”: ”95014”, “country”: “USA” }</li>
+<li>Contacts { “_id”: 2, “name”: “Steven Jobs”, “title”: “VP, New Product Development”, “company”: “Apple Computer”, “address”: { “street”: “10260 Bandley Dr”, “city”: “Cupertino”, “state”: “CA”, “zip_code”: ”95014”, “country”: “USA” }, “phone”: “408-996-1010” } embedding</li>
+<li>Exercise 2: Store a business card</li>
+<li>Contacts db.contacts.insert( { “_id”: 2, “name”: “Steven Jobs”, “title”: “VP, New Product Development”, “company”: “Apple Computer”, “phone”: “408-996-1010”, “address_id”: 1 } ) Inserting with Reference Addresses db.addresses.insert( { “_id”: 1, “street”: “10260 Bandley Dr”, “city”: “Cupertino”, “state”: “CA”, “zip_code”: ”95014”, “country”: “USA” } )</li>
+<li>Exercise 3: Retrieve a business card</li>
+<li>Contacts c = db.contacts.findOne( { “name”: “Steven Jobs”, } ) Querying with Reference Addresses db.addresses.findOne( { “_id”: c.address_id, “street”: “10260 Bandley Dr”, “city”: “Cupertino”, “state”: “CA”, “zip_code”: ”95014”, “country”: “USA” } )</li>
+<li>Building a MongoDB Application</li>
+<li>MongoDB has native bindings for nearly all languages</li>
+<li>Official Support for 12 languages Community drivers for tons more Drivers connect to mongo servers Drivers translate BSON into native types mongo shell is not a driver, but works like one in some ways Installed using typical means (npm, pecl, gem, pip) MongoDB drivers</li>
+<li>Building an app in Ruby? Had to pick a language Sinatra is very minimal and approachable Wanted to focus on MongoDB interaction Ruby gems are awesome Works well on Windows, OS X &amp; Linux Seemed like a good idea at the time</li>
+<li>Ruby Crash Course</li>
+<li>everything is an object 1.class &lsquo;a&rsquo;.class :z.class class Foo end Foo.class Foo.new.class # =&gt; Fixnum # =&gt; String # =&gt; Symbol # =&gt; Class # =&gt; Foo</li>
+<li>Structure Method Class Invocation def do_stuff(thing) thing.do_the_stuff end class TheThing def do_the_stuff puts &ldquo;Stuff was done!&rdquo; end end do_stuff(TheThing.new)</li>
+<li>Strings name = &lsquo;World&rsquo; # =&gt; &ldquo;World&rdquo; &ldquo;Hello, #{name}&rdquo; # =&gt; &ldquo;Hello, World&rdquo; &lsquo;Hello, #{name}&rsquo; # =&gt; &ldquo;Hello, #{name}&rdquo;</li>
+<li>Numbers 1 + 1 # =&gt; 2 1 + 1.1 # =&gt; 2.1 6 * 7 # =&gt; 42 6 ** 7 # =&gt; 279936 Math.sqrt(65536) # =&gt; 256.0 1.class # =&gt; Fixnum (2 ** 42).class # =&gt; Fixnum (2 ** 64).class # =&gt; Bignum 1.1.class # =&gt; Float</li>
+<li>Arrays Array.new Array.new(3) [] a = [1,2,3] a[0] = &lsquo;one&rsquo; a a[-1] a[1..2] # =&gt; [] # =&gt; [nil, nil, nil] # =&gt; [] # =&gt; [1, 2, 3] # =&gt; &ldquo;one&rdquo; # =&gt; [&ldquo;one&rdquo;, 2, 3] # =&gt; 3 # =&gt; [2, 3]</li>
+<li>Hashes Hash.new {} h = {1 =&gt; &ldquo;one&rdquo;, 2 =&gt; &ldquo;two&rdquo;} h[1] h[&ldquo;1&rdquo;] h[:one] = &ldquo;einz&rdquo; h[:one] h.keys h.values # =&gt; {} # =&gt; {} # =&gt; &ldquo;one&rdquo; # =&gt; nil # =&gt; &ldquo;einz&rdquo; # =&gt; &ldquo;einz&rdquo; # =&gt; [1, 2, :one] # =&gt; [&ldquo;one&rdquo;, &ldquo;two&rdquo;, &ldquo;einz&rdquo;]</li>
+<li>Variables &amp; Names CamelCased # Classes, modules with_underscores # methods, local variables @instance_variable @@class_variable $GLOBAL_VARIABLE</li>
+<li>Control Structures if condition # &hellip; elsif other_condition # &hellip; end unless condition # &hellip; end while # &hellip; end</li>
+<li>Sinatra is&hellip; not Rails not a framework a DSL for quickly creating web applications in Ruby with minimal effort</li>
+<li>Hello World # myapp.rb require &lsquo;sinatra&rsquo; get &lsquo;/&rsquo; do &lsquo;Hello world!&rsquo; end</li>
+<li>HTTP Actions In Sinatra, a route is an HTTP method paired with a URL-matching pattern. Each route is associated with a block: get &lsquo;/&rsquo; do .. show something .. end post &lsquo;/&rsquo; do .. create something .. end put &lsquo;/&rsquo; do .. replace something .. end delete &lsquo;/&rsquo; do .. annihilate something .. end</li>
+<li>Routes Routes are matched in the order they are defined. The first route that matches the request is invoked. Route patterns may include named parameters, accessible via the params hash: get &lsquo;/hello/:name&rsquo; do # matches &ldquo;GET /hello/foo&rdquo; and &ldquo;GET /hello/bar&rdquo; # params[:name] is &lsquo;foo&rsquo; or &lsquo;bar&rsquo; &ldquo;Hello #{params[:name]}!&rdquo; end #You can also access named parameters via block parameters: get &lsquo;/hello/:name&rsquo; do |n| &ldquo;Hello #{n}!&rdquo; end</li>
+<li>Splat Route patterns may also include splat (or wildcard) parameters, accessible via the params[:splat] array: get &lsquo;/say/<em>/to/</em>&rsquo; do # matches /say/hello/to/world params[:splat] # =&gt; [&ldquo;hello&rdquo;, &ldquo;world&rdquo;] end get &lsquo;/download/<em>.</em>&rsquo; do # matches /download/path/to/file.xml params[:splat] # =&gt; [&ldquo;path/to/file&rdquo;, &ldquo;xml&rdquo;] end</li>
+<li>Building our App in Ruby</li>
+<li>Introducing the milieu app</li>
+<li>pre-populating our database</li>
+<li>Download &amp; Import the venues curl -L http://j.mp/StrangeLoopVenues | mongoimport -d milieu -c venues wget <a href="http://c.spf13.com/dl/StrangeLoopVenues.json">http://c.spf13.com/dl/StrangeLoopVenues.json</a> mongoimport -d milieu -c venues StrangeLoopVenues.json Database Collection</li>
+<li>Mongo Shell</li>
+<li>Let’s look at the venues &gt; use milieu switched to db milieu &gt; db.venues.count() 50 Database</li>
+<li>Let’s look at the venues &gt; db.venues.findOne() { &ldquo;_id&rdquo; : ObjectId(&ldquo;52335163695c9d31c2000001&rdquo;), &ldquo;location&rdquo; : { &ldquo;address&rdquo; : &ldquo;1820 Market St&rdquo;, &ldquo;distance&rdquo; : 85, &ldquo;postalCode&rdquo; : &ldquo;63103&rdquo;, &ldquo;city&rdquo; : &ldquo;Saint Louis&rdquo;, &ldquo;state&rdquo; : &ldquo;MO&rdquo;, &ldquo;country&rdquo; : &ldquo;United States&rdquo;, &ldquo;cc&rdquo; : &ldquo;US&rdquo;, &ldquo;geo&rdquo; : [ -90.20761747801353, 38.62893438211461 ] }, &ldquo;name&rdquo; : &ldquo;St. Louis Union Station Hotel- A DoubleTree by Hilton&rdquo;, &ldquo;contact&rdquo; : { &ldquo;phone&rdquo; : &ldquo;3146215262&rdquo;, &ldquo;formattedPhone&rdquo; : &ldquo;(314) 621-5262&rdquo;, &ldquo;url&rdquo; : &ldquo;<a href="http://www.stlunionstationhotel.com">http://www.stlunionstationhotel.com</a>&rdquo; }, &ldquo;stats&rdquo; : { &ldquo;checkinsCount&rdquo; : 0, &ldquo;usersCount&rdquo; : 0 } }</li>
+<li>Creating a Geo index &gt; db.venues.ensureIndex({ &lsquo;location.geo&rsquo; : &lsquo;2d&rsquo;}) &gt; db.venues.getIndexes() [ { &ldquo;v&rdquo; : 1, &ldquo;key&rdquo; : { &ldquo;<em>id&rdquo; : 1 }, &ldquo;ns&rdquo; : &ldquo;milieu.venues&rdquo;, &ldquo;name&rdquo; : &ldquo;<em>id</em>&rdquo; }, { &ldquo;v&rdquo; : 1, &ldquo;key&rdquo; : { &ldquo;location.geo&rdquo; : &ldquo;2d&rdquo; }, &ldquo;ns&rdquo; : &ldquo;milieu.venues&rdquo;, &ldquo;name&rdquo; : &ldquo;location.geo</em>&rdquo; } ]</li>
+<li>Skeleton</li>
+<li>Start with a skeleton /Users/steve/Code/milieu/app/ ▸ config/ ▸ helpers/ ▾ model/ mongodb.rb mongoModule.rb user.rb ▾ public/ ▸ bootstrap/ ▾ css/ styles.css ▸ images/ ▾ views/ footer.haml index.haml layout.haml login.haml navbar.haml register.haml user_dashboard.haml user_profile.haml venue.haml venues.haml app.rb config.ru Gemfile Rakefile README</li>
+<li>Download &amp; Install deps mkdir milieu cd milieu wget <a href="http://c.spf13.com/dl/GettingStarted.tgz">http://c.spf13.com/dl/GettingStarted.tgz</a> tar zxvf GettingStarted.tgz bundle install Resolving dependencies&hellip; Using bson (1.9.2) Using bson_ext (1.9.2) Using googlestaticmap (1.1.4) Using tilt (1.4.1) Using haml (4.0.3) Using mongo (1.9.2) Using rack (1.5.2) Using rack-protection (1.5.0) Using shotgun (0.9) Using sinatra (1.4.3) Using bundler (1.3.5) Your bundle is complete! Use <code>bundle show [gemname]</code> to see where a bundled gem is installed.</li>
+<li>Run app shotgun == Shotgun/WEBrick on http://127.0.0.1:9393/ [2013-09-13 21:25:43] INFO WEBrick 1.3.1 [2013-09-13 21:25:43] INFO ruby 2.0.0 (2013-06-27) [x86_64-darwin12.3.0] [2013-09-13 21:25:43] INFO WEBrick::HTTPServer#start: pid=85344 port=9393</li>
+<li>Open Browser to localhost:9393</li>
+<li>Preview &mdash; error Screen</li>
+<li>listing Venues</li>
+<li>Connecting to MongoDB require &lsquo;mongo&rsquo; require &lsquo;./model/mongoModule&rsquo; require &lsquo;./model/user&rsquo; # Connection code goes here CONNECTION = Mongo::Connection.new(&ldquo;localhost&rdquo;) DB = CONNECTION.db(&lsquo;milieu&rsquo;) # Alias to collections goes here USERS = DB[&lsquo;users&rsquo;] VENUES = DB[&lsquo;venues&rsquo;] CHECKINS = DB[&lsquo;checkins&rsquo;] model/mongodb.rb</li>
+<li>listing Venues get &lsquo;/venues&rsquo; do # Code to list all venues goes here @venues = VENUES.░░░░░ haml :venues end app.rb</li>
+<li>listing Venues get &lsquo;/venues&rsquo; do # Code to list all venues goes here @venues = VENUES.find haml :venues end app.rb</li>
+<li>listing Venues .container .content %h2 Venues %table.table.table-striped %thead %tr %th Name %th Address %th Longitude %th Latitude %tbody ~@venues.each do |venue| %tr %td %a{:href =&gt; &lsquo;/venue/&rsquo; &laquo; venue['_id&rsquo;].to_s}= venue[&lsquo;name&rsquo;] %td= venue[&lsquo;location&rsquo;][&lsquo;address&rsquo;] ? venue[&lsquo;location&rsquo;][&lsquo;address&rsquo;] : &lsquo;&amp;nbsp&rsquo; %td= venue[&lsquo;location&rsquo;][&lsquo;geo&rsquo;][0].round(2) %td= venue[&lsquo;location&rsquo;][&lsquo;geo&rsquo;][1].round(2) views/venues.haml</li>
+<li>listing Venueslocalhost:9393/venues</li>
+<li>Paginating Venues get &lsquo;/venues/?:page?&rsquo; do @page = params.fetch(&lsquo;page&rsquo;, 1).to_i pp = 10 @venues = VENUES.find.░░░░░(░░░░).░░░░(░░░) @total_pages = (VENUES.░░░░░.to_i / pp).ceil haml :venues end app.rb # replaces the prior entry</li>
+<li>Paginating Venues get &lsquo;/venues/?:page?&rsquo; do @page = params.fetch(&lsquo;page&rsquo;, 1).to_i pp = 10 @venues = VENUES.find.skip((@page - 1) * pp).limit(pp) @total_pages = (VENUES.count.to_i / pp).ceil haml :venues end app.rb # replaces the prior entry</li>
+<li>.container .content %h2 Venues %table.table.table-striped %thead %tr %th Name %th Address %th Longitude %th Latitude %tbody ~@venues.each do |venue| %tr %td %a{:href =&gt; &lsquo;/venue/&rsquo; &laquo; venue['_id&rsquo;].to_s}= venue[&lsquo;name&rsquo;] %td= venue[&lsquo;location&rsquo;][&lsquo;address&rsquo;] ? venue[&lsquo;location&rsquo;][&lsquo;address&rsquo;] : &lsquo;&amp;nbsp&rsquo; %td= venue[&lsquo;location&rsquo;][&lsquo;geo&rsquo;][0].round(2) %td= venue[&lsquo;location&rsquo;][&lsquo;geo&rsquo;][1].round(2) =pager('/venues&rsquo;) listing Venues views/venues.haml</li>
+<li>paging through Venueslocalhost:9393/venues</li>
+<li>Creating Users</li>
+<li>Creating Users Users are a bit special in our app Not just data Special considerations for secure password handling Not complicated on MongoDB side, but slightly complicated on Ruby side</li>
+<li>Creating Users class User attr_accessor :_id, :name, :email, :email_hash, :salt, :hashed_password, :collection, :updated_at def init_collection self.collection = &lsquo;users&rsquo; end def password=(pass) self.salt = random_string(10) unless self.salt self.hashed_password = User.encrypt(pass, self.salt) end def save col = DB[self.collection] self.updated_at = Time.now col.save(self.to_hash) end end model/user.rb Inherited from MongoModule.rb</li>
+<li>Creating Users post &lsquo;/register&rsquo; do u = User.new u.email = params[:email] u.password = params[:password] u.name = params[:name] if u.save() flash(&ldquo;User created&rdquo;) session[:user] = User.auth( params[&ldquo;email&rdquo;], params[&ldquo;password&rdquo;]) redirect &lsquo;/user/&rsquo; &laquo; session[:user].email.to_s &laquo; &ldquo;/dashboard&rdquo; else tmp = [] u.errors.each do |e| tmp &laquo; (e.join(&ldquo;<!-- raw HTML omitted -->&rdquo;)) end flash(tmp) redirect &lsquo;/create&rsquo; end end app.rb</li>
+<li>Logging in part 1 configure do enable :sessions end before do unless session[:user] == nil @suser = session[:user] end end get &lsquo;/user/:email/dashboard&rsquo; do haml :user_dashboard end app.rb</li>
+<li>Logging in part 2 post &lsquo;/login&rsquo; do if session[:user] = User.auth(params[&ldquo;email&rdquo;], params[&ldquo;password&rdquo;]) flash(&ldquo;Login successful&rdquo;) redirect &ldquo;/user/&rdquo; &laquo; session[:user].email &laquo; &ldquo;/dashboard&rdquo; else flash(&ldquo;Login failed - Try again&rdquo;) redirect &lsquo;/login&rsquo; end end app.rb</li>
+<li>Logging in part 3 def self.auth(email, pass) u = USERS.find_one(&ldquo;email&rdquo; =&gt; email.downcase) return nil if u.nil? return User.new(u) if User.encrypt( pass, u[&lsquo;salt&rsquo;]) == u[&lsquo;hashed_password&rsquo;] nil end user.rb</li>
+<li>User Dashboard .container .content .page-header -unless @suser == nil? %h2=&quot;Dashboard&rdquo; %br %image{src: &ldquo;<a href="http://www.gravatar.com/avatar/%22">http://www.gravatar.com/avatar/&quot;</a> &laquo; @suser.email_hash.to_s &laquo; &lsquo;.png&rsquo;} %h3= @suser.name.to_s -else redirect &lsquo;/&rsquo; %small %a{href: &ldquo;/user/&rdquo; &laquo; @suser.email.to_s &laquo; &ldquo;/profile&rdquo;} profile .container#main-topic-nav views/user_dashboard.haml</li>
+<li>Dashboard localhost:9393/dashboard</li>
+<li>Viewing Users</li>
+<li>Finding a user get &lsquo;/user/:email/profile&rsquo; do u = USERS.░░░░░( ░░░░░ =&gt; ░░░░░.░░░░░) if u == nil return haml :profile_missing else @user = User.new(u) end haml :user_profile end app.rb</li>
+<li>Finding a user get &lsquo;/user/:email/profile&rsquo; do u = USERS.find_one( &ldquo;email&rdquo; =&gt; params[:email].downcase) if u == nil return haml :profile_missing else @user = User.new(u) end haml :user_profile end app.rb</li>
+<li>Creating an INdex &gt; db.users.ensureIndex({email : 1}) &gt; db.users.getIndexes() [ { &ldquo;v&rdquo; : 1, &ldquo;key&rdquo; : { &ldquo;_id&rdquo; : 1 }, &ldquo;ns&rdquo; : &ldquo;milieu.users&rdquo;, &ldquo;name&rdquo; : &ldquo;<em>id</em>&rdquo; }, { &ldquo;v&rdquo; : 1, &ldquo;key&rdquo; : { &ldquo;email&rdquo; : 1 }, &ldquo;ns&rdquo; : &ldquo;milieu.users&rdquo;, &ldquo;name&rdquo; : &ldquo;email_1&rdquo; } ]</li>
+<li>A Venue</li>
+<li>Showing a Venue get &lsquo;/venue/:_id&rsquo; do object_id = ░░░░░░░░░░░░░░ @venue = ░░░░░░░░░░( { ░░░░ =&gt; object_id }) haml :venue end app.rb</li>
+<li>Showing a Venue get &lsquo;/venue/:_id&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one( { :_id =&gt; object_id }) haml :venue end app.rb</li>
+<li>Showing a Venue .row .col-md-4 %h2= @venue[&lsquo;name&rsquo;].to_s %p =@venue[&lsquo;location&rsquo;][&lsquo;address&rsquo;].to_s %br= @venue[&lsquo;location&rsquo;][&lsquo;city&rsquo;].to_s + ' ' + @venue[&lsquo;location&rsquo;][&lsquo;state&rsquo;].to_s + ' ' + @venue[&lsquo;location&rsquo;][&lsquo;postalCode&rsquo;].to_s .col-md-8 %image{:src =&gt; '&rsquo; &laquo; gmap_url(@venue, {:height =&gt; 300, :width =&gt; 450}) } views/venue.haml</li>
+<li>A Venue localhost:9393/venue/{id}</li>
+<li>Nearby VenueS</li>
+<li>Nearby Venues get &lsquo;/venue/:_id&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one({ :_id =&gt; object_id }) @nearby_venues = ░░░░░.░░░░░( {░░░░░ =&gt;{░░░░░=&gt;[ ░░░░░,░░░░░]}} ).░░░░░(4).░░░░░(1) haml :venue end app.rb</li>
+<li>Nearby Venues get &lsquo;/venue/:_id&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one({ :_id =&gt; object_id }) @nearby_venues = VENUES.find( { :&lsquo;location.geo&rsquo; =&gt; { ░░░░░ =&gt; [ ░░░░░,░░░░░] } }).░░░░░(4).░░░░░(1) haml :venue end app.rb</li>
+<li>Nearby Venues get &lsquo;/venue/:_id&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one({ :_id =&gt; object_id }) @nearby_venues = VENUES.find( { :&lsquo;location.geo&rsquo; =&gt; { ░░░░░ =&gt; [ ░░░░░,░░░░░] } }).limit(4).skip(1) haml :venue end app.rb</li>
+<li>Nearby Venues get &lsquo;/venue/:_id&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one({ :_id =&gt; object_id }) @nearby_venues = VENUES.find( { :&lsquo;location.geo&rsquo; =&gt; { :$near =&gt; [ @venue[&lsquo;location&rsquo;][&lsquo;geo&rsquo;][0], @venue[&lsquo;location&rsquo;][&lsquo;geo&rsquo;][1]] } }).limit(4).skip(1) haml :venue end app.rb</li>
+<li>&hellip; .row - @nearby_venues.each do |nearby| .col-md-3 %h2 %a{:href =&gt; &lsquo;/venue/&rsquo; + nearby['_id&rsquo;].to_s}= nearby[&lsquo;name&rsquo;].to_s %p =nearby[&lsquo;location&rsquo;][&lsquo;address&rsquo;].to_s %br= nearby[&lsquo;location&rsquo;][&lsquo;city&rsquo;].to_s + ' ' + nearby[&lsquo;location&rsquo;][&lsquo;state&rsquo;].to_s + ' ' + nearby[&lsquo;location&rsquo;][&lsquo;postalCode&rsquo;].to_s %a{:href =&gt; &lsquo;/venue/&rsquo; + nearby['_id&rsquo;].to_s} %image{:src =&gt; '&rsquo; &laquo; gmap_url(nearby, {:height =&gt; 150, :width =&gt; 150, :zoom =&gt; 17}) } views/venue.haml listing Nearby Venues</li>
+<li>Nearby Venues localhost:9393/venue/{id}</li>
+<li>Checking IN</li>
+<li>Checking in get &lsquo;/venue/:_id/checkin&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one({ :_id =&gt; object_id }) user = USERS. ░░░░░_and_░░░░░(░░░░░) if ░░░░░ ░░░░░ ░░░░░ ░░░░░ ░░░░░ else ░░░░░ ░░░░░ ░░░░░ ░░░░░ end flash(&lsquo;Thanks for checking in&rsquo;) redirect &lsquo;/venue/&rsquo; + params[:_id] end app.rb</li>
+<li>Checking in get &lsquo;/venue/:_id/checkin&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one({ :_id =&gt; object_id }) user = USERS.find_and_modify( :query =&gt; ░░░░░, :update =&gt; ░░░░░, :new =&gt; 1) if ░░░░░ ░░░░░ ░░░░░ ░░░░░ ░░░░░ else ░░░░░ ░░░░░ ░░░░░ ░░░░░ end flash(&lsquo;Thanks for checking in&rsquo;) redirect &lsquo;/venue/&rsquo; + params[:_id] end app.rb</li>
+<li>Checking in get &lsquo;/venue/:_id/checkin&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one({ :_id =&gt; object_id }) user = USERS.find_and_modify( :query =&gt; { :_id =&gt; @suser._id}, :update =&gt; {:$inc =&gt;{ &ldquo;venues.&rdquo; &laquo; object_id.to_s =&gt; 1 } }, :new =&gt; 1) if ░░░░░ ░░░░░ ░░░░░ ░░░░░ ░░░░░ else ░░░░░ ░░░░░ ░░░░░ ░░░░░ end flash(&lsquo;Thanks for checking in&rsquo;) redirect &lsquo;/venue/&rsquo; + params[:_id] end app.rb</li>
+<li>Checking in get &lsquo;/venue/:_id/checkin&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one({ :_id =&gt; object_id }) user = USERS.find_and_modify(:query =&gt; { :_id =&gt; @suser._id}, :update =&gt; {:$inc =&gt; { &ldquo;venues.&rdquo; &laquo; object_id.to_s =&gt; 1 } }, :new =&gt; 1) if user[&lsquo;venues&rsquo;][params[:_id]] == 1 VENUES.update(░░░░░) else VENUES.update(░░░░░) end flash(&lsquo;Thanks for checking in&rsquo;) redirect &lsquo;/venue/&rsquo; + params[:_id] end app.rb</li>
+<li>Checking in get &lsquo;/venue/:_id/checkin&rsquo; do object_id = BSON::ObjectId.from_string(params[:_id]) @venue = VENUES.find_one({ :_id =&gt; object_id }) user = USERS.find_and_modify(:query =&gt; { :_id =&gt; @suser._id}, :update =&gt; {:$inc =&gt; { &ldquo;venues.&rdquo; &laquo; object_id.to_s =&gt; 1 } }, :new =&gt; 1) if user[&lsquo;venues&rsquo;][params[:_id]] == 1 VENUES.update({ :_id =&gt; @venue['_id&rsquo;]}, { :$inc =&gt; { :&lsquo;stats.usersCount&rsquo; =&gt; 1, :&lsquo;stats.checkinsCount&rsquo; =&gt; 1}}) else VENUES.update({ _id: @venue['_id&rsquo;]}, { :$inc =&gt; { :&lsquo;stats.checkinsCount&rsquo; =&gt; 1}}) end flash(&lsquo;Thanks for checking in&rsquo;) redirect &lsquo;/venue/&rsquo; + params[:_id] end app.rb</li>
+<li>You’ve been here def user_times_at if logged_in? times = &lsquo;You have checked in here ' if !@suser.venues.nil? &amp;&amp; !@suser.venues[params[:_id]].nil? times &laquo; @suser.venues[params[:_id]].to_s else times &laquo; &lsquo;0&rsquo; end times &laquo; ' times&rsquo; else times = &lsquo;Please <!-- raw HTML omitted -->login<!-- raw HTML omitted --> to join them.&rsquo; end end helpers/milieu.rb</li>
+<li>Checking In %p %a.btn.btn-primary.btn-large{:href =&gt; &lsquo;/venue/&rsquo; + @venue['_id&rsquo;].to_s + &lsquo;/checkin&rsquo;} Check In Here %p =@venue[&lsquo;stats&rsquo;][&lsquo;usersCount&rsquo;].ceil.to_s + ' users have checked in here ' + @venue[&lsquo;stats&rsquo;][&lsquo;checkinsCount&rsquo;].ceil.to_s + ' times&rsquo; %p=user_times_at views/venue.haml</li>
+<li>A Venue localhost:9393/venue/{id}</li>
+<li>What we’ve learned * Model data for MongoDB * Use MongoDB tools to import data * Create records from shell &amp; ruby * Update records * Atomic updates * Create an index * Create a geo index * Query for data by matching * GeoQueries * Pagination * Single Document Transactions * Some ruby, sinatra, haml, etc</li>
+<li>Next ?</li>
+<li>It’s on Github</li>
+<li>Some Ideas * Create interface to add venues * Connect to foursquare * Login w/twitter * Badges or Categories * Enable searching of venues * Tips / Reviews</li>
+<li>Tweet if you liked it! Questions? <a href="http://spf13.com">http://spf13.com</a> <a href="http://github.com/spf13">http://github.com/spf13</a> @spf13</li>
+</ol>
+<h2 id="related-articles">Related articles</h2>
+<ul>
+<li><a href="http://spf13.com/presentation/building-your-first-mongodb-app-oscon-2012/">How I gave the most viewed presentation in the history of
+OSCON</a></li>
+<li><a href="http://spf13.com/post/big-data-for-the-rest-of-us-at-nyc-strata-2012/">Big Data for the rest of us at NYC Strata
+2012</a></li>
+<li><a href="http://spf13.com/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/">How I gave the most viewed presentation in the history of
+OSCON</a></li>
+<li><a href="http://emptysquare.net/blog/optimizing-mongodb-compound-indexes/">Optimizing MongoDB Compound
+Indexes</a></li>
+<li><a href="http://christiankvalheim.com/post/29753345741/new-features-in-the-driver-for-mongodb-2-2">New features in the driver for MongoDB
+2.2</a></li>
+</ul>
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Mon Sep 23, 2013 </h4>
+          <h5 id="wc"> 3300 Words </h5>
+          <h5 id="readtime"> Read in about 16 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://localhost:888//topics/MongoDB">MongoDB</a> </li>
+          
+            <li><a href="http://localhost:888//topics/Presentations">Presentations</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://localhost:888//tags/mongodb">mongodb</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/Ruby">Ruby</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://localhost:888/presentation/building-modern-web-applications/"><i class="icon-arrow-left"></i> Building Modern Web Applications</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://localhost:888/post/go-fmt/">Refactoring with go fmt <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of 
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team 
+            of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users.
+            </p>
+
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a>, <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source. 
+            He formerly was a director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p> 
+            He is the creator of some of the world's most popular open source applications and libraries including <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">more</a>.
+            </p>
+            
+            <p>
+            Above all of these accomplishments, he is a father of 4. 
+            Outside of technology Steve likes travel, skateboarding, punk rock, and dystopian films.
+            </p>
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="3265">
+<meta itemprop="datePublished" content="2013-09-23">
+<meta itemprop="url" content="http://localhost:888/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-19 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+</body>
+</html>
+

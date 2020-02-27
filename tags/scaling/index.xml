@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scaling on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/scaling/</link>
+    <description>Recent content in scaling on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Apr 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/scaling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scaling Web Sites (LAMP) : Top Resources</title>
+      <link>http://localhost:888/post/scaling-web-sites-lamp-top-resources-2/</link>
+      <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/scaling-web-sites-lamp-top-resources-2/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/failwhale.png&amp;quot; alt=&amp;quot;Image via Wikipedia&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image via Wikipedia &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Luckily it’s 2009 and there have been a bunch of successful websites that have had to deal with large scalability challenges. Many have been kind enough to share their knowledge with the world. Here is a list of the best books, articles, presentations and practices from the likes of Twitter, Facebook, Flickr and more.
+Books Building Scalable Web Sites Building, scaling, and optimizing the next generation of web applications by Cal Henderson</description>
+    </item>
+    
+  </channel>
+</rss>

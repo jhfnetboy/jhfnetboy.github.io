@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Presentation given at MongoSV 2012 on processing big data with MongoDB using Hadoop integration &amp; the MongoDB aggregation framework.">
+<meta name="keywords" content="MongoDB, Presentations, Apache Hadoop, big data, Data Processing, Data Tools, Distributed Data Processing, hadoop, mapreduce, mongodb, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="Presentation given at MongoSV 2012 on processing big data with MongoDB using Hadoop integration &amp; the MongoDB aggregation framework."/>
+<meta property="og:title" content="MongoDB, Hadoop and humongous data at MongoSV 2012 : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://localhost:888/presentation/mongodb-hadoop-humongous-data-mongosv-2012/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2012-12-06"/>
+<meta property="article:modified_time" content="2012-12-06"/>
+
+
+
+<meta property="article:tag" content="MongoDB">
+<meta property="article:tag" content="Presentations">
+<meta property="article:tag" content="Apache Hadoop">
+<meta property="article:tag" content="big data">
+<meta property="article:tag" content="Data Processing">
+<meta property="article:tag" content="Data Tools">
+<meta property="article:tag" content="Distributed Data Processing">
+<meta property="article:tag" content="hadoop">
+<meta property="article:tag" content="mapreduce">
+<meta property="article:tag" content="mongodb">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="MongoDB, Hadoop and humongous data at MongoSV 2012 : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="Presentation given at MongoSV 2012 on processing big data with MongoDB using Hadoop integration &amp; the MongoDB aggregation framework.">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://localhost:888/">
+    <title> MongoDB, Hadoop and humongous data at MongoSV 2012 - spf13.com </title>
+    <link rel="canonical" href="http://localhost:888/presentation/mongodb-hadoop-humongous-data-mongosv-2012/">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="http://localhost:888/css/ZGS.min.8b403dad8c58a1830355fb210b5ead5e5472e11a4e5d7bfe5ee2931e6a2c54e8.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> articles </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> projects </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> presentations </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="follow">
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="https://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="https://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="https://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="https://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 40k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">MongoDB, Hadoop and humongous data at MongoSV 2012</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>This presentation given at MongoSV 2012 focuses on data processing when
+using <a href="http://www.mongodb.org/" title="MongoDB">MongoDB</a> as your primary
+database including integration with
+<a href="http://hadoop.apache.org/" title="Hadoop">Hadoop</a> &amp; the new MongoDB
+aggregation framework. Learn how to integrate MongoDB with Hadoop for
+large-scale distributed data processing. Using tools like MapReduce, Pig
+and Streaming you will learn how to do analytics and ETL on large
+datasets with the ability to load and save data against MongoDB. With
+Hadoop MapReduce, Java and Scala programmers will find a native solution
+for using MapReduce to process their data with MongoDB. Programmers of
+all kinds will find a new way to work with ETL using Pig to extract and
+analyze large datasets and persist the results to MongoDB. Python and
+Ruby Programmers can rejoice as well in a new way to write native Mongo
+MapReduce using the Hadoop Streaming interfaces.</p>
+<!-- raw HTML omitted -->
+<p><strong><a href="http://www.slideshare.net/spf13/mongodb-hadoop-and-humongous-data-mongosv-2012" title="MongoDB, Hadoop and humongous data - MongoSV 2012">MongoDB, Hadoop and humongous data – MongoSV
+2012</a></strong>
+from <strong><a href="http://www.slideshare.net/spf13">Steve Francia</a></strong></p>
+<h2 id="mongodb-hadoop-and-humongous-data--mongosv-2012-presentation-transcript">MongoDB, Hadoop and humongous data – MongoSV 2012 — Presentation Transcript</h2>
+<ul>
+<li>
+<ol>
+<li>MongoDB, Hadoop &amp; humongous data</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Talking about. What is Humongous Data. Humongous Data &amp; You.
+MongoDB &amp; Data processing. Future of Humongous Data</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>@spf13 AKA Steve Francia. 15+ years building the internet.
+Father, husband, skateboarder. Chief Solutions Architect @ 10gen
+responsible for drivers, integrations, web &amp; docs</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>What is humongous data ?</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>2000 Google Inc. Today announced it has released the largest
+search engine on the Internet.Google’s new index, comprisingmore
+than 1 billion URLs</li>
+</ol>
+</li>
+<li>
+<ol start="6">
+<li>2008 Our indexing system for processing links indicates that we
+now count 1 trillion unique URLs (and the number of individual
+webpages out there is growing by several billion pages per day).</li>
+</ol>
+</li>
+<li>
+<ol start="7">
+<li>An unprecedented amount of data is being created and isaccessible</li>
+</ol>
+</li>
+<li>
+<ol start="8">
+<li>Data Growth 1,0001000 750 500 500 250 250 120 55 4 10 24 1 0 2000
+2001 2002 2003 2004 2005 2006 2007 2008 Millions of URLs</li>
+</ol>
+</li>
+<li>
+<ol start="9">
+<li>Truly Exponential Growth Is hard for people to grasp A BBC
+reporter recently: “Your current PCis more powerful than the
+computer they had on board the ﬁrst ﬂight to the moon”.</li>
+</ol>
+</li>
+<li>
+<ol start="10">
+<li>Moore’s Law Applies to more than just CPUs Boiled down it is
+that things double at regular intervals. It’s exponential growth..
+and applies to big data</li>
+</ol>
+</li>
+<li>
+<ol start="11">
+<li>How BIG is it?</li>
+</ol>
+</li>
+<li>
+<ol start="12">
+<li>How BIG is it?2008</li>
+</ol>
+</li>
+<li>
+<ol start="13">
+<li>How BIG is it? 20072008 2005 2006 2003 2004 2001 2002</li>
+</ol>
+</li>
+<li>
+<ol start="14">
+<li>Why all this talk about BIG Data now?</li>
+</ol>
+</li>
+<li>
+<ol start="15">
+<li>In the past few years open source software emerged enabling ‘us’
+to handle BIG Data</li>
+</ol>
+</li>
+<li>
+<ol start="16">
+<li>The Big Data Story</li>
+</ol>
+</li>
+<li>
+<ol start="17">
+<li>Is actually two stories</li>
+</ol>
+</li>
+<li>
+<ol start="18">
+<li>Doers &amp; Tellers talking about different things
+<a href="http://www.slideshare.net/siliconangle/trendconnect-big-data-report-september">http://www.slideshare.net/siliconangle/trendconnect-big-data-report-september</a></li>
+</ol>
+</li>
+<li>
+<ol start="19">
+<li>Tellers</li>
+</ol>
+</li>
+<li>
+<ol start="20">
+<li>Doers</li>
+</ol>
+</li>
+<li>
+<ol start="21">
+<li>Doers talk a lot more about actual solutions</li>
+</ol>
+</li>
+<li>
+<ol start="22">
+<li>They know it’s a two sided story Storage Processing</li>
+</ol>
+</li>
+<li>
+<ol start="23">
+<li>Take aways MongoDB and Hadoop MongoDB for storage &amp; operations
+Hadoop for processing &amp; analytics</li>
+</ol>
+</li>
+<li>
+<ol start="24">
+<li>MongoDB &amp; Data Processing</li>
+</ol>
+</li>
+<li>
+<ol start="25">
+<li>Applications have complex needs. MongoDB ideal operational
+database MongoDB ideal for BIG data. Not a data processing engine,
+but provides processing functionality</li>
+</ol>
+</li>
+<li>
+<ol start="26">
+<li>Many options for Processing Data • Process in MongoDB using Map
+Reduce • Process in MongoDB using Aggregation Framework • Process
+outside MongoDB (using Hadoop)</li>
+</ol>
+</li>
+<li>
+<ol start="27">
+<li>MongoDB Map Reduce Map() MongoDB Data Group(k) emit(k,v) map
+iterates on documents Document is $this Sort(k) 1 at time per shard
+Reduce(k,values) k,v Finalize(k,v) Input matches output k,v Can run
+multiple times</li>
+</ol>
+</li>
+<li>
+<ol start="28">
+<li>MongoDB Map Reduce MongoDB map reduce quite capable… but with
+limits- Javascript not best language for processing map reduce-
+Javascript limited in external data processing libraries- Adds load
+to data store</li>
+</ol>
+</li>
+<li>
+<ol start="29">
+<li>MongoDB Aggregation Most uses of MongoDB Map Reduce were for
+aggregationAggregation Framework optimized for aggregate
+queriesRealtime aggregation similar to SQL GroupBy</li>
+</ol>
+</li>
+<li>
+<ol start="30">
+<li>MongoDB &amp; Hadoop same as Mongos Many map operationsMongoDB shard
+chunks (64mb) 1 at time per input split Creates a list each split
+Map (k1,1v1,1ctx) Runs on same of Input Splits Map (k ,1v ,1ctx)
+thread as map each split Map (k , v , ctx)single server orsharded
+cluster (InputFormat) each split ctx.write(k2,v2)2 ctx.write(k2,v )2
+Combiner(k2,values2)2 RecordReader ctx.write(k2,v )
+Combiner(k2,values )2 Combiner(k2,values ) k2, 2v3 3 k , 2v 3 k ,v
+Partitioner(k2)2 Partitioner(k )2 Partitioner(k ) Sort(keys2)
+Sort(k2)2 Sort(k )MongoDB Reducer threads Reduce(k2,values3) Output
+Format Runs once per key kf,vf</li>
+</ol>
+</li>
+<li>
+<ol start="31">
+<li>DEMOTIME</li>
+</ol>
+</li>
+<li>
+<ol start="32">
+<li>DEMO Install Hadoop MongoDB Plugin Import tweets from twitter
+Write mapper in Python using Hadoop streamingWrite reducer in Python
+using Hadoop streaming Call myself a data scientist</li>
+</ol>
+</li>
+<li>
+<ol start="33">
+<li>Installing Mongo-hadoop
+<a href="https://gist.github.com/1887726hadoop">https://gist.github.com/1887726hadoop</a>_version 0.23
+hadoop_path=”/usr/local/Cellar/hadoop/$hadoop_version.0/libexec/lib”git
+clone git://github.com/mongodb/mongo-hadoop.gitcd mongo-hadoopsed -i
+“s/default/$hadoop_version/g” build.sbtcd streaming./build.sh</li>
+</ol>
+</li>
+<li>
+<ol start="34">
+<li>Groking Twitter curl
+<a href="https://stream.twitter.com/1/statuses/sample.json">https://stream.twitter.com/1/statuses/sample.json</a>
+-u&lt;login&gt;:&lt;password&gt; | mongoimport -d test -c live … let it run
+for about 2 hours</li>
+</ol>
+</li>
+<li>
+<ol start="35">
+<li>DEMO 1</li>
+</ol>
+</li>
+<li>
+<ol start="36">
+<li>Map Hashtags in Python#!/usr/bin/env pythonimport
+syssys.path.append(“.”)from pymongo_hadoop import BSONMapperdef
+mapper(documents): for doc in documents: for hashtag in
+doc[entities][hashtags]: yield {_id: hashtag[text], count:
+1}BSONMapper(mapper)print &gt;&gt; sys.stderr, “Done Mapping.”</li>
+</ol>
+</li>
+<li>
+<ol start="37">
+<li>Reduce hashtags in Python#!/usr/bin/env pythonimport
+syssys.path.append(“.”)from pymongo_hadoop import BSONReducerdef
+reducer(key, values): print &gt;&gt; sys.stderr, “Hashtag %s” %
+key.encode(utf8) _count = 0 for v in values: _count += v[count]
+return {_id: key.encode(utf8), count: _count}BSONReducer(reducer)</li>
+</ol>
+</li>
+<li>
+<ol start="38">
+<li>All together hadoop jar
+target/mongo-hadoop-streaming-assembly-1.0.0-rc0.jar -mapper
+examples/twitter/twit_hashtag_map.py -reducer
+examples/twitter/twit_hashtag_reduce.py -inputURI
+mongodb://127.0.0.1/test.live -outputURI
+mongodb://127.0.0.1/test.twit_reduction -file
+examples/twitter/twit_hashtag_map.py -file
+examples/twitter/twit_hashtag_reduce.py</li>
+</ol>
+</li>
+<li>
+<ol start="39">
+<li>Popular Hash Tags db.twit_hashtags.find().sort( {count : -1 }){
+“_id” : “YouKnowYoureInLoveIf”, “count” : 287 }{ “_id” :
+“teamfollowback”, “count” : 200 }{ “_id” : “RT”, “count” : 150 }{
+“_id” : “Arsenal”, “count” : 148 }{ “_id” : “milars”, “count” :
+145 }{ “_id” : “sanremo”, “count” : 145 }{ “_id” :
+“LoseMyNumberIf”, “count” : 139 }{ “_id” : “RelationshipsShould”,
+“count” : 137 }{ “_id” : “Bahrain”, “count” : 129 }{ “_id” :
+“bahrain”, “count” : 125 }{ “_id” : “oomf”, “count” : 117 }{ “_id”
+: “BabyKillerOcalan”, “count” : 106 }{ “_id” : “TeamFollowBack”,
+“count” : 105 }{ “_id” : “WhyDoPeopleThink”, “count” : 102 }{
+“_id” : “np”, “count” : 100 }</li>
+</ol>
+</li>
+<li>
+<ol start="40">
+<li>DEMO 2</li>
+</ol>
+</li>
+<li>
+<ol start="41">
+<li>Aggregation in Mongo 2.1 db.live.aggregate( { $unwind :
+“$entities.hashtags” } , { $match : { “entities.hashtags.text” : {
+$exists : true } } } , { $group : { _id :
+“$entities.hashtags.text”, count : { $sum : 1 } } } , { $sort : {
+count : -1 } }, { $limit : 10 })</li>
+</ol>
+</li>
+<li>
+<ol start="42">
+<li>Popular Hash Tags db.twit_hashtags.aggregate(a){ “result” : [ {
+&ldquo;_id&rdquo; : &ldquo;YouKnowYoureInLoveIf&rdquo;, &ldquo;count&rdquo; : 287 }, { &ldquo;_id&rdquo; :
+&ldquo;teamfollowback&rdquo;, &ldquo;count&rdquo; : 200 }, { &ldquo;_id&rdquo; : &ldquo;RT&rdquo;, &ldquo;count&rdquo; : 150 },
+{ &ldquo;_id&rdquo; : &ldquo;Arsenal&rdquo;, &ldquo;count&rdquo; : 148 }, { &ldquo;_id&rdquo; : &ldquo;milars&rdquo;, &ldquo;count&rdquo;
+: 145 }, { &ldquo;_id&rdquo; : &ldquo;sanremo&rdquo;,&ldquo;count&rdquo; : 145 }, { &ldquo;_id&rdquo; :
+&ldquo;LoseMyNumberIf&rdquo;, &ldquo;count&rdquo; : 139 }, { &ldquo;_id&rdquo; : &ldquo;RelationshipsShould&rdquo;,
+&ldquo;count&rdquo; : 137 }, { &ldquo;_id&rdquo; : &ldquo;Bahrain&rdquo;, &ldquo;count&rdquo; : 129 }, { &ldquo;_id&rdquo; :
+&ldquo;bahrain&rdquo;, &ldquo;count&rdquo; : 125 } ],”ok” : 1}</li>
+</ol>
+</li>
+<li>
+<ol start="43">
+<li>The Future of humongous data</li>
+</ol>
+</li>
+<li>
+<ol start="44">
+<li>What is BIG? BIG today is normal tomorrow</li>
+</ol>
+</li>
+<li>
+<ol start="45">
+<li>Data Growth 9,00090006750 4,4004500 2,1502250 1,000 500 55 120
+250 1 4 10 24 0 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009
+2010 2011 Millions of URLs</li>
+</ol>
+</li>
+<li>
+<ol start="46">
+<li>Data Growth 9,000 9000 6750 4,4004500 2,1502250 1,000 500 55 120
+250 1 4 10 24 0 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009
+2010 2011 Millions of URLs</li>
+</ol>
+</li>
+<li>
+<ol start="47">
+<li>2012 Generating over 250 Millions of tweets per day</li>
+</ol>
+</li>
+<li>
+<ol start="48">
+<li>MongoDB enables us to scale with the redeﬁnition of BIG. New
+processing tools like Hadoop &amp; Storm are enabling us to process the
+new BIG.</li>
+</ol>
+</li>
+<li>
+<ol start="49">
+<li>Hadoop is our ﬁrst step</li>
+</ol>
+</li>
+<li>
+<ol start="50">
+<li>MongoDB iscommitted to working with best data tools including
+Hadoop, Storm, Disco, Spark &amp; more</li>
+</ol>
+</li>
+<li>
+<ol start="51">
+<li><a href="http://spf13.com">http://spf13.com</a> <a href="http://github.com/spf13">http://github.com/spf13</a> @spf13 Questions?
+download at github.com/mongodb/mongo-hadoop</li>
+</ol>
+</li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Thu Dec 6, 2012 </h4>
+          <h5 id="wc"> 1300 Words </h5>
+          <h5 id="readtime"> Read in about 6 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://localhost:888//topics/MongoDB">MongoDB</a> </li>
+          
+            <li><a href="http://localhost:888//topics/Presentations">Presentations</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://localhost:888//tags/Apache-Hadoop">Apache Hadoop</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/big-data">big data</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/Data-Processing">Data Processing</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/Data-Tools">Data Tools</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/Distributed-Data-Processing">Distributed Data Processing</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/hadoop">hadoop</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/mapreduce">mapreduce</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/mongodb">mongodb</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://localhost:888/post/10gen-driver-days-mongodb-hack-a-thon/"><i class="icon-arrow-left"></i> MongoDB Driver days hackathon round up</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://localhost:888/presentation/the-future-of-data/">The Future of Data <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of 
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team 
+            of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users.
+            </p>
+
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a>, <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source. 
+            He formerly was a director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p> 
+            He is the creator of some of the world's most popular open source applications and libraries including <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">more</a>.
+            </p>
+            
+            <p>
+            Above all of these accomplishments, he is a father of 4. 
+            Outside of technology Steve likes travel, skateboarding, punk rock, and dystopian films.
+            </p>
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="1212">
+<meta itemprop="datePublished" content="2012-12-06">
+<meta itemprop="url" content="http://localhost:888/presentation/mongodb-hadoop-humongous-data-mongosv-2012/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-19 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPO on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/IPO/</link>
+    <description>Recent content in IPO on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jun 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/IPO/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pandora&#39;s IPO ... a sign of the times</title>
+      <link>http://localhost:888/post/pandoras-ipo-a-sign-of-the-times/</link>
+      <pubDate>Thu, 16 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/pandoras-ipo-a-sign-of-the-times/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/pandoraradiohack.jpg&amp;quot; alt=&amp;quot;pandora&amp;quot; /&amp;gt;  Pandora filed their IPO today. By end of day Pandora was worth 3.2 Billion . The amazing thing about stock is it really has no direct correlation to a companies actual performance, but is rather valued based on perception, hype and desire. All very human emotions, not logic. Apparently all the people who purchased Pandora $P stock today hadn’t read Pandora’s filing with the SEC.</description>
+    </item>
+    
+  </channel>
+</rss>

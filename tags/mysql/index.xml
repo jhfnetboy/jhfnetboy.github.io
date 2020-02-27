@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/mysql/</link>
+    <description>Recent content in mysql on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jan 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hybrid MongoDB / SQL Applications</title>
+      <link>http://localhost:888/presentation/hybrid-mongodb-sql-applications/</link>
+      <pubDate>Fri, 06 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/hybrid-mongodb-sql-applications/</guid>
+      <description>MongoDB is often used alongside a relational database such as Oracle or MySQL. It is often unclear when one should use one or the other, or if a combination is really ideal. During this online presentation, we will discuss the ideal use cases for each, and how they can be used in conjunction. We’ll make sure to touch on several real world examples.
+The full recording can be found at 10gen’s site at http://www.</description>
+    </item>
+    
+    <item>
+      <title>Blending Mongo and RDBMS for ecommerce</title>
+      <link>http://localhost:888/presentation/blending-mongo-and-rdbms-for-ecommerce/</link>
+      <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/blending-mongo-and-rdbms-for-ecommerce/</guid>
+      <description>Justin Hileman and I presented at MongoNYC 2011 to a packed house. Our presentation outlines both why someone would want to use MongoDB for ecommerce and how we overcame some of it’s limitations by incorporating mysql into our infrastructure.
+ &amp;lt;img src=&amp;quot;/media/l6zwy.jpg&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;h4&amp;gt;Presenting at MongoNYC 2011&amp;lt;/h4&amp;gt; &amp;lt;/figcaption&amp;gt;  Blending MongoDB and RDBMS for ecommerce
+View more presentations from Steve Francia.</description>
+    </item>
+    
+    <item>
+      <title>Scaling Web Sites (LAMP) : Top Resources</title>
+      <link>http://localhost:888/post/scaling-web-sites-lamp-top-resources-2/</link>
+      <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/scaling-web-sites-lamp-top-resources-2/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/failwhale.png&amp;quot; alt=&amp;quot;Image via Wikipedia&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image via Wikipedia &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Luckily it’s 2009 and there have been a bunch of successful websites that have had to deal with large scalability challenges. Many have been kind enough to share their knowledge with the world. Here is a list of the best books, articles, presentations and practices from the likes of Twitter, Facebook, Flickr and more.
+Books Building Scalable Web Sites Building, scaling, and optimizing the next generation of web applications by Cal Henderson</description>
+    </item>
+    
+    <item>
+      <title>Backup Your Files</title>
+      <link>http://localhost:888/post/backup-your-files/</link>
+      <pubDate>Mon, 29 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/backup-your-files/</guid>
+      <description>One of the worst experiences you can have as a computer operator is to realize you (or something else) just did something and wiped out your files. The purpose of this article is to show you how to automatically backup your files often and automatically. I use this setup to backup my documents every hour (I save more often then that). This gives me hourly versions of all my files I am working on.</description>
+    </item>
+    
+    <item>
+      <title>Backing up MySQL</title>
+      <link>http://localhost:888/post/backing-up-mysql/</link>
+      <pubDate>Fri, 12 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/backing-up-mysql/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/MySQL.png&amp;quot; alt=&amp;quot;Image via Wikipedia&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image via Wikipedia &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  I don’t know very many people that haven’t been devastated by the loss of data… Yet I am baffled that millions of professional IT workers still ignore backing up their data. Since computers are great at doing repetitive things like backups.. why not spend 20 minutes setting up your machine to backup your files for you.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shop on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Shop/</link>
+    <description>Recent content in Shop on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Aug 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Shop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selling on OpenSky</title>
+      <link>http://localhost:888/post/selling-on-opensky/</link>
+      <pubDate>Thu, 26 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/selling-on-opensky/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/opensky_new-logo.png&amp;quot; alt=&amp;quot;OpenSky&amp;quot; /&amp;gt;  As anyone who reads my blog or follows my tweets knows, I’ve been working for a new startup called OpenSky since February 2010. We’ve launched a new ecommerce platform and aim to reinvent ecommerce as people know it online.
+One of the big things we are doing is making it so anyone can sell OpenSky products from anywhere online. In the spirit of eating my own dogfood, I’ve become an OpenSky seller.</description>
+    </item>
+    
+  </channel>
+</rss>

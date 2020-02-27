@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shell script on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Shell-script/</link>
+    <description>Recent content in Shell script on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Jul 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Shell-script/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Easy bash scripting with shflags</title>
+      <link>http://localhost:888/post/easy-bash-scripting-with-shflags/</link>
+      <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/easy-bash-scripting-with-shflags/</guid>
+      <description>One of the most frustrating things about bash scripts is how challenging it is to create unix style executables. You know, the ones where you can pass in -h or –help and see the set of options for the program. Up until now this has been a very manual process in bash, but no longer. Enter the shflags project from Kate Ward where a bash library takes care of all the nasty work and producing an elegant way to add option (or argument) support to your scripts.</description>
+    </item>
+    
+    <item>
+      <title>Backup Your Files</title>
+      <link>http://localhost:888/post/backup-your-files/</link>
+      <pubDate>Mon, 29 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/backup-your-files/</guid>
+      <description>One of the worst experiences you can have as a computer operator is to realize you (or something else) just did something and wiped out your files. The purpose of this article is to show you how to automatically backup your files often and automatically. I use this setup to backup my documents every hour (I save more often then that). This gives me hourly versions of all my files I am working on.</description>
+    </item>
+    
+  </channel>
+</rss>

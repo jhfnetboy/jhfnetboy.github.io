@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linkedin on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/linkedin/</link>
+    <description>Recent content in linkedin on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Oct 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>54% US Companies Ban Social Media... and That&#39;s Fine</title>
+      <link>http://localhost:888/post/54-us-companies-ban-social-media-and-thats-fine/</link>
+      <pubDate>Fri, 16 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/54-us-companies-ban-social-media-and-thats-fine/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/twitter-logo.png&amp;quot; /&amp;gt;  According to a study commissioned by Robert Half Technology, an IT staffing company, 54 percent of U.S. companies say they’ve banned workers from using social networking sites like Twitter, Facebook, LinkedIn and MySpace while at work. Source: 54% of Companies ban Facebook, Twitter…
+We should be shocked that this number isn’t higher. Let’s look at this realistically. For many professions, networking is crucial to success, but in most professions, it is personal networking, not online that is beneficial.</description>
+    </item>
+    
+  </channel>
+</rss>

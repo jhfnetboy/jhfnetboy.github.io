@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="This presentation will give developers an introduction and practical experience of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp; Gopher Steve Francia presents plainly what you need to know about using MongoDB with Go.">
+<meta name="keywords" content="go, development, mongodb, mgo, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="This presentation will give developers an introduction and practical experience of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp; Gopher Steve Francia presents plainly what you need to know about using MongoDB with Go."/>
+<meta property="og:title" content="Using MongoDB with Go and mgo : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://localhost:888/presentation/MongoDB-and-Go/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2014-07-23"/>
+<meta property="article:modified_time" content="2014-07-23"/>
+
+
+
+<meta property="article:tag" content="go">
+<meta property="article:tag" content="development">
+<meta property="article:tag" content="mongodb">
+<meta property="article:tag" content="mgo">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Using MongoDB with Go and mgo : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="This presentation will give developers an introduction and practical experience of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp; Gopher Steve Francia presents plainly what you need to know about using MongoDB with Go.">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://localhost:888/">
+    <title> Using MongoDB with Go and mgo - spf13.com </title>
+    <link rel="canonical" href="http://localhost:888/presentation/MongoDB-and-Go/">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="http://localhost:888/css/ZGS.min.8b403dad8c58a1830355fb210b5ead5e5472e11a4e5d7bfe5ee2931e6a2c54e8.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> articles </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> projects </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> presentations </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="follow">
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="https://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="https://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="https://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="https://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 40k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Using MongoDB with Go and mgo</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>This presentation was given at OSCON 2014.</p>
+<!-- raw HTML omitted -->
+<p>This presentation will give developers an introduction and practical experience
+of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp;
+Gopher Steve Francia presents plainly what you need to know about using MongoDB
+with Go.</p>
+<p>As an emerging language Go is able to start fresh without years of relational database dependencies. Application and library developers are able to build applications using the excellent Mgo MongoDB driver and the reliable go sql package for relational database. Find out why some people claim Go and MongoDB are a “pair made in heaven” and “the best database driver they’ve ever used” in this talk by Gustavo Niemeyer, the author of the mgo driver, and Steve Francia, the drivers team lead at MongoDB Inc.</p>
+<p>We will cover:</p>
+<ul>
+<li>Connecting to MongoDB in various configurations</li>
+<li>Performing basic operations in Mgo</li>
+<li>Marshaling data to and from MongoDB</li>
+<li>Asynchronous &amp; Concurrent operations</li>
+<li>Pre-fetching batches for seamless performance</li>
+<li>Using GridFS</li>
+<li>How MongoDB uses Mgo internally</li>
+</ul>
+<h2 id="presentation-transcript">Presentation Transcript</h2>
+<ol>
+<li>Painless Data Storage with MongoDB &amp; Go</li>
+<li>• Author of Hugo, Cobra, Viper &amp; More • Chief Developer Advocate for MongoDB • Gopher @spf13</li>
+<li>Why Go?</li>
+<li>Why Another Language? • Software is slow • Sofware is hard to write • Software doesn’t scale well</li>
+<li>Go is Fast • Go execution speed is close to C • Go compile time rivals dynamic interpretation</li>
+<li>Go is Friendly • Feels like a dynamic language in many ways • Very small core language, easy to remember all of it • Single binary installation, no dependencies • Extensive Tooling &amp; StdLib</li>
+<li>Go is Concurrent • Concurrency is part of the language • Any function can become a goroutine • Goroutines run concurrently, communicate through channels • Select waits for communication on any of a set of channels</li>
+<li>MongoDB</li>
+<li>Why Another Database? • Databases are slow • Relational structures don’t ﬁt well with modern programming (ORMs) • Databases don’t scale well</li>
+<li>MongoDB is Fast • Written in C++ • Extensive use of memory-mapped ﬁles   i.e. read-through write-through memory caching. • Runs nearly everywhere • Data serialized as BSON (fast parsing) • Full support for primary &amp; secondary indexes • Document model = less work</li>
+<li>MongoDB is Friendly • Ad Hoc queries • Real time aggregation • Rich query capabilities • Traditionally consistent • Geospatial features • Support for most programming languages • Flexible schema</li>
+<li>MongoDB is “Web Scale” • Built in sharding support distributes data across many nodes • MongoS intelligently routes to the correct nodes • Aggregation done in parallel across nodes</li>
+<li>Document Database • Not for .PDF &amp; .DOC ﬁles • A document is essentially an associative array • Document == JSON object • Document == PHP Array • Document == Python Dict • Document == Ruby Hash • etc</li>
+<li>Data Serialization • Applications need persistant data • The process of translating data structures into a format that can be stored • Ideal format accessible from many languages</li>
+<li>BSON • Inspired by JSON • Cross language binary serialization format • Optimized for scanning • Support for richer types</li>
+<li>MongoDB &amp; Go</li>
+<li>Go’s Data Types • Go uses strict &amp; static typing • 2 Types are similar to a BSON document • Struct • Map</li>
+<li>bob := &amp;Person{ Name: &ldquo;Bob&rdquo;, Birthday: time.Now(), } ! data, err := bson.Marshal(bob) if err != nil { return err } fmt.Printf(&ldquo;Data: %qn&rdquo;, data)  ! var person Person err = bson.Unmarshal(data, &amp;person) if err != nil { return err } fmt.Printf(&ldquo;Person: %vn&rdquo;, person) Serializing with BSON</li>
+<li>bob := &amp;Person{ Name: &ldquo;Bob&rdquo;, Birthday: time.Now(), } ! data, err := bson.Marshal(bob) if err != nil { return err } fmt.Printf(&ldquo;Data: %qn&rdquo;, data)  ! var person Person err = bson.Unmarshal(data, &amp;person) if err != nil { return err } fmt.Printf(&ldquo;Person: %vn&rdquo;, person) Serializing with BSON</li>
+<li>bob := &amp;Person{ Name: &ldquo;Bob&rdquo;, Birthday: time.Now(), } ! data, err := bson.Marshal(bob) if err != nil { return err } fmt.Printf(&ldquo;Data: %qn&rdquo;, data)  ! var person Person err = bson.Unmarshal(data, &amp;person) if err != nil { return err } fmt.Printf(&ldquo;Person: %vn&rdquo;, person) Serializing with BSON</li>
+<li>bob := &amp;Person{ Name: &ldquo;Bob&rdquo;, Birthday: time.Now(), } ! data, err := bson.Marshal(bob) if err != nil { return err } fmt.Printf(&ldquo;Data: %qn&rdquo;, data)  ! var person Person err = bson.Unmarshal(data, &amp;person) if err != nil { return err } fmt.Printf(&ldquo;Person: %vn&rdquo;, person) Serializing with BSON</li>
+<li>bob := &amp;Person{ Name: &ldquo;Bob&rdquo;, Birthday: time.Now(), } ! data, err := bson.Marshal(bob) if err != nil { return err } fmt.Printf(&ldquo;Data: %qn&rdquo;, data)  ! var person Person err = bson.Unmarshal(data, &amp;person) if err != nil { return err } fmt.Printf(&ldquo;Person: %vn&rdquo;, person) Serializing with BSON</li>
+<li>bob := &amp;Person{ Name: &ldquo;Bob&rdquo;, Birthday: time.Now(), } ! data, err := bson.Marshal(bob) if err != nil { return err } fmt.Printf(&ldquo;Data: %qn&rdquo;, data)  ! var person Person err = bson.Unmarshal(data, &amp;person) if err != nil { return err } fmt.Printf(&ldquo;Person: %vn&rdquo;, person) Serializing with BSON Data: &ldquo;%x00x00x00x02name x00x04x00x00x00Bob x00tbirthdayx00x80rx97| ^x00x00x00x00&rdquo;  ! Person: {Bob 2014-07-21 18:00:00 -0500 EST}</li>
+<li>! type Project struct { Name string <code>bson:&quot;name&quot;</code> ImportPath string <code>bson:&quot;importPath&quot;</code> } project := Project{name, path} ! ! ! project := map[string]string{&ldquo;name&rdquo;: name, &ldquo;importPath&rdquo;: path} ! ! ! project := bson.D{{&ldquo;name&rdquo;, name}, {&ldquo;importPath&rdquo;, path}} Equal After Marshaling Struct Custom Map Document Slice</li>
+<li>mgo (mango) • Pure Go • Created in late 2010   (&ldquo;Where do I put my Go data?&quot;) • Adopted by Canonical and MongoDB Inc. itself • Sponsored by MongoDB Inc. from late 2011</li>
+<li>Connecting</li>
+<li>• Same interface for server, replica set, or shard • Driver discovers and maintains topology • Server added/removed, failovers, response times, etc Connecting session, err := mgo.Dial(&ldquo;localhost&rdquo;) if err != nil { return err }</li>
+<li>• Sessions are lightweight • Sessions are copied (settings preserved) • Single management goroutine for all copied sessions Sessions func (s *Server) handle(w http.ResponseWriter, r *http.Request) { session := s.session.Copy() defer session.Close() // &hellip; handle request &hellip; }</li>
+<li>• Saves typing • Uses the same session over and over Convenient Access projects := session.DB(&ldquo;OSCON&rdquo;).C(&ldquo;projects&rdquo;)</li>
+<li>Writing</li>
+<li>type Project struct { Name string <code>bson:&quot;name,omitempty&quot;</code> ImportPath string <code>bson:&quot;importPath,omitempty&quot;</code> } Deﬁning Our Own Type</li>
+<li>var projectList = []Project{ {&ldquo;gocheck&rdquo;, &ldquo;gopkg.in/check.v1&rdquo;}, {&ldquo;qml&rdquo;, &ldquo;gopkg.in/qml.v0&rdquo;}, {&ldquo;pipe&rdquo;, &ldquo;gopkg.in/pipe.v2&rdquo;}, {&ldquo;yaml&rdquo;, &ldquo;gopkg.in/yaml.v1&rdquo;}, } ! for _, project := range projectList { err := projects.Insert(project) if err != nil { return err } } fmt.Println(&ldquo;Okay!&quot;) Insert Okay!</li>
+<li>type M map[string]interface{} ! change := M{&ldquo;$set&rdquo;: Project{ImportPath: &ldquo;gopkg.in/ qml.v1&rdquo;}} ! err = projects.Update(Project{Name: &ldquo;qml&rdquo;}, change) if err != nil { return err } ! fmt.Println(&ldquo;Done!&quot;) Update Done!</li>
+<li>Querying</li>
+<li>var project Project ! err = projects.Find(Project{Name: &ldquo;qml&rdquo;}).One(&amp;project) if err != nil { return err } ! fmt.Printf(&ldquo;Project: %vn&rdquo;, project) Find Project:   {qml gopkg.in/qml.v0}</li>
+<li>iter := projects.Find(nil).Iter() ! var project Project for iter.Next(&amp;project) { fmt.Printf(&ldquo;Project: %vn&rdquo;, project) } ! return iter.Err() Iterate Project: {gocheck gopkg.in/check.v1} Project: {qml gopkg.in/qml.v0} Project: {pipe gopkg.in/pipe.v2} Project: {yaml gopkg.in/yaml.v1}</li>
+<li>m := map[string]interface{}{ &ldquo;name&rdquo;: &ldquo;godep&rdquo;, &ldquo;tags&rdquo;: []string{&ldquo;tool&rdquo;, &ldquo;dependency&rdquo;}, &ldquo;contact&rdquo;: bson.M{ &ldquo;name&rdquo;: &ldquo;Keith Rarick&rdquo;, &ldquo;email&rdquo;: &ldquo;<a href="mailto:kr@nospam.com">kr@nospam.com</a>&rdquo;, }, } ! err = projects.Insert(m) if err != nil { return err } fmt.Println(&ldquo;Okay!&quot;) Nesting Okay!</li>
+<li>type Contact struct { Name string Email string } ! type Project struct { Name string Tags []string <code>bson:&quot;,omitempty&quot;</code> Contact Contact <code>bson:&quot;,omitempty&quot;</code> } ! err = projects.Find(Project{Name: &ldquo;godep&rdquo;}).One(&amp;project) if err != nil { return err } ! pretty.Println(&ldquo;Project:&quot;, project) Nesting II Project: main.Project{ Name: &ldquo;godep&rdquo;, Tags: {&ldquo;tool&rdquo;, &ldquo;dependency&rdquo;}, Contact: {Name:&ldquo;Keith Rarick&rdquo;, Email:&ldquo;<a href="mailto:kr@XZY.com">kr@XZY.com</a>&rdquo;}, }</li>
+<li>• Compound • List indexing (think tag lists) • Geospatial • Dense or sparse • Full-text searching Indexing // Root field err = projects.EnsureIndexKey(&ldquo;name&rdquo;) &hellip; ! // Nested field err = projects.EnsureIndexKey(&ldquo;author.email&rdquo;) &hellip;</li>
+<li>Concurrency</li>
+<li>func f(projects *mgo.Collection, name string, done chan error) { var project Project err := projects.Find(Project{Name: name}).One(&amp;project) if err == nil { fmt.Printf(&ldquo;Project: %vn&rdquo;, project) } done &lt;- err } ! done := make(chan error) ! go f(projects, &ldquo;qml&rdquo;, done) go f(projects, &ldquo;gocheck&rdquo;, done) ! if err = firstError(2, done); err != nil { return err } Concurrent</li>
+<li>func f(projects *mgo.Collection, name string, done chan error) { var project Project err := projects.Find(Project{Name: name}).One(&amp;project) if err == nil { fmt.Printf(&ldquo;Project: %vn&rdquo;, project) } done &lt;- err } ! done := make(chan error) ! go f(projects, &ldquo;qml&rdquo;, done) go f(projects, &ldquo;gocheck&rdquo;, done) ! if err = firstError(2, done); err != nil { return err } Concurrent</li>
+<li>func f(projects *mgo.Collection, name string, done chan error) { var project Project err := projects.Find(Project{Name: name}).One(&amp;project) if err == nil { fmt.Printf(&ldquo;Project: %vn&rdquo;, project) } done &lt;- err } ! done := make(chan error) ! go f(projects, &ldquo;qml&rdquo;, done) go f(projects, &ldquo;gocheck&rdquo;, done) ! if err = firstError(2, done); err != nil { return err } Concurrent</li>
+<li>func f(projects *mgo.Collection, name string, done chan error) { var project Project err := projects.Find(Project{Name: name}).One(&amp;project) if err == nil { fmt.Printf(&ldquo;Project: %vn&rdquo;, project) } done &lt;- err } ! done := make(chan error) ! go f(projects, &ldquo;qml&rdquo;, done) go f(projects, &ldquo;gocheck&rdquo;, done) ! if err = firstError(2, done); err != nil { return err } Concurrent</li>
+<li>func f(projects *mgo.Collection, name string, done chan error) { var project Project err := projects.Find(Project{Name: name}).One(&amp;project) if err == nil { fmt.Printf(&ldquo;Project: %vn&rdquo;, project) } done &lt;- err } ! done := make(chan error) ! go f(projects, &ldquo;qml&rdquo;, done) go f(projects, &ldquo;gocheck&rdquo;, done) ! if err = firstError(2, done); err != nil { return err } Concurrent</li>
+<li>func f(projects *mgo.Collection, name string, done chan error) { var project Project err := projects.Find(Project{Name: name}).One(&amp;project) if err == nil { fmt.Printf(&ldquo;Project: %vn&rdquo;, project) } done &lt;- err } ! done := make(chan error) ! go f(projects, &ldquo;qml&rdquo;, done) go f(projects, &ldquo;gocheck&rdquo;, done) ! if err = firstError(2, done); err != nil { return err } Concurrent</li>
+<li>func f(projects *mgo.Collection, name string, done chan error) { var project Project err := projects.Find(Project{Name: name}).One(&amp;project) if err == nil { fmt.Printf(&ldquo;Project: %vn&rdquo;, project) } done &lt;- err } ! done := make(chan error) ! go f(projects, &ldquo;qml&rdquo;, done) go f(projects, &ldquo;gocheck&rdquo;, done) ! if err = firstError(2, done); err != nil { return err } Concurrent</li>
+<li>func f(projects *mgo.Collection, name string, done chan error) { var project Project err := projects.Find(Project{Name: name}).One(&amp;project) if err == nil { fmt.Printf(&ldquo;Project: %vn&rdquo;, project) } done &lt;- err } ! done := make(chan error) ! go f(projects, &ldquo;qml&rdquo;, done) go f(projects, &ldquo;gocheck&rdquo;, done) ! if err = firstError(2, done); err != nil { return err } Concurrent Project: {qml gopkg.in/qml.v1} Project: {gocheck gopkg.in/ check.v1}</li>
+<li>• Find 1 issued  • Doc 1 returned • Find 2 issued  • Doc 2 returned A Common Approach Find 1 Find 2 DB } }</li>
+<li>• Find 1 issued • Find 2 issued  • Doc 1 returned • Doc 2 returned Concurrent Queries Find 1 Find 2 DB } }</li>
+<li>• Loads 200 results at a time • Loads next batch with (0.25 * 200) results left to process Concurrent Loading session.SetBatch(200) session.SetPrefetch(0.25) ! for iter.Next(&amp;result) { &hellip; }</li>
+<li>• Each Copy uses a different connection • Closing session returns socket to the pool • defer runs at end of function Handler With Session Copy func (s *Server) handle(w http.ResponseWriter, r *http.Request) { session := s.session.Copy() defer session.Close() ! // &hellip; handle request &hellip; }</li>
+<li>• Shares a single connection • Still quite efﬁcient thanks to concurrent capabilities of go + mgo Handler With Single Session func (s *Server) handle(w http.ResponseWriter, r *http.Request) { session := s.session ! // &hellip; handle request &hellip; }</li>
+<li>GridFS</li>
+<li>GridFS • Not quite a ﬁle system • Really useful for local ﬁle storage • A convention, not a feature • Supported by all drivers • Fully replicated, sharded ﬁle storage</li>
+<li>gridfs := session.DB(&ldquo;OSCON&rdquo;).GridFS(&ldquo;fs&rdquo;) ! file, err := gridfs.Create(&ldquo;cd.iso&rdquo;) if err != nil { return err } defer file.Close() ! started := time.Now() ! _, err = io.Copy(file, iso) if err != nil { return err } ! fmt.Printf(&ldquo;Wrote %d bytes in %sn&rdquo;, file.Size(), time.Since(started)) GridFS</li>
+<li>gridfs := session.DB(&ldquo;OSCON&rdquo;).GridFS(&ldquo;fs&rdquo;) ! file, err := gridfs.Create(&ldquo;cd.iso&rdquo;) if err != nil { return err } defer file.Close() ! started := time.Now() ! _, err = io.Copy(file, iso) if err != nil { return err } ! fmt.Printf(&ldquo;Wrote %d bytes in %sn&rdquo;, file.Size(), time.Since(started)) GridFS</li>
+<li>gridfs := session.DB(&ldquo;OSCON&rdquo;).GridFS(&ldquo;fs&rdquo;) ! file, err := gridfs.Create(&ldquo;cd.iso&rdquo;) if err != nil { return err } defer file.Close() ! started := time.Now() ! _, err = io.Copy(file, iso) if err != nil { return err } ! fmt.Printf(&ldquo;Wrote %d bytes in %sn&rdquo;, file.Size(), time.Since(started)) GridFS</li>
+<li>gridfs := session.DB(&ldquo;OSCON&rdquo;).GridFS(&ldquo;fs&rdquo;) ! file, err := gridfs.Create(&ldquo;cd.iso&rdquo;) if err != nil { return err } defer file.Close() ! started := time.Now() ! _, err = io.Copy(file, iso) if err != nil { return err } ! fmt.Printf(&ldquo;Wrote %d bytes in %sn&rdquo;, file.Size(), time.Since(started)) GridFS</li>
+<li>gridfs := session.DB(&ldquo;OSCON&rdquo;).GridFS(&ldquo;fs&rdquo;) ! file, err := gridfs.Create(&ldquo;cd.iso&rdquo;) if err != nil { return err } defer file.Close() ! started := time.Now() ! _, err = io.Copy(file, iso) if err != nil { return err } ! fmt.Printf(&ldquo;Wrote %d bytes in %sn&rdquo;, file.Size(), time.Since(started)) GridFS</li>
+<li>gridfs := session.DB(&ldquo;OSCON&rdquo;).GridFS(&ldquo;fs&rdquo;) ! file, err := gridfs.Create(&ldquo;cd.iso&rdquo;) if err != nil { return err } defer file.Close() ! started := time.Now() ! _, err = io.Copy(file, iso) if err != nil { return err } ! fmt.Printf(&ldquo;Wrote %d bytes in %sn&rdquo;, file.Size(), time.Since(started)) GridFS</li>
+<li>gridfs := session.DB(&ldquo;OSCON&rdquo;).GridFS(&ldquo;fs&rdquo;) ! file, err := gridfs.Create(&ldquo;cd.iso&rdquo;) if err != nil { return err } defer file.Close() ! started := time.Now() ! _, err = io.Copy(file, iso) if err != nil { return err } ! fmt.Printf(&ldquo;Wrote %d bytes in %sn&rdquo;, file.Size(), time.Since(started)) GridFS ! Wrote 470386961 bytes in 7.0s</li>
+<li>Full Featured</li>
+<li>Features • Transactions (mgo/txn experiment) • Aggregation pipelines • Full-text search • Geospatial support • Hadoop</li>
+<li>In Conclusion</li>
+<li>Getting Started • 1. Install MongoDB • 2. go get gopkg.in/mgo.v2 • 3. Start small • 4. Build something great</li>
+<li>Learning More • MongoDB Manual • Effective Go • labix.org/mgo</li>
+<li>Workshop Using mgo on spf13.com</li>
+<li>on spf13.com</li>
+<li>• @spf13 • Author of Hugo, Cobra, Viper &amp; More • Chief Developer Advocate for MongoDB • Gopher Thank You</li>
+</ol>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Wed Jul 23, 2014 </h4>
+          <h5 id="wc"> 2400 Words </h5>
+          <h5 id="readtime"> Read in about 11 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://localhost:888//topics/Development">Development</a> </li>
+          
+            <li><a href="http://localhost:888//topics/golang">golang</a> </li>
+          
+            <li><a href="http://localhost:888//topics/mongodb">mongodb</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://localhost:888//tags/go">go</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/development">development</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/mongodb">mongodb</a> </li>
+          
+            <li> <a href="http://localhost:888//tags/mgo">mgo</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://localhost:888/presentation/first-go-app/"><i class="icon-arrow-left"></i> Getting Started with Go</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://localhost:888/presentation/go-for-object-oriented-programmers/">Go for Object Oriented Programmers <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of 
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team 
+            of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users.
+            </p>
+
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a>, <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source. 
+            He formerly was a director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p> 
+            He is the creator of some of the world's most popular open source applications and libraries including <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">more</a>.
+            </p>
+            
+            <p>
+            Above all of these accomplishments, he is a father of 4. 
+            Outside of technology Steve likes travel, skateboarding, punk rock, and dystopian films.
+            </p>
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="2302">
+<meta itemprop="datePublished" content="2014-07-23">
+<meta itemprop="url" content="http://localhost:888/presentation/MongoDB-and-Go/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-19 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>product management on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/product-management/</link>
+    <description>Recent content in product management on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Product Management for Everyone</title>
+      <link>http://localhost:888/presentation/product-management-for-everyone/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/product-management-for-everyone/</guid>
+      <description>&lt;p&gt;An interactive workshop developed for and given at &lt;a href=&#34;https://landingfestival.com/&#34;&gt;the Landing Festival&lt;/a&gt; in Berlin 2019.&lt;/p&gt;
+&lt;p&gt;This workshop covers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What a product manager does&lt;/li&gt;
+&lt;li&gt;How to become a product manager&lt;/li&gt;
+&lt;li&gt;Practice thinking like a product manager&lt;/li&gt;
+&lt;li&gt;Building product manager skills&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

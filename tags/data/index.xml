@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/data/</link>
+    <description>Recent content in data on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Apr 2014 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Painless Datastorage With Mongodb and Go – Gophercon 2014</title>
+      <link>http://localhost:888/presentation/painless-datastorage-with-mongodb-and-go/</link>
+      <pubDate>Fri, 25 Apr 2014 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/painless-datastorage-with-mongodb-and-go/</guid>
+      <description>&lt;p&gt;Find out why some people claim Go and MongoDB are a &amp;ldquo;pair made in heaven&amp;rdquo; and &amp;ldquo;the best database driver they&amp;rsquo;ve ever used&amp;rdquo; in this talk by Gustavo Niemeyer, the author of the mgo driver, and Steve Francia, the drivers team lead at MongoDB Inc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Future of Data</title>
+      <link>http://localhost:888/presentation/the-future-of-data/</link>
+      <pubDate>Wed, 27 Mar 2013 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:888/presentation/the-future-of-data/</guid>
+      <description>&lt;p&gt;A presentation given as part of &lt;a href=&#34;https://firstround.com/&#34;&gt;First Round Capital&amp;rsquo;s&lt;/a&gt; Hack+Startup conference.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Not Just Hadoop: NoSQL in the Enterprise at Strata NYC 2012</title>
+      <link>http://localhost:888/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
+      <description>At the NYC Strata &amp;amp; Hadoop World conference I presented on ‘Not Just Hadoop: NoSQL in the Enterprise’. Robert Lancaster from Orbitz joined me on stage for the final presentation of the Bridge to Big Data track. Mark Madsen did a great job moderating the session and kept the energy high the entire day. Robert shared how Orbitz uses MongoDB with Apache Hadoop to provide real time rates. This is my second time presenting at Strata’s Big Data conference.</description>
+    </item>
+    
+    <item>
+      <title>Giving the most viewed presentation on slideshare ever at OSCON</title>
+      <link>http://localhost:888/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/oscon_spf13.jpg&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;h4&amp;gt;Steve Francia at OSCON&amp;lt;/h4&amp;gt; &amp;lt;/figcaption&amp;gt;  At OSCON 2012 in Portland I gave a presentation on building your first MongoDB application. Over 150 people were in the audience, a pretty significant number of this type of hands on tutorial. Certainly worth the weeks of preparation that went into developing it. While at OSCON I put the slides online at SlideShare where during the four day conference the amassed over 20k views and within a couple weeks over 30k views.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB, Hadoop and Humongous Data</title>
+      <link>http://localhost:888/presentation/mongodb-hadoop-and-humongous-data/</link>
+      <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/presentation/mongodb-hadoop-and-humongous-data/</guid>
+      <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using Hadoop’s MapReduce and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With support for Hadoop streaming support goes beyond the native Java enabling map reduce to be run in languages like Python and Ruby.
+MongoDB, Hadoop and Humongous Data
+View more presentations from Steve Francia</description>
+    </item>
+    
+    <item>
+      <title>Backup, Replication and Disaster Recovery</title>
+      <link>http://localhost:888/post/backups-replication-and-disaster-recovery/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/backups-replication-and-disaster-recovery/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/disaster_day_of_crisis.jpg&amp;quot; alt=&amp;quot;crisis&amp;quot; /&amp;gt;  One of the most common concerns people have is how to ensure that their application is safe, secure and available in the event of an emergency. Often I have found that people are mistakenly believe that they are protected when in fact they often have ignored potential scenarios.
+The principles explained apply equally well in RDBMSs, MongoDB and other databases.
+Potential scenarios to protect against   Drive failure   Machine failure   Switch failure   Power circuit failure   Data center failure   Intrusion   Fat fingers   Programmer error   Raid To prevent drive failure use multiple drives in a single machine for high availability.</description>
+    </item>
+    
+  </channel>
+</rss>

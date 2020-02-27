@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>productivity on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/productivity/</link>
+    <description>Recent content in productivity on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jan 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The most productive 20 minutes of my day</title>
+      <link>http://localhost:888/post/the-most-productive-20-minutes-of-my-day/</link>
+      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/the-most-productive-20-minutes-of-my-day/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/3832960068_1f7a654ee9_b.jpg&amp;quot; alt=&amp;quot;NYC&amp;quot; /&amp;gt;  As part of my new years resolution to get in shape and spend less dough I decided that I’d be better of walking from Grand Central to my office on 18th St. I save ~$5 a day not taking the subway and get all the extra benefit of walking the 1.5 miles.
+A few days into this something wonderful and unexpected happened. Instead of spending 20 minutes riding in a cattle car, I was able to take 25 minutes where I was able to think about everything I had to do for the day.</description>
+    </item>
+    
+  </channel>
+</rss>

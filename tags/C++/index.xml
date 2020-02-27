@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/C&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/C++/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pointers vs References</title>
+      <link>http://localhost:888/post/go-pointers-vs-references/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/go-pointers-vs-references/</guid>
+      <description>Some languages including C, C++ support pointers. Other languages including C++, Java, Python, Ruby, Perl and PHP all support references. On the surface both references and pointers are very similar, both are used to have one variable provide access to another. With both providing a lot of the same capabilities, it’s often unclear what is different between these different mechanisms. In this article I will illustrate the difference between pointers and references.</description>
+    </item>
+    
+  </channel>
+</rss>

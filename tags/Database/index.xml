@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Database/</link>
+    <description>Recent content in Database on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 May 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Database/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Backup, Replication and Disaster Recovery</title>
+      <link>http://localhost:888/post/backups-replication-and-disaster-recovery/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/backups-replication-and-disaster-recovery/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/disaster_day_of_crisis.jpg&amp;quot; alt=&amp;quot;crisis&amp;quot; /&amp;gt;  One of the most common concerns people have is how to ensure that their application is safe, secure and available in the event of an emergency. Often I have found that people are mistakenly believe that they are protected when in fact they often have ignored potential scenarios.
+The principles explained apply equally well in RDBMSs, MongoDB and other databases.
+Potential scenarios to protect against   Drive failure   Machine failure   Switch failure   Power circuit failure   Data center failure   Intrusion   Fat fingers   Programmer error   Raid To prevent drive failure use multiple drives in a single machine for high availability.</description>
+    </item>
+    
+    <item>
+      <title>Where have all the good databases gone?</title>
+      <link>http://localhost:888/post/where-have-all-the-good-databases-gone/</link>
+      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/where-have-all-the-good-databases-gone/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/mongodb-sq.png&amp;quot; alt=&amp;quot;mongodb&amp;quot; /&amp;gt;  Perhaps you’ll recognize these words, “About five years ago I started to notice an odd thing. The products that the database vendors were building had less and less to do with what the customers wanted. … So, what is this growing disconnect?” Those words were written in 2004 by Adam Bosworth, a veteren of Microsoft, Google and BEA. In the 7 years since things have only gotten worse.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Framework on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/Framework/</link>
+    <description>Recent content in Framework on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Feb 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/Framework/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Symfony2</title>
+      <link>http://localhost:888/post/symfony2/</link>
+      <pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/symfony2/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/symfony_ss.png&amp;quot; alt=&amp;quot;symfony&amp;quot; /&amp;gt;  Disclaimer I’ve got a couple disclaimers in writing this. 1. I’m one of the primary authors of the Zoop Framework for PHP. It’s pretty much the first web framework for PHP dating back to 2001. In spite of it’s age it’s still quite relevant and in use by thousands worldwide. 2. I run engineering for OpenSky where we elected to build our ecommerce platform on the Symfony2 framework and have since become the 2nd largest contributors to it.</description>
+    </item>
+    
+  </channel>
+</rss>

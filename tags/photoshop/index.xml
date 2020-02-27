@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>photoshop on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/photoshop/</link>
+    <description>Recent content in photoshop on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Aug 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/photoshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add PhotoshopCS5 support to Picasa</title>
+      <link>http://localhost:888/post/adding-photoshopcs5-support-to-picasa/</link>
+      <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/adding-photoshopcs5-support-to-picasa/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/photoshop_in_picasa.png&amp;quot; alt=&amp;quot;picasa&amp;quot; /&amp;gt;  If you are like me you use Picasa to manage your photos, but recognize that the editing options are very limited. You can easily add a button in Picasa that will allow you to edit the current picture in photoshop.
+I took an existing button built for PhotoshopCS3 and updated it to work with this more contemporary version. It’s limited to working only on Windows.</description>
+    </item>
+    
+  </channel>
+</rss>

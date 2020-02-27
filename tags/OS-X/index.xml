@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OS X on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/OS-X/</link>
+    <description>Recent content in OS X on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Aug 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/OS-X/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Managing Multiple Firefox Profiles in OS X</title>
+      <link>http://localhost:888/post/managing-multiple-firefox-profiles-in-os-x/</link>
+      <pubDate>Wed, 27 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/managing-multiple-firefox-profiles-in-os-x/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/Firefox_3.5_logo.png&amp;quot; alt=&amp;quot;Image via Wikipedia&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Image via Wikipedia &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  One of the great features of Firefox is the ability to manage multiple profiles. This is a very handy feature with many different uses. Unfortunately, it isn’t easy to do on a mac. I will show you how to setup multiple profiles on a mac that appear and run like normal mac applications so you can click on them and run them from quicksilver.</description>
+    </item>
+    
+  </channel>
+</rss>

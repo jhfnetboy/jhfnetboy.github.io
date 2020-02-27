@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>follow friday on Sometimes we write something:)</title>
+    <link>http://localhost:888/tags/follow-friday/</link>
+    <description>Recent content in follow friday on Sometimes we write something:)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Dec 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:888/tags/follow-friday/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Better Follow Friday</title>
+      <link>http://localhost:888/post/a-better-follow-friday/</link>
+      <pubDate>Mon, 07 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:888/post/a-better-follow-friday/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/twitter-following.jpg&amp;quot; /&amp;gt;  Follow Friday is a common practice on Twitter where many people spend friday posting things like #FF @aplusk @guykawasaki … This practice is distracting at best and fails to accomplish the single purpose it intends. Follow friday began as way to share lesser known twitter users with your community. A great idea that quickly grew out of control. I propose a better implementation that will not only accomplish the original intent but will do so in a non-distrcting manner by leveraging twitter lists.</description>
+    </item>
+    
+  </channel>
+</rss>
