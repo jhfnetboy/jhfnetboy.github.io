@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code_Problem on jLab - A Source of Creativity and Innovation!</title>
+    <link>https://www.jlab.tech/categories/Code_Problem/</link>
+    <description>Recent content in Code_Problem on jLab - A Source of Creativity and Innovation!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.jlab.tech/categories/Code_Problem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ABP好东东</title>
+      <link>https://www.jlab.tech/post/2016-02-26-oh-blog20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2016-02-26-oh-blog20/</guid>
+      <description>在看视频教程，发现广告太烦人，于是
+翻墙
+到谷歌商店https://chrome.google.com/webstore/search/adblocker然后一口气下载了三个，就是用户最多的三个
+然后。。。
+就没然后啦，因为广告全没啦～！！！！哈哈</description>
+    </item>
+    
+    <item>
+      <title>Docker readme 翻译 by jhfnetboy@jstory.me</title>
+      <link>https://www.jlab.tech/post/2015-12-17-oh-blog7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2015-12-17-oh-blog7/</guid>
+      <description>Docker: 容器引擎  翻译：jhfnetboy@ 2015-12&amp;lt;br/&amp;gt; Docker是个开源的项目，作为一个轻型的容器，用来帮助你打包、转移和运行任何应用程序 Docker is an open source project to pack, ship and run any application as a lightweight container.
+Docker containers are both hardware-agnostic and platform-agnostic. Docker 容器具备跨硬件、跨操作系统（另外一种翻译：独立于硬件和操作系统）的双特性 This means they can run anywhere, from your laptop to the largest 这意味着他们（Docker）可以在任何地方运行，无论是你的笔记本还是云计算的一个实例或者其他任何 cloud compute instance and everything in between - and they don&amp;rsquo;t require 这些不需要你使用一个特定的语言、框架或者打包系统 you to use a particular language, framework or packaging system. That makes them great building blocks for deploying and scaling web apps, 这会对web应用的部署、规划、数据库和后端服务上的区块化创建有很大帮助，不依赖于一个特定的系统或提供商 databases, and backend services without depending on a particular stack or provider.</description>
+    </item>
+    
+    <item>
+      <title>error cannot open .git/FETCH_HEAD Permission denied</title>
+      <link>https://www.jlab.tech/post/2015-12-08-oh-blog5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2015-12-08-oh-blog5/</guid>
+      <description>stackoverflow有个60给支持的解决办法，基本就是那个思路：
+看到permission，肯定是权限问题
+我造成的原因：
+用root clone的线上生产机的代码
+然后chmod 777 code
+忘记-R recursive递归开放权限
+所以切换到自己用户来配置、发布脚步执行，就会有权限问题
+要想避免：不要用root，慎用，没有必要！！
+ </description>
+    </item>
+    
+    <item>
+      <title>Mac osx 安装android studio时遇到 intel haxm的安装问题</title>
+      <link>https://www.jlab.tech/post/2016-01-29-oh-blog15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2016-01-29-oh-blog15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MarGo Missing required environment variables GOPATH</title>
+      <link>https://www.jlab.tech/post/2015-12-07-oh-blog4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2015-12-07-oh-blog4/</guid>
+      <description>Sublime是一个很不错的编辑器
+所以我决定在这个上面做Go的开发
+但配置开发环境过程中，遇到了一个问题：MarGo: Missing required environment variables: GOPATH
+解决后记录如下：
+在系统定义变量没用的，因为
+上图
+内容：
+&amp;ldquo;env&amp;rdquo;: { &amp;ldquo;GOPATH&amp;rdquo;: &amp;ldquo;/Users/jason/gocode&amp;rdquo;, &amp;ldquo;GOROOT&amp;rdquo;: &amp;ldquo;/Users/jason/go&amp;rdquo; },</description>
+    </item>
+    
+    <item>
+      <title>Sublime text3 Package Control无法加载插件，报错：There are no packages available for installation</title>
+      <link>https://www.jlab.tech/post/2016-05-18-oh-blog25/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2016-05-18-oh-blog25/</guid>
+      <description>sublime text3 Package Control无法加载插件，报错：There are no packages available for installation plugins loaded Package Control: Error submitting usage information. HTTP exception InvalidCertificateException (Host 127.0.0.1:8087 returned an invalid certificate ([SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:548))) downloading https://packagecontrol.io/submit?package=Package+Control&amp;amp;amp;operation=install&amp;amp;amp;version=3.1.2&amp;amp;amp;sublime_platform=osx&amp;amp;amp;package_control_version=3.1.2&amp;amp;amp;sublime_version=3114. Package Control: Installing 1 missing dependency Package Control: Error downloading channel. HTTP exception InvalidCertificateException (Host 127.0.0.1:8087 returned an invalid certificate ([SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:548))) downloading https://packagecontrol.io/channel_v3.json. Package Control: The dependency specified, bz2, is not available Package Control: Skipping automatic upgrade, last run at 2016-05-18 09:59:38, next run at 2016-05-18 10:59:38 or after Package Control: Error downloading channel.</description>
+    </item>
+    
+    <item>
+      <title>虚张声势：WP_Image_Editor_Imagick 指令注入漏洞</title>
+      <link>https://www.jlab.tech/post/2016-06-07-oh-blog27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2016-06-07-oh-blog27/</guid>
+      <description>阿里云三番五次提示我：你丫的服务器有漏洞，赶紧修复，上来修复，提示我要升级专业版。。。妈蛋，一查，根本没有这个漏洞
+conver -v
+bad command
+或者</description>
+    </item>
+    
+    <item>
+      <title>试试结巴分词后的wordcloud效果--草稿中</title>
+      <link>https://www.jlab.tech/post/2016-05-31-oh-blog26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2016-05-31-oh-blog26/</guid>
+      <description>如题
+1.sudo pip install wordcloud9个warning，成功
+2.sudo pip install jieba 成功
+3.http://effbot.org/downloads/Imaging-1.1.7.tar.gz
+下载PIL
+http://download.savannah.gnu.org/releases/freetype/freetype-2.6.3.tar.gz
+$tar xvzf libpng-1.6.16.tar.gz
+$cd libpng-1.6.16
+$./configure
+$make
+$sudo make install
+http://www.libpng.org/pub/png/libpng.html
+======
+报错了：mac ImportError: No module named MySQLdb
+尝试多种，最后下载源码编译：https://pypi.python.org/pypi/MySQL-python/1.2.5
+如果你有多个mysql版本，请搜索：find / -name mysql_config</description>
+    </item>
+    
+  </channel>
+</rss>

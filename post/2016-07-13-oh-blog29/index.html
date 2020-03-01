@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="转载：Deep Learning 杂谈 : spf13.com"/>
+<meta property="og:site_name" content="jLab is Jason Jiao's Lab"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://www.jlab.tech/post/2016-07-13-oh-blog29/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="0001-01-01"/>
+<meta property="article:modified_time" content="0001-01-01"/>
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="转载：Deep Learning 杂谈 : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://www.jlab.tech/">
+    <title> 转载：Deep Learning 杂谈 - www.jlab.tech </title>
+    <link rel="canonical" href="https://www.jlab.tech/post/2016-07-13-oh-blog29/">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="https://www.jlab.tech/css/ZGS.min.dd1701f4a8abeef24341ebb7694a1a0186bc33683baf8289decc3b5c4b02115a.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> articles </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> projects </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> presentations </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="follow">
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="https://www.twitter.com/jhfnetboy" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.linkedin.com/in/%E4%BC%9A%E5%B3%B0-%E7%84%A6-a3483393/" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="https://github.com/jhfnetboy" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="https://www.douban.com/people/gdbme/" target="_blank" title="Douban" class="slideshare"><span class="icon icon-slideshare"></span>Douban</a> </li>
+                    </ul>
+                    <span class="subcount">Get Creativity &amp; Innovations</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">转载：Deep Learning 杂谈</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>原文来自sina博客：http://blog.sina.com.cn/s/blog_46d0a3930101fswl.html?tj=1</p>
+<p>感谢原作者！</p>
+<p>2013年 1 月 15 日，新浪微博上网友 @王威廉 发了一条消息，说机器学习领域的大牛， Alex Smola 入盟 CMU，讲授机器学习入门课程，该课程的视频将在网上公开。</p>
+<p>我回应了几个帖子，聊聊 CMU 与机器学习的研究进展。网友 @老师木 回复说，“机器学习是伪科学”。网友 @y_y_n_i_l 则说，“整天在实验室里面折腾算法，不如实际搞大系统”。</p>
+<p>两个人的观点，都有出处。</p>
+<p>图灵在 1950 年的论文里，提出图灵试验的设想，即，隔墙对话，你将不知道与你谈话的，是人还是电脑 [1]。</p>
+<p>这无疑给计算机，尤其是人工智能，预设了一个很高的期望值。但是半个世纪过去了，人工智能的进展，远远没有达到图灵试验的标准。这不仅让多年翘首以待的人们，心灰意冷，认为人工智能是忽悠，相关领域是“伪科学”。</p>
+<p>2008 年 6 月，“连线”杂志主编，Chris Anderson 发表文章，题目是 “理论的终极，数据的泛滥将让科学方法过时”。并且文中还引述经典著作 “人工智能的现代方法”的合著者，时任 Google 研究总监的 Peter Norvig 的言论，说 “一切模型都是错的。进而言之，抛弃它们，你就会成功”[2]。</p>
+<p>言下之意，精巧的算法是无意义的。面对海量数据，即便只用简单的算法，也能得到出色的结果。与其钻研算法，不如研究云计算，处理大数据。</p>
+<p>如果这番言论，发生在 2006 年以前，可能我不会强力反驳。但是自 2006 年以来，机器学习领域，取得了突破性的进展。</p>
+<p>图灵试验，至少不是那么可望而不可即了。至于技术手段，不仅仅依赖于云计算对大数据的并行处理能力，而且依赖于算法。这个算法就是，Deep Learning。</p>
+<p>借助于 Deep Learning 算法，人类终于找到了如何处理 “抽象概念”这个亘古难题的方法。</p>
+<p>于是学界忙着延揽相关领域的大师。Alex Smola 加盟 CMU，就是这个背景下的插曲。悬念是 Geoffrey Hinton 和 Yoshua Bengio 这两位牛人，最后会加盟哪所大学。</p>
+<p>Geoffrey Hinton 曾经转战 Cambridge、CMU，目前任教University of Toronto。相信挖他的名校一定不少。</p>
+<p>Yoshua Bengio 经历比较简单，McGill University 获得博士后，去 MIT 追随 Mike Jordan 做博士后。目前任教 University of Montreal。</p>
+<p>Deep Learning 引爆的这场革命，不仅学术意义巨大，而且离钱很近，实在太近了。如果把相关技术难题比喻成一座山，那么翻过这座山，山后就是特大露天金矿。技术难题解决以后，剩下的事情，就是动用资本和商业的强力手段，跑马圈地了。</p>
+<p>于是各大公司重兵集结，虎视眈眈。Google 兵分两路，左路以 Jeff Dean 和 Andrew Ng 为首，重点突破 Deep Learning 等等算法和应用 [3]。</p>
+<p>Jeff Dean 在 Google 诸位 Fellows 中，名列榜首，GFS 就是他的杰作。Andrew Ng 本科时，就读 CMU，后来去 MIT 追随 Mike Jordan。Mike Jordan 在 MIT 人缘不好，后来愤然出走 UC Berkeley。Andrew Ng 毫不犹豫追随导师，也去了 Berkeley。拿到博士后，任教 Stanford，是 Stanford 新生代教授中的佼佼者，同时兼职 Google。</p>
+<p>Google 右路军由 Amit Singhal 领军，目标是构建 Knowledge Graph 基础设施。</p>
+<p>1996 年 Amit Singhal 从 Cornell University 拿到博士学位后，去 Bell Lab 工作，2000 年加盟 Google。据说他去 Google 面试时，对 Google 创始人 Sergey Brian 说，“Your engine is excellent, but let me rewirte it!”[4]</p>
+<p>换了别人，说不定一个大巴掌就扇过去了。但是 Sergey Brian 大人大量，不仅不怪罪小伙子的轻狂，反而真的让他从事新一代排名系统的研发。Amit Singhal 目前任职 Google 高级副总裁，掌管 Google 最核心的业务，搜索引擎。</p>
+<p>Google 把王牌中之王牌，押宝在 Deep Learning 和 Knowledge Graph 上，目的是更快更大地夺取大数据革命的胜利果实。</p>
+<p>所以，我提议讲三次公开课，给大家介绍一下机器学习领域，近几年的新进展，着重讲讲 Deep Learning，以及 Knowledge Graph。</p>
+<p>@老师木 自告奋勇，要与我 PK。这是个很好的建议，不仅热闹，而且有利于督促我们，把演讲准备得更扎实。</p>
+<p>于是约定来一次擂台赛，同一个主题，轮番讲，每周一次两小时。他先开火，然后我还击，如此大战三个回合，总计 6 周。届时邀请一帮人来现场，从多个角度录制视频，以保证不偏不倚全面公正，然后放到 Coursera 上去。</p>
+<p>以下是 Deep Learning 的背景介绍，上大餐之前，先来点开胃小菜。</p>
+<p>Reference,</p>
+<p>[1] Turing Test.
+<a href="http://en.wikipedia.org/wiki/Turing_test">http://en.wikipedia.org/wiki/Turing_test</a></p>
+<p>[2] The End of Theory: The Data Deluge Makes the Scientific Method Obsolete
+<a href="http://www.wired.com/science/discoveries/magazine/16-07/pb_theory">http://www.wired.com/science/discoveries/magazine/16-07/pb_theory</a></p>
+<p>[3] Introduction to Deep Learning.
+<a href="http://en.wikipedia.org/wiki/Deep_learning">http://en.wikipedia.org/wiki/Deep_learning</a></p>
+<p>[4] Interview with Amit Singhal, Google Fellow.
+<a href="http://searchengineland.com/interview-with-amit-singhal-google-fellow-121342">http://searchengineland.com/interview-with-amit-singhal-google-fellow-121342</a></p>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Mon Jan 1, 0001 </h4>
+          <h5 id="wc"> 300 Words </h5>
+          <h5 id="readtime"> Read in about 2 Min </h5>
+        </section>
+        <ul id="categories">
+          
+        </ul>
+        <ul id="tags">
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="https://www.jlab.tech/post/2016-07-23-oh-blog30/"><i class="icon-arrow-left"></i> 转载：余凯的Deep Learning概述的文章</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://www.jlab.tech/post/2016-05-31-oh-blog26/">试试结巴分词后的wordcloud效果--草稿中 <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Jason Jiao is an China Software Engineer, Team Leader & Blog Author
+            based in HangZhou. He has start up over 3 companies Tech Stack,hold over many times 
+            System Refactoring and Reconstruction which all were enterprise level. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://schoolpal.cn/">Schoolpal</a> on the leadership team 
+            of <a href="https://www.xiaobao100.com/sis">Many Product lines</a> where  he is responsible for the tech stack strategy and architecture of
+            system and it's over 20 thousands enterprise users and 4M family users.Also he is one of <bold>Core Partner</bold> of company, which was a Highest Governance of this enterprise
+            </p>
+
+            <p>
+            He previously held Software develope team at <a href="https://www.chinamobileltd.com/">China Mobile</a>, <a
+            href="https://jd.com">JD ltd</a> where he
+            led multi lines' tech team and surpporting, testing teams, over 1 hundred members. 
+            He formerly was holder of the <a href="https://www.jlab.tech">jLab</a>.
+            </p>
+            
+            <p> 
+            He is the creator of some of the projects <a href="https://www.jlab.tech/lll">Life Long Learning</a>, <a
+                href="ZA.link">ZA</a>, and many <a
+            href="http://github.com/jhfnetboy">more</a>.
+            </p>
+            
+            <p>
+            Above all of these accomplishments, he has a dog,called Cherry（樱桃）. 
+            Outside of technology Jason likes travel, motor bike, reading, and play games.
+            </p>
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="229">
+<meta itemprop="datePublished" content="0001-01-01">
+<meta itemprop="url" content="https://www.jlab.tech/post/2016-07-13-oh-blog29/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-19 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Jason Jiao.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+</body>
+</html>
+

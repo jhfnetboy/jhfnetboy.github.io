@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Docker readme 翻译 by jhfnetboy@jstory.me : spf13.com"/>
+<meta property="og:site_name" content="jLab is Jason Jiao's Lab"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://www.jlab.tech/post/2015-12-17-oh-blog7/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="0001-01-01"/>
+<meta property="article:modified_time" content="0001-01-01"/>
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Docker readme 翻译 by jhfnetboy@jstory.me : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://www.jlab.tech/">
+    <title> Docker readme 翻译 by jhfnetboy@jstory.me - www.jlab.tech </title>
+    <link rel="canonical" href="https://www.jlab.tech/post/2015-12-17-oh-blog7/">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="https://www.jlab.tech/css/ZGS.min.dd1701f4a8abeef24341ebb7694a1a0186bc33683baf8289decc3b5c4b02115a.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> articles </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> projects </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> presentations </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="follow">
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="https://www.twitter.com/jhfnetboy" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.linkedin.com/in/%E4%BC%9A%E5%B3%B0-%E7%84%A6-a3483393/" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="https://github.com/jhfnetboy" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="https://www.douban.com/people/gdbme/" target="_blank" title="Douban" class="slideshare"><span class="icon icon-slideshare"></span>Douban</a> </li>
+                    </ul>
+                    <span class="subcount">Get Creativity &amp; Innovations</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Docker readme 翻译 by jhfnetboy@jstory.me</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <h1 id="docker-容器引擎-releasehttpsimgshieldsiogithubreleasedockerdockersvghttpsgithubcomdockerdockerreleaseslatest">Docker: 容器引擎 <a href="https://github.com/docker/docker/releases/latest"><img src="https://img.shields.io/github/release/docker/docker.svg" alt="Release"></a></h1>
+<p>翻译：jhfnetboy@ 2015-12&lt;br/&gt;
+Docker是个开源的项目，作为一个轻型的容器，用来帮助你打包、转移和运行任何应用程序
+Docker is an open source project to pack, ship and run any application
+as a lightweight container.</p>
+<p>Docker containers are both <em>hardware-agnostic</em> and <em>platform-agnostic</em>.
+Docker 容器具备跨硬件、跨操作系统（另外一种翻译：独立于硬件和操作系统）的双特性
+This means they can run anywhere, from your laptop to the largest
+这意味着他们（Docker）可以在任何地方运行，无论是你的笔记本还是云计算的一个实例或者其他任何
+cloud compute instance and everything in between - and they don&rsquo;t require
+这些不需要你使用一个特定的语言、框架或者打包系统
+you to use a particular language, framework or packaging system. That
+makes them great building blocks for deploying and scaling web apps,
+这会对web应用的部署、规划、数据库和后端服务上的区块化创建有很大帮助，不依赖于一个特定的系统或提供商
+databases, and backend services without depending on a particular stack
+or provider.</p>
+<p>Docker began as an open-source implementation of the deployment engine which
+Docker在dotcloud的驱动之下开始作为一个开源部署引擎的实现，dotcloud是一个流行的平台即服务
+powers <a href="https://www.dotcloud.com">dotCloud</a>, a popular Platform-as-a-Service.
+It benefits directly from the experience accumulated over several years
+它会让你直接受益于多年经验的积累，这些经验是在成千上万个应用和数据库之上经过大量运维、支持积累而来的
+of large-scale operation and support of hundreds of thousands of
+applications and databases.</p>
+<p><img src="docs/static_files/docker-logo-compressed.png" alt="" title="Docker"></p>
+<h2 id="security-disclosure">Security Disclosure</h2>
+<h2 id="安全泄露">安全泄露</h2>
+<p>Security is very important to us. If you have any issue regarding security,
+安全对我们来说是非常重要的。对于安全如果你有任何建议/问题
+please disclose the information responsibly by sending an email to
+请务必负责地公开这些信息，通过发邮件到security@docker.com而不是提交一个github建议
+<a href="mailto:security@docker.com">security@docker.com</a> and not by creating a github issue.</p>
+<h2 id="better-than-vms">Better than VMs</h2>
+<h2 id="比vms更优秀">比VMs更优秀</h2>
+<p>A common method for distributing applications and sandboxing their
+要分布一个应用并沙盒他们的执行，一个常规的方法是使用虚拟机器/主机或者VMs
+execution is to use virtual machines, or VMs. Typical VM formats are
+典型的VM格式是VMware的vmdk，Oracle VirtualBox的vdi和Amazon EC2的ami
+VMware&rsquo;s vmdk, Oracle VirtualBox&rsquo;s vdi, and Amazon EC2&rsquo;s ami. In theory
+在理论上这些格式应该允许每个开发者去自动打包他们的应用程序
+these formats should allow every developer to automatically package
+their application into a &ldquo;machine&rdquo; for easy distribution and deployment.
+到一个“机器”中，以方便的分发和部署
+In practice, that almost never happens, for a few reasons:
+实践中，这些是基本不会发生的，因为几条原因：</p>
+<ul>
+<li><em>Size</em>: VMs are very large which makes them impractical to store
+and transfer.</li>
+<li><em>大小</em>： VMs是非常巨大的文件，以至于存储和传输它们都很不实际</li>
+<li><em>Performance</em>: running VMs consumes significant CPU and memory,</li>
+<li><em>性能</em>：VMs运行会非常明显的消耗CPU和内存
+which makes them impractical in many scenarios, for example local
+这些会造成许多场景都很难实践，例如
+development of multi-tier applications, and large-scale deployment
+本地大量部署CPU和内存敏感类型的多层应用应用在大量主机的情况
+of cpu and memory-intensive applications on large numbers of
+machines.</li>
+<li><em>Portability</em>: competing VM environments don&rsquo;t play well with each other.</li>
+<li><em>适配性</em>
+Although conversion tools do exist, they are limited and
+add even more overhead.
+尽管许多转换工具确实存在，但都有自身的限制甚至是收费的。</li>
+<li><em>Hardware-centric</em>: VMs were designed with machine operators in
+mind,not software developers.
+<em>硬件为中心</em> VMs的设计是把设备运维人员放在了心上而不是软件开发人员
+As a result, they offer very
+limited tooling for what developers need most: building, testing
+作为一个结果，他们仅仅提供非常有限的工具来进行开发者最需要的：build，测试，运行他们的软件。
+and running their software. For example, VMs offer no facilities
+for application versioning, monitoring, configuration, logging or
+service discovery.
+例如，VMs不会提供一些应用版本标注、监控、配置、日志或者服务发现等等方便工具。</li>
+</ul>
+<p>By contrast, Docker relies on a different sandboxing method known as
+对比来看，Docker依赖于一个不同的沙盒测量：容器化实现。
+<em>containerization</em>. Unlike traditional virtualization, containerization
+takes place at the kernel level.
+不同于在kernel级别进行的传统的虚拟化和容器化。
+Most modern operating system kernels
+now support the primitives necessary for containerization, including
+Linux with <a href="https://openvz.org">openvz</a>,
+大多数现代的操作系统kernel都支持原始必备的容器化，包括：Linux+openvz，vserver，lxc；Solaris+zones，FreeBSD+Jails。
+<a href="http://linux-vserver.org">vserver</a> and more recently
+<a href="https://linuxcontainers.org/">lxc</a>, Solaris with
+<a href="https://docs.oracle.com/cd/E26502_01/html/E29024/preface-1.html#scrolltoc">zones</a>,
+and FreeBSD with
+<a href="https://www.freebsd.org/doc/handbook/jails.html">Jails</a>.</p>
+<p>Docker builds on top of these low-level primitives to offer developers a
+在这些底层原始支持之上建立了Docker，用来给开发者提供适配格式和运行时环境支持，
+portable format and runtime environment that solves all four problems.
+用来解决上述的四个问题。
+Docker containers are small (and their transfer can be optimized with
+Docker容器非常小（），几乎是零内存、无CPU消耗，用来完全实现应用为中心的设计目标。
+layers), they have basically zero memory and cpu overhead, they are
+completely portable, and are designed from the ground up with an
+application-centric design.</p>
+<p>Perhaps best of all, because Docker operates at the OS level, it can still be
+run inside a VM!
+或许首先，因为Docker在操作系统级别运作，它甚至可以运行在一个VM（虚拟机）内部！</p>
+<h2 id="plays-well-with-others">Plays well with others</h2>
+<h2 id="与其他配合运行良好">与其他配合运行良好</h2>
+<p>Docker does not require you to buy into a particular programming
+language, framework, packaging system, or configuration language.
+Docker不需要你购买特定的编程语言、框架或者打包系统，或者任意配置语言。</p>
+<p>Is your application a Unix process? Does it use files, tcp connections,
+你的应用是一个Unix进程？它们是使用文件、tcp连接或者环境变量，标准Unix流或者命令行参数输入输出么？
+environment variables, standard Unix streams and command-line arguments
+as inputs and outputs? Then Docker can run it.
+Docker可以运行它们！</p>
+<p>Can your application&rsquo;s build be expressed as a sequence of such
+commands? Then Docker can build it.
+你的应用程序的build可以使用一个命令行序列么？Docker可以搞定！</p>
+<h2 id="escape-dependency-hell">Escape dependency hell</h2>
+<h2 id="逃离依赖大坑">逃离依赖大坑</h2>
+<p>A common problem for developers is the difficulty of managing all
+their application&rsquo;s dependencies in a simple and automated way.
+通常的问题是开发者很难使用一个简单自动的方法来管理他们应用的依赖。</p>
+<p>This is usually difficult for several reasons:
+这通常来说因为下述原因而很难做到：</p>
+<ul>
+<li>
+<p><em>Cross-platform dependencies</em>. Modern applications often depend on
+a combination of system libraries and binaries, language-specific</p>
+</li>
+<li>
+<p><em>跨平台依赖</em> 当前应用程序经常依赖一套系统类库和二进制程序的绑定组合，包括特定语言包，
+packages, framework-specific modules, internal components
+developed for another project, etc. These dependencies live in
+特定框架模块， 为其他项目开发的内部组件等等。
+different &ldquo;worlds&rdquo; and require different tools - these tools
+typically don&rsquo;t work well with each other, requiring awkward
+custom integrations.
+这些依赖存在于不同的“世界”，需要不同工具，很显然，这些工具不会很好的相互协作工作，需要一些很不方便的自定义集成。</p>
+</li>
+<li>
+<p><em>Conflicting dependencies</em>. Different applications may depend on
+different versions of the same dependency.</p>
+</li>
+<li>
+<p><em>依赖冲突</em> 不同的应用会依赖不同版本的同一个依赖项。
+Packaging tools handle
+these situations with various degrees of ease - but they all
+handle them in different and incompatible ways, which again forces
+the developer to do extra work.
+打包工具可以不同程度上轻松处理这些情况&ndash;但都是使用不同和不普适的方法去处理，这会迫使开发者需要做许多额外工作。</p>
+</li>
+<li>
+<p><em>Custom dependencies</em>. A developer may need to prepare a custom
+version of their application&rsquo;s dependency. Some packaging systems
+can handle custom versions of a dependency, others can&rsquo;t - and all
+of them handle it differently.</p>
+</li>
+<li>
+<p><em>自定义依赖</em> 开发者可能需要为应用准备自定义版本的依赖。一些打包系统可以处理自定义版本的依赖，一些不能。所有这些工具都有不同的处理方式。</p>
+</li>
+</ul>
+<p>Docker solves the problem of dependency hell by giving the developer a simple
+way to express <em>all</em> their application&rsquo;s dependencies in one place, while
+Docker通过为开发者提供了一个简单的方法：在一个地方发布所有应用的依赖并流体化依赖组装过程，来解决这个依赖大坑的难题。
+streamlining the process of assembling them. If this makes you think of
+<a href="https://xkcd.com/927/">XKCD 927</a>, don&rsquo;t worry. Docker doesn&rsquo;t</p>
+<p><em>replace</em> your favorite packaging systems. It simply orchestrates
+their use in a simple and repeatable way. How does it do that? With
+layers.
+如果它让你想到了XKCD 927,别担心。Docker不会替代你惯用的打包体系。它只是很简单的和谐安排了它们，通过一个可重复的方式。如何做到的？使用层。</p>
+<p>Docker defines a build as running a sequence of Unix commands, one
+after the other, in the same container. Build commands modify the
+contents of the container (usually by installing new files on the
+filesystem),
+Docker使用一个Unix命令序列来定义了一个build过程，在同一个容器中，一个接一个。 Build命令会修改容器的内容（通常是在文件系统中安装新文件）
+the next command modifies it some more, etc. Since each
+build command inherits the result of the previous commands, the
+<em>order</em> in which the commands are executed expresses <em>dependencies</em>.
+下一个命令修改其他内容，以此类推。 因为每个build命令继承了前一个命令的执行结果，这个指令在被执行以传递依赖的命令行中。
+Here&rsquo;s a typical Docker build process:
+下面是一个典型的Docker build过程：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">FROM ubuntu:12.04
+RUN apt-get update &amp;amp;&amp;amp; apt-get install -y python python-pip curl
+RUN curl -sSL https://github.com/shykes/helloflask/archive/master.tar.gz | tar -xzv
+RUN cd helloflask-master &amp;amp;&amp;amp; pip install -r requirements.txt
+</code></pre></div><p>Note that Docker doesn&rsquo;t care <em>how</em> dependencies are built - as long
+as they can be built by running a Unix command in a container.
+注意Docker不会关注依赖是如何built&ndash;尽管他们是可以意一个Unix命令行的方式在一个容器中运行。</p>
+<h1 id="getting-started">Getting started</h1>
+<p>起步指南</p>
+<p>Docker can be installed on your local machine as well as servers - both
+bare metal and virtualized. It is available as a binary on most modern
+Linux systems, or as a VM on Windows, Mac and other systems.
+Docker 可以一视同仁的被安装在你的本地电脑或者远端服务器上&ndash; 不管是实际的物理机器还是一个虚拟化的。
+它可以在大多数Linuxit上以一个可执行文件运行。 无论windows上的VM，Mac或者其他系统。</p>
+<p>We also offer an <a href="https://www.docker.com/tryit/">interactive tutorial</a>
+for quickly learning the basics of using Docker.
+我们也提供一个交互教程，用了快速了解Docker的基础知识。</p>
+<p>For up-to-date install instructions, see the <a href="https://docs.docker.com">Docs</a>.
+要了解最新的安装指令指南，到docs网址。</p>
+<h1 id="usage-examples">Usage examples</h1>
+<p>使用范例</p>
+<p>Docker can be used to run short-lived commands, long-running daemons
+(app servers, databases, etc.), interactive shell sessions, etc.
+Docker是一个可以用来运行短期命令、长期的守护进程（app server或者数据库等等），交互的脚本进程等等。</p>
+<p>You can find a <a href="https://docs.docker.com/examples/">list of real-world
+examples</a> in the
+documentation.
+你可以在文档中看到一个实际应用列表。</p>
+<h2 id="under-the-hood">Under the hood</h2>
+<p>面纱之下
+Under the hood, Docker is built on the following components:
+Docker是基于下述组件构建：</p>
+<ul>
+<li>The
+<a href="https://www.kernel.org/doc/Documentation/cgroups/cgroups.txt">cgroups</a>
+and
+<a href="http://man7.org/linux/man-pages/man7/namespaces.7.html">namespaces</a>
+capabilities of the Linux kernel</li>
+<li>The <a href="https://golang.org">Go</a> programming language</li>
+<li>The <a href="https://github.com/docker/docker/blob/master/image/spec/v1.md">Docker Image Specification</a></li>
+<li>The <a href="https://github.com/opencontainers/runc/blob/master/libcontainer/SPEC.md">Libcontainer Specification</a></li>
+</ul>
+<h1 id="contributing-to-docker-godochttpsgodocorggithubcomdockerdockerstatussvghttpsgodocorggithubcomdockerdocker">Contributing to Docker <a href="https://godoc.org/github.com/docker/docker"><img src="https://godoc.org/github.com/docker/docker?status.svg" alt="GoDoc"></a></h1>
+<table>
+<thead>
+<tr>
+<th><strong>Master</strong> (Linux)</th>
+<th><strong>Experimental</strong> (linux)</th>
+<th><strong>Windows</strong></th>
+<th><strong>FreeBSD</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://jenkins.dockerproject.org/view/Docker/job/Docker%20Master/"><img src="https://jenkins.dockerproject.org/view/Docker/job/Docker%20Master/badge/icon" alt="Jenkins Build Status"></a></td>
+<td><a href="https://jenkins.dockerproject.org/view/Docker/job/Docker%20Master%20%28experimental%29/"><img src="https://jenkins.dockerproject.org/view/Docker/job/Docker%20Master%20%28experimental%29/badge/icon" alt="Jenkins Build Status"></a></td>
+<td><a href="http://jenkins.dockerproject.org/job/Docker%20Master%20(windows)/"><img src="http://jenkins.dockerproject.org/job/Docker%20Master%20(windows)/badge/icon" alt="Build Status"></a></td>
+<td><a href="http://jenkins.dockerproject.org/job/Docker%20Master%20(freebsd)/"><img src="http://jenkins.dockerproject.org/job/Docker%20Master%20(freebsd)/badge/icon" alt="Build Status"></a></td>
+</tr>
+</tbody>
+</table>
+<p>Want to hack on Docker? Awesome! We have <a href="https://docs.docker.com/project/who-written-for/">instructions to help you get
+started contributing code or documentation</a>.
+想搞一把Docker？帅呆了！我们这里有如何开始Docker编码和文档撰写的Help。</p>
+<p>These instructions are probably not perfect, please let us know if anything
+feels wrong or incomplete. Better yet, submit a PR and improve them yourself.
+这些指南可能不是很完美，如果哪里错了或者不合适请告诉我们，最好是提交一个PR然后你顶一下。</p>
+<h1 id="getting-the-development-builds">Getting the development builds</h1>
+<p>获取开发版本builds</p>
+<p>Want to run Docker from a master build? You can download
+master builds at <a href="https://master.dockerproject.org">master.dockerproject.org</a>.
+They are updated with each commit merged into the master branch.
+想运行开发中的master分支？他们会在每个commit被合并到master时。</p>
+<p>Don&rsquo;t know how to use that super cool new feature in the master build? Check
+out the master docs at
+<a href="http://docs.master.dockerproject.org">docs.master.dockerproject.org</a>.
+不知道如何使用这些master中的超酷的新特性？看看master的docs。</p>
+<h1 id="how-the-project-is-run">How the project is run</h1>
+<p>Docker is a very, very active project. If you want to learn more about how it is run,
+or want to get more involved, the best place to start is <a href="https://github.com/docker/docker/tree/master/project">the project directory</a>.
+Docker是一个非常非常活跃的项目。如果你想了解关于它是如何运转的信息或者更多参与，最好是这里（加入项目）。</p>
+<p>We are always open to suggestions on process improvements, and are always looking for more maintainers.
+我们一直对于流程提升的建议持开放态度，也一直在寻找更多的维护人员。</p>
+<h3 id="talking-to-other-docker-users-and-contributors">Talking to other Docker users and contributors</h3>
+<p>和其他Docker用户和贡献者对话</p>
+<p>&lt;table class=&quot;tg&rdquo;&gt;
+&lt;col width=&quot;45%&quot;&gt;
+&lt;col width=&quot;65%&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;Internet&amp;nbsp;Relay&amp;nbsp;Chat&amp;nbsp;(IRC)&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;
+IRC a direct line to our most knowledgeable Docker users; we have
+both the &lt;code&gt;#docker&lt;/code&gt; and &lt;code&gt;#docker-dev&lt;/code&gt; group on
+&lt;strong&gt;irc.freenode.net&lt;/strong&gt;.
+IRC is a rich chat protocol but it can overwhelm new users. You can search
+&lt;a href=&quot;https://botbot.me/freenode/docker/#&rdquo; target=&rdquo;_blank&rdquo;&gt;our chat archives&lt;/a&gt;.
+&lt;/p&gt;
+Read our &lt;a href=&quot;https://docs.docker.com/project/get-help/#irc-quickstart&rdquo; target=&rdquo;_blank&rdquo;&gt;IRC quickstart guide&lt;/a&gt; for an easy way to get started.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Google Groups&lt;/td&gt;
+&lt;td&gt;
+There are two groups.
+&lt;a href=&quot;https://groups.google.com/forum/#!forum/docker-user&rdquo; target=&rdquo;_blank&rdquo;&gt;Docker-user&lt;/a&gt;
+is for people using Docker containers.
+The &lt;a href=&quot;https://groups.google.com/forum/#!forum/docker-dev&rdquo; target=&rdquo;_blank&rdquo;&gt;docker-dev&lt;/a&gt;
+group is for contributors and other people contributing to the Docker
+project.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Twitter&lt;/td&gt;
+&lt;td&gt;
+You can follow &lt;a href=&quot;https://twitter.com/docker/&rdquo; target=&rdquo;_blank&rdquo;&gt;Docker&rsquo;s Twitter feed&lt;/a&gt;
+to get updates on our products. You can also tweet us questions or just
+share blogs or stories.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stack Overflow&lt;/td&gt;
+&lt;td&gt;
+Stack Overflow has over 7000 Docker questions listed. We regularly
+monitor &lt;a href=&quot;https://stackoverflow.com/search?tab=newest&amp;q=docker&rdquo; target=&rdquo;_blank&rdquo;&gt;Docker questions&lt;/a&gt;
+and so do many other knowledgeable Docker users.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</p>
+<h3 id="legal">Legal</h3>
+<h3 id="法律协议">法律协议</h3>
+<p><em>Brought to you courtesy of our legal counsel. For more context,
+please see the <a href="https://github.com/docker/docker/blob/master/NOTICE">NOTICE</a> document in this repo.</em>
+Use and transfer of Docker may be subject to certain restrictions by the
+United States and other governments.
+使用和传播Docker是要遵循特定的美国和其他国家政府的限制。</p>
+<p>It is your responsibility to ensure that your use and/or transfer does not
+violate applicable laws.
+你有义务确保你的使用和传播没有破坏这些使用的法律范围。</p>
+<h1 id="licensing">For more information, please see <a href="https://www.bis.doc.gov">https://www.bis.doc.gov</a>
+Licensing</h1>
+<p>License
+Docker is licensed under the Apache License, Version 2.0. See
+<a href="https://github.com/docker/docker/blob/master/LICENSE">LICENSE</a> for the full
+license text.
+Docker遵循Apache License 2.0.</p>
+<h1 id="other-docker-related-projects">Other Docker Related Projects</h1>
+<p>其他Docker相关项目
+There are a number of projects under development that are based on Docker&rsquo;s
+core technology. These projects expand the tooling built around the
+Docker platform to broaden its application and utility.
+这有许多基于Docker核心技术在开发中的项目。这些项目扩展了围绕Docker平台的build工具扩大其本身的应用和易用性。</p>
+<ul>
+<li><a href="https://github.com/docker/distribution">Docker Registry</a>: Registry
+server for Docker (hosting/delivery of repositories and images)</li>
+<li><a href="https://github.com/docker/machine">Docker Machine</a>: Machine management
+for a container-centric world</li>
+<li><a href="https://github.com/docker/swarm">Docker Swarm</a>: A Docker-native clustering
+system</li>
+<li><a href="https://github.com/docker/compose">Docker Compose</a> (formerly Fig):
+Define and run multi-container apps</li>
+<li><a href="https://github.com/kitematic/kitematic">Kitematic</a>: The easiest way to use
+Docker on Mac and Windows</li>
+</ul>
+<p>If you know of another project underway that should be listed here, please help
+us keep this list up-to-date by submitting a PR.
+如果你知道有其他的项目应该在这里列出，请提交一个PR以保持这个列表最新。</p>
+<h1 id="awesome-docker">Awesome-Docker</h1>
+<p>帅Docker
+You can find more projects, tools and articles related to Docker on the <a href="https://github.com/veggiemonk/awesome-docker">awesome-docker list</a>. Add your project there.
+你可以在这里发现更多项目、工具和文章，和Docker相关的，可在此提交你的项目。</p>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Mon Jan 1, 0001 </h4>
+          <h5 id="wc"> 1700 Words </h5>
+          <h5 id="readtime"> Read in about 8 Min </h5>
+        </section>
+        <ul id="categories">
+          
+        </ul>
+        <ul id="tags">
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="https://www.jlab.tech/post/2015-12-08-oh-blog5/"><i class="icon-arrow-left"></i> error cannot open .git/FETCH_HEAD Permission denied</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://www.jlab.tech/post/2016-02-26-oh-blog20/">ABP好东东 <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Jason Jiao is an China Software Engineer, Team Leader & Blog Author
+            based in HangZhou. He has start up over 3 companies Tech Stack,hold over many times 
+            System Refactoring and Reconstruction which all were enterprise level. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://schoolpal.cn/">Schoolpal</a> on the leadership team 
+            of <a href="https://www.xiaobao100.com/sis">Many Product lines</a> where  he is responsible for the tech stack strategy and architecture of
+            system and it's over 20 thousands enterprise users and 4M family users.Also he is one of <bold>Core Partner</bold> of company, which was a Highest Governance of this enterprise
+            </p>
+
+            <p>
+            He previously held Software develope team at <a href="https://www.chinamobileltd.com/">China Mobile</a>, <a
+            href="https://jd.com">JD ltd</a> where he
+            led multi lines' tech team and surpporting, testing teams, over 1 hundred members. 
+            He formerly was holder of the <a href="https://www.jlab.tech">jLab</a>.
+            </p>
+            
+            <p> 
+            He is the creator of some of the projects <a href="https://www.jlab.tech/lll">Life Long Learning</a>, <a
+                href="ZA.link">ZA</a>, and many <a
+            href="http://github.com/jhfnetboy">more</a>.
+            </p>
+            
+            <p>
+            Above all of these accomplishments, he has a dog,called Cherry（樱桃）. 
+            Outside of technology Jason likes travel, motor bike, reading, and play games.
+            </p>
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="1628">
+<meta itemprop="datePublished" content="0001-01-01">
+<meta itemprop="url" content="https://www.jlab.tech/post/2015-12-17-oh-blog7/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-19 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Jason Jiao.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+</body>
+</html>
+
