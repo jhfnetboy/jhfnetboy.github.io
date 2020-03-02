@@ -6,50 +6,33 @@
     <description>Recent content in Categories on jLab - A Source of Creativity and Innovation!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.jlab.tech/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Code_Problem</title>
-      <link>https://www.jlab.tech/categories/Code_Problem/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jlab.tech/categories/Code_Problem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Creative_Innovation</title>
       <link>https://www.jlab.tech/categories/Creative_Innovation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/categories/Creative_Innovation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Feelings</title>
-      <link>https://www.jlab.tech/categories/Feelings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Code_Problem</title>
+      <link>https://www.jlab.tech/categories/Code_Problem/</link>
+      <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.jlab.tech/categories/Feelings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Idea_Crazy_Fun</title>
-      <link>https://www.jlab.tech/categories/Idea_Crazy_Fun/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jlab.tech/categories/Idea_Crazy_Fun/</guid>
+      <guid>https://www.jlab.tech/categories/Code_Problem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Management_Leadership</title>
       <link>https://www.jlab.tech/categories/Management_Leadership/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/categories/Management_Leadership/</guid>
       <description></description>
@@ -58,9 +41,36 @@
     <item>
       <title>嘟嘟读书项目</title>
       <link>https://www.jlab.tech/categories/%E5%98%9F%E5%98%9F%E8%AF%BB%E4%B9%A6%E9%A1%B9%E7%9B%AE/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/categories/%E5%98%9F%E5%98%9F%E8%AF%BB%E4%B9%A6%E9%A1%B9%E7%9B%AE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Idea_Crazy_Fun</title>
+      <link>https://www.jlab.tech/categories/Idea_Crazy_Fun/</link>
+      <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/categories/Idea_Crazy_Fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feelings</title>
+      <link>https://www.jlab.tech/categories/Feelings/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/categories/Feelings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>post</title>
+      <link>https://www.jlab.tech/categories/post/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/categories/post/</guid>
       <description></description>
     </item>
     

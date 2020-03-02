@@ -6,23 +6,15 @@
     <description>Recent content in 嘟嘟读书项目 on jLab - A Source of Creativity and Innovation!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 08 Apr 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.jlab.tech/categories/%E5%98%9F%E5%98%9F%E8%AF%BB%E4%B9%A6%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Tourism on Docker</title>
-      <link>https://www.jlab.tech/post/2015-12-09-oh-blog6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jlab.tech/post/2015-12-09-oh-blog6/</guid>
-      <description>   </description>
-    </item>
-    
-    <item>
       <title>去隔壁村的一点感想</title>
       <link>https://www.jlab.tech/post/2016-04-08-oh-blog23/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/post/2016-04-08-oh-blog23/</guid>
       <description>在老婆的逼迫下，终于去隔壁村逛了逛，有些感触，记下来
@@ -36,7 +28,7 @@
     <item>
       <title>新开一个项目：嘟嘟读书</title>
       <link>https://www.jlab.tech/post/2016-01-15-oh-blog11/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/post/2016-01-15-oh-blog11/</guid>
       <description>基本背景，参考这个文章：http://121.40.214.164/index.php/2016/01/10/46.html
@@ -67,6 +59,15 @@ F哥，你需要一个简单app管理自己的所有书籍么（F哥有好多书
 以上代码开源，发布在github:
 https://github.com/jhfnetboy/dududushu
 一句话介绍这个项目：让你开心读书＝管书、借书、乐书</description>
+    </item>
+    
+    <item>
+      <title>Tourism on Docker</title>
+      <link>https://www.jlab.tech/post/2015-12-09-oh-blog6/</link>
+      <pubDate>Wed, 09 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2015-12-09-oh-blog6/</guid>
+      <description>   </description>
     </item>
     
   </channel>

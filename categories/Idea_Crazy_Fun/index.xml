@@ -6,14 +6,52 @@
     <description>Recent content in Idea_Crazy_Fun on jLab - A Source of Creativity and Innovation!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 11 Mar 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.jlab.tech/categories/Idea_Crazy_Fun/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>TODO:要写几本深入浅出雅俗共赏的关于程序员（搞电脑的）的书</title>
+      <link>https://www.jlab.tech/post/2016-03-11-oh-blog22/</link>
+      <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2016-03-11-oh-blog22/</guid>
+      <description>嗯，决定了，写给初中级程序员，某些系统化的整理，也会帮助到高级乃至资深、专家，但主要目的是写给需要了解这个行业的相关人士，用生动的话语，而不是枯燥的概念，配图，结合示例，告诉人们：
+程序是怎样运行的？
+程序是怎样设计的？
+程序是怎样开发的？
+三本书，或者一本书，要好玩，开心，甚至6岁以上小孩也可以学习到有趣的东东
+嗯，觉得一定很有成就感，让更多的人了解到我们程序员的世界，神秘的程序员是在干什么？他不是电影中的高智商的宅男工程师，他是聪明、智慧，高度责任心和团队写作精神的改变世界的人，仅此而已！！！</description>
+    </item>
+    
+    <item>
+      <title>JStory：如何成为一名优秀的程序员？ 草稿中</title>
+      <link>https://www.jlab.tech/post/2016-02-21-oh-blog19/</link>
+      <pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2016-02-21-oh-blog19/</guid>
+      <description>开完会，栋栋问我：焦哥，我应该如何做，才能成为一名优秀的程序员？
+这个问题，不好回答
+1.什么是优秀的程序员？
+首先，我要表达的是，任何职业，如果你做到顶端，都是相通的，虽然路不同，殊途同归，就像游戏里面的盗贼、法师、战士等等职业者，成为最高阶层的传奇后，发现许多是相通的；另外我自己距离优秀还至少有一多半路要走，可能刚刚了解了路的大体方向，在某个通往优秀的路上多走了几步，下面我会整理出来一些具体的感悟
+对程序员来说，记得我和老婆在饭后散步，聊了几句：未来新能源、新材料和人工智能的突破，会极大的降低许多许多的产出成本，如果用数学的角度，去把这个趋势曲线，求导，那这个曲线的导数会过原点么？换句话说，未来机器人完全替代人类么？种植庄稼，生产工具，建造大楼和道路，甚至机器代孕、培养皿生物？
+我想说的是，人不会被取代，即便很大一部分脑力劳动通过计算机的积累，大数据分析，比如来自动指挥交通、调度，或者任何需要有经验的技术工种，都会被Robot替代，但感情和创造力，永远不会被替代；也就是说，人类最核心的价值，就在这里，不会被机器所替代：是人类的思维模式，思维模型决定的
+ 反例就是你让一个机器人去创作一幅梵高的画试试，或者你让他去自发的去谈恋爱
+另外，未来，可能最重要的岗位，就是程序员了，哈哈，因为所有这些人工智能的创建、维护、升级，都靠程序员～！
+2.通往优秀程序员的路怎么走？
+优秀其实不同的人，不同的标准，比如阿里最高级别的P12的人，算是优秀的程序员么？扎克伯格，算是一个优秀的程序员么？比尔盖茨呢？
+有人会说，离我太远了，你告诉我现阶段，我要如何做？给我一个简单点的路径，比如向东走200米，然后右拐，执行1.3公里，到红色房子，上三楼。。。
+但，那是不可能的，哈哈
+因为都有不同，不过
+也有相同
+Xmind图如下（一家之言，欢迎来喷～！）</description>
+    </item>
+    
+    <item>
       <title>JStory:2016我能帮助团队哪些？</title>
       <link>https://www.jlab.tech/post/2016-02-20-oh-blog18/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/post/2016-02-20-oh-blog18/</guid>
       <description>昨天较为仓促的去开了个会，但我想如果有心人，一些基本信息还是传递给了大家，不过早上在被窝思考了一下，还是应该细细整理一下，可能大家理解会更方便些
@@ -45,7 +83,7 @@
     <item>
       <title>JStory话题：SAAS是下一步的焦点么？</title>
       <link>https://www.jlab.tech/post/2016-02-17-oh-blog17/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/post/2016-02-17-oh-blog17/</guid>
       <description>前言：
@@ -63,78 +101,9 @@ Slacks，Zenefits，Topdesks，这几个是做什么的？
     </item>
     
     <item>
-      <title>JStory：如何成为一名优秀的程序员？ 草稿中</title>
-      <link>https://www.jlab.tech/post/2016-02-21-oh-blog19/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jlab.tech/post/2016-02-21-oh-blog19/</guid>
-      <description>开完会，栋栋问我：焦哥，我应该如何做，才能成为一名优秀的程序员？
-这个问题，不好回答
-1.什么是优秀的程序员？
-首先，我要表达的是，任何职业，如果你做到顶端，都是相通的，虽然路不同，殊途同归，就像游戏里面的盗贼、法师、战士等等职业者，成为最高阶层的传奇后，发现许多是相通的；另外我自己距离优秀还至少有一多半路要走，可能刚刚了解了路的大体方向，在某个通往优秀的路上多走了几步，下面我会整理出来一些具体的感悟
-对程序员来说，记得我和老婆在饭后散步，聊了几句：未来新能源、新材料和人工智能的突破，会极大的降低许多许多的产出成本，如果用数学的角度，去把这个趋势曲线，求导，那这个曲线的导数会过原点么？换句话说，未来机器人完全替代人类么？种植庄稼，生产工具，建造大楼和道路，甚至机器代孕、培养皿生物？
-我想说的是，人不会被取代，即便很大一部分脑力劳动通过计算机的积累，大数据分析，比如来自动指挥交通、调度，或者任何需要有经验的技术工种，都会被Robot替代，但感情和创造力，永远不会被替代；也就是说，人类最核心的价值，就在这里，不会被机器所替代：是人类的思维模式，思维模型决定的
- 反例就是你让一个机器人去创作一幅梵高的画试试，或者你让他去自发的去谈恋爱
-另外，未来，可能最重要的岗位，就是程序员了，哈哈，因为所有这些人工智能的创建、维护、升级，都靠程序员～！
-2.通往优秀程序员的路怎么走？
-优秀其实不同的人，不同的标准，比如阿里最高级别的P12的人，算是优秀的程序员么？扎克伯格，算是一个优秀的程序员么？比尔盖茨呢？
-有人会说，离我太远了，你告诉我现阶段，我要如何做？给我一个简单点的路径，比如向东走200米，然后右拐，执行1.3公里，到红色房子，上三楼。。。
-但，那是不可能的，哈哈
-因为都有不同，不过
-也有相同
-Xmind图如下（一家之言，欢迎来喷～！）</description>
-    </item>
-    
-    <item>
-      <title>TODO:要写几本深入浅出雅俗共赏的关于程序员（搞电脑的）的书</title>
-      <link>https://www.jlab.tech/post/2016-03-11-oh-blog22/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jlab.tech/post/2016-03-11-oh-blog22/</guid>
-      <description>嗯，决定了，写给初中级程序员，某些系统化的整理，也会帮助到高级乃至资深、专家，但主要目的是写给需要了解这个行业的相关人士，用生动的话语，而不是枯燥的概念，配图，结合示例，告诉人们：
-程序是怎样运行的？
-程序是怎样设计的？
-程序是怎样开发的？
-三本书，或者一本书，要好玩，开心，甚至6岁以上小孩也可以学习到有趣的东东
-嗯，觉得一定很有成就感，让更多的人了解到我们程序员的世界，神秘的程序员是在干什么？他不是电影中的高智商的宅男工程师，他是聪明、智慧，高度责任心和团队写作精神的改变世界的人，仅此而已！！！</description>
-    </item>
-    
-    <item>
-      <title>一个业余产品：dududushu</title>
-      <link>https://www.jlab.tech/post/2016-01-10-oh-blog9/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jlab.tech/post/2016-01-10-oh-blog9/</guid>
-      <description>项目名称：嘟嘟读书
-dududushu.net .org
-服务或产品或价值：
-核心价值，目前就是帮助我管好我自己的书（和阅读计划），比如罗列一个列表、进度、读书心得
-管理个人书籍整理自己的纸质书，发现有好多，而且事实上，我买了很多，丢三落四，或者借出，或者遗落在别人那里，或者丢在老家
-开卷有益，花费金钱去买书，核心的目的是获取知识，开拓眼界，从而提高自己
-但实际上，往往达到目标的30%，就很不错了
-管理借出/借入状态/借阅人
-除非是极端的爱书人士，事实上大部分人是较为乐意借出或者交换书籍阅读的
-不仅仅资源的置换或者交换，关键，读书人，是互相欣赏，看好同一本书，也是惺惺相惜的:)
-分享读书笔记总会有许多心得、疑问等围绕书本和延伸的领域，最方便的方式让大家一句话说明这本书怎么样
-读书人聚会事实上，越来越感觉到时间紧迫，不够用，要做的事，要读的书，要体验的生活，很多很多，但读书人，总有共同之处，与其在被窝窝着，不如出来聊聊书和文化
-当然，如果能和其他产品结合，那最好，互相帮助</description>
-    </item>
-    
-    <item>
-      <title>不好意思：Balsamiq Mockups</title>
-      <link>https://www.jlab.tech/post/2016-01-28-oh-blog14/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jlab.tech/post/2016-01-28-oh-blog14/</guid>
-      <description>Name: helloWorld Key: eJzzzU/OLi0odswsqslIzcnJD88vykmpsUQCNc41hjV+7q5+AF74Ds8=
-Name: china Key: eJzzzU/OLi0odswsqknOyMxLrLFEAjXONYY1fu6ufgAJ5gy2
-Name: ketty Key: eJzzzU/OLi0odswsqslOLSmprLFEAjXONYY1fu6ufgAOOwzk</description>
-    </item>
-    
-    <item>
       <title>在ycpai发布了一个创业服务，好便宜</title>
       <link>https://www.jlab.tech/post/2016-01-17-oh-blog12/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/post/2016-01-17-oh-blog12/</guid>
       <description>专注技术和产品16+年 创业3次 目前负责三个技术团队的管理 对技术偏执，仍然喜爱写代码的创业者
@@ -154,6 +123,27 @@ Name: ketty Key: eJzzzU/OLi0odswsqslOLSmprLFEAjXONYY1fu6ufgAOOwzk</description>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 创业指导，每月2000
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</description>
+    </item>
+    
+    <item>
+      <title>一个业余产品：dududushu</title>
+      <link>https://www.jlab.tech/post/2016-01-10-oh-blog9/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2016-01-10-oh-blog9/</guid>
+      <description>项目名称：嘟嘟读书
+dududushu.net .org
+服务或产品或价值：
+核心价值，目前就是帮助我管好我自己的书（和阅读计划），比如罗列一个列表、进度、读书心得
+管理个人书籍整理自己的纸质书，发现有好多，而且事实上，我买了很多，丢三落四，或者借出，或者遗落在别人那里，或者丢在老家
+开卷有益，花费金钱去买书，核心的目的是获取知识，开拓眼界，从而提高自己
+但实际上，往往达到目标的30%，就很不错了
+管理借出/借入状态/借阅人
+除非是极端的爱书人士，事实上大部分人是较为乐意借出或者交换书籍阅读的
+不仅仅资源的置换或者交换，关键，读书人，是互相欣赏，看好同一本书，也是惺惺相惜的:)
+分享读书笔记总会有许多心得、疑问等围绕书本和延伸的领域，最方便的方式让大家一句话说明这本书怎么样
+读书人聚会事实上，越来越感觉到时间紧迫，不够用，要做的事，要读的书，要体验的生活，很多很多，但读书人，总有共同之处，与其在被窝窝着，不如出来聊聊书和文化
+当然，如果能和其他产品结合，那最好，互相帮助</description>
     </item>
     
   </channel>

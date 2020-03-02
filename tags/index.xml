@@ -6,9 +6,28 @@
     <description>Recent content in Tags on jLab - A Source of Creativity and Innovation!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 07 Oct 2009 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.jlab.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog</title>
+      <link>https://www.jlab.tech/tags/blog/</link>
+      <pubDate>Wed, 07 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>https://www.jlab.tech/tags/blogging/</link>
+      <pubDate>Wed, 07 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/tags/blogging/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
