@@ -15,16 +15,16 @@
  
 <meta property="og:type" content="article"/>
 <meta property="og:description" content=""/>
-<meta property="og:title" content="向腾格尔学习 : spf13.com"/>
+<meta property="og:title" content="如何在hugo模版实用shortcodes嵌入bilibili视频？ : spf13.com"/>
 <meta property="og:site_name" content="jLab is Jason Jiao's Lab"/>
 <meta property="og:image" content="" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="" />
 <meta property="og:image:height" content="" />
-<meta property="og:url" content="https://www.jlab.tech/post/2020-03-14_jlab_blog1584154858/">
+<meta property="og:url" content="https://www.jlab.tech/post/2020-03-17_jlab_blog1584408038/">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-03-14"/>
-<meta property="article:modified_time" content="2020-03-14"/>
+<meta property="article:published_time" content="2020-03-17"/>
+<meta property="article:modified_time" content="2020-03-17"/>
 
 
 
@@ -33,7 +33,7 @@
 <meta name="twitter:card" content="summary">
 
 <meta name="twitter:site" content="@spf13">
-<meta name="twitter:title" content="向腾格尔学习 : spf13.com">
+<meta name="twitter:title" content="如何在hugo模版实用shortcodes嵌入bilibili视频？ : spf13.com">
 <meta name="twitter:creator" content="@spf13">
 <meta name="twitter:description" content="">
 <meta name="twitter:image:src" content="">
@@ -42,8 +42,8 @@
 
 
     <base href="https://www.jlab.tech/">
-    <title> 向腾格尔学习 - www.jlab.tech </title>
-    <link rel="canonical" href="https://www.jlab.tech/post/2020-03-14_jlab_blog1584154858/">
+    <title> 如何在hugo模版实用shortcodes嵌入bilibili视频？ - www.jlab.tech </title>
+    <link rel="canonical" href="https://www.jlab.tech/post/2020-03-17_jlab_blog1584408038/">
     
 
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
@@ -106,32 +106,38 @@
 
 
 <section id="main">
-  <h1 itemprop="name" id="title">向腾格尔学习</h1>
+  <h1 itemprop="name" id="title">如何在hugo模版实用shortcodes嵌入bilibili视频？</h1>
   <div>
         <article itemprop="articleBody" id="content">
-           <h1 id="向腾格尔学习">向腾格尔学习</h1>
-<h2 id="保持你的艺术技术生命力">保持你的艺术/技术生命力</h2>
+           <h1 id="如何在hugo模版实用shortcodes嵌入bilibili视频">如何在hugo模版实用shortcodes嵌入bilibili视频？</h1>
+<h2 id="如题嵌入一段hugo支持的变量带入了即可">如题，嵌入一段hugo支持的变量带入了即可</h2>
 <ul>
-<li><div class="embed video-player">
+<li>
+<p>md文档上的代码：</p>
+</li>
+<li>
+<pre><code><div class="embed video-player">
 <iframe src="//player.bilibili.com/player.html? " scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
+
+</code></pre></li>
+<li>
+<p>需要在layouts/shortcodes/下添加一个bilibili.html模版，内容如下：</p>
 </li>
-<li></li>
-<li>早上打开网易音乐，造一点声音</li>
-<li>随机的播放到了一首歌，竟然不错，然后发现。。。竟然是腾格尔～！</li>
-<li>我的印象是，我小时候，几岁的时候，听过的老艺术家，竟然有这么长的艺术生命，还在唱（印象可能有偏差啊，人家不老？）</li>
-<li><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1584165920770&amp;di=b4d624646bd393a4298d957346dcbe1d&amp;imgtype=0&amp;src=http%3A%2F%2Fspider.nosdn.127.net%2F9759f6794910077d70f6b9fee3ec521c.jpeg" alt="“腾格尔 可能否”"></li>
-<li>能感觉风格从最初的非常浓厚的民族风格，很大跨度的转向了流行音乐，但并没有丢失那些内蒙味道：马头琴伴奏，民族的尾声，不过，高潮部分的，感觉流行音乐味道很明显</li>
-<li>我不是米其林美食家，也不是音乐评论家</li>
-<li>只是很有感触</li>
-<li>作为一个对技术和技术管理有追求的老技术家，应该向腾格尔学习</li>
-<li>不断学习</li>
-<li>不断创新</li>
-<li>拥抱潮流</li>
-<li>保持自我</li>
-<li>分享下链接：http://music.163.com/song?id=1294899563&amp;userid=79688675</li>
-<li>分享下B站视频，看老头多有活力～！（好像是翻唱，不过味道不错）</li>
-<li><a href="https://www.bilibili.com/video/av30760926/">https://www.bilibili.com/video/av30760926/</a></li>
+<li>
+<pre><code>&lt;div class=&quot;embed video-player&quot;&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?{{ .Get 0  }} &quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre></li>
+<li>
+<p>原理：使用最粗暴的get 来获取第一个变量，实际是copy自bilibili的分享视频的url，里面有aid和cid，我是简单化，当作一个参数传入</p>
+</li>
+<li>
+<p>正常build，发布，你的hugo就可以显示你指定的bilibili视频拉</p>
+</li>
+<li>
+<p>示例网址：https://www.jlab.tech/post/2020-03-14_jlab_blog1584154858/</p>
+</li>
 </ul>
 
         </article>
@@ -144,7 +150,7 @@
 
     <div>
         <section id="datecount">
-          <h4 id="date"> Sat Mar 14, 2020 </h4>
+          <h4 id="date"> Tue Mar 17, 2020 </h4>
           <h5 id="wc"> 100 Words </h5>
           <h5 id="readtime"> Read in about 1 Min </h5>
         </section>
@@ -158,9 +164,9 @@
 
     <div>
         <section id="prev">
-            &nbsp;<a class="previous" href="https://www.jlab.tech/post/2020-03-11_jlab_blog1583889454/"><i class="icon-arrow-left"></i> 读书笔记：机器学习实用案例解析</a><br>
+            &nbsp;<a class="previous" href="https://www.jlab.tech/post/2020-03-14_jlab_blog1584154858/"><i class="icon-arrow-left"></i> 向腾格尔学习</a><br>
         </section><section id="next">
-            &nbsp;<a class="next" href="https://www.jlab.tech/post/2020-03-17_jlab_blog1584408038/">如何在hugo模版实用shortcodes嵌入bilibili视频？ <i class="icon-arrow-right"></i></a>
+            &nbsp;<a class="next" href="https://www.jlab.tech/about/about/">About jLab and me <i class="icon-arrow-right"></i></a>
         </section>
     </div>
 
@@ -200,9 +206,9 @@
 
 </aside>
 
-<meta itemprop="wordCount" content="16">
-<meta itemprop="datePublished" content="2020-03-14">
-<meta itemprop="url" content="https://www.jlab.tech/post/2020-03-14_jlab_blog1584154858/">
+<meta itemprop="wordCount" content="24">
+<meta itemprop="datePublished" content="2020-03-17">
+<meta itemprop="url" content="https://www.jlab.tech/post/2020-03-17_jlab_blog1584408038/">
 
 
 
