@@ -24,8 +24,8 @@
 <meta property="og:image:height" content="" />
 <meta property="og:url" content="https://www.jlab.tech/">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-03-17"/>
-<meta property="article:modified_time" content="2020-03-17"/>
+<meta property="article:published_time" content="2020-03-18"/>
+<meta property="article:modified_time" content="2020-03-18"/>
 
 
 
@@ -123,6 +123,19 @@
     
         <article class="post">
     <header>
+      <h2><a href="https://www.jlab.tech/post/2020-03-18_jlab_blog1584497589/">读书笔记：机器学习实用案例解析3 </a> </h2>
+      <div class="post-meta">Wed, Mar 18, 2020 -  Read in 1 Min </div>
+    </header>
+
+    读书笔记：机器学习实用案例解析3 继续/兵分两路  1.安装Rstudio和相关swirl课程后，利用碎片时间持续学习，实验，这个不要求速度 2.书本上指导的项目，跟进   
+    <footer>
+        <a href='https://www.jlab.tech/post/2020-03-18_jlab_blog1584497589/'><nobr>Read more →</nobr></a>
+    </footer>
+</article>
+
+    
+        <article class="post">
+    <header>
       <h2><a href="https://www.jlab.tech/post/2020-03-17_jlab_blog1584408038/">如何在hugo模版实用shortcodes嵌入bilibili视频？ </a> </h2>
       <div class="post-meta">Tue, Mar 17, 2020 -  Read in 1 Min </div>
     </header>
@@ -135,6 +148,22 @@
   
     <footer>
         <a href='https://www.jlab.tech/post/2020-03-17_jlab_blog1584408038/'><nobr>Read more →</nobr></a>
+    </footer>
+</article>
+
+    
+        <article class="post">
+    <header>
+      <h2><a href="https://www.jlab.tech/post/2020-03-17_jlab_blog1584408516/">读书笔记：机器学习实用案例解析2 </a> </h2>
+      <div class="post-meta">Tue, Mar 17, 2020 -  Read in 1 Min </div>
+    </header>
+
+    读书笔记：机器学习实用案例解析2 R概述  统计学家为方便，开发的语言，涵盖了整个数据分析过程导入数据、数据清晰、数据分析（各种算法支持）、图形绘制等等，可以说是小而全的数据实验室，如前文说说，不适合大数据量，适合科研和摸索实验 用于各种科研的实证部分，非常广泛，各个学科都在使用 install.packages ，安装指定包 library和require，都是引用包，require返回true，false  小问题   MAC OS 解决R语言locale问题 查看官方文档 http://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html#Internationalization-of-the-R_002eapp 在terminal中设置R语言的default 为en_US.UTF-8即可 defaults write org.R-project.R force.LANG en_US.UTF-8
+Sorry, as far as we know this is the prescribed solution for this issue. Does executing
+defaults write org.R-project.R force.LANG en_US.UTF-8 in the terminal seem to work successfully? Do you see the &lsquo;en_US.UTF-8&rsquo; locale available if you execute the following in the terminal?
+locale -a | grep en_US If you don&rsquo;t see the &lsquo;en_US.
+    <footer>
+        <a href='https://www.jlab.tech/post/2020-03-17_jlab_blog1584408516/'><nobr>Read more →</nobr></a>
     </footer>
 </article>
 
@@ -226,37 +255,6 @@
 </article>
 
     
-        <article class="post">
-    <header>
-      <h2><a href="https://www.jlab.tech/post/2018-10-24-jhfnetboy-blog1540362421/">sublime2插件无法更新，报错：HTTP exception InvalidCertificateException </a> </h2>
-      <div class="post-meta">Wed, Oct 24, 2018 -  Read in 1 Min </div>
-    </header>
-
-    报错：(Host codeload.github.com returned an invalid certificate ([SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:548))) downloading https://codeload.github.com 全网唯一的答案在sulbime论坛的老帖子 copy过来
- 修改Package Control.sublime-settings 2.全文修改为 { &ldquo;bootstrapped&rdquo;: true, &ldquo;downloader_precedence&rdquo;: { &ldquo;linux&rdquo;: [ &ldquo;urllib&rdquo;, &ldquo;curl&rdquo;, &ldquo;wget&rdquo; ], &ldquo;osx&rdquo;: [ &ldquo;curl&rdquo;, &ldquo;urllib&rdquo; ], &ldquo;windows&rdquo;: [ &ldquo;wininet&rdquo; ] } } 3.重启sublime2，ok了，可以下载安装插件了  
-    <footer>
-        <a href='https://www.jlab.tech/post/2018-10-24-jhfnetboy-blog1540362421/'><nobr>Read more →</nobr></a>
-    </footer>
-</article>
-
-    
-        <article class="post">
-    <header>
-      <h2><a href="https://www.jlab.tech/post/2018-10-23-jhfnetboy-blog1540298789/">stata的dta文件用spss打开乱码如何解决 </a> </h2>
-      <div class="post-meta">Tue, Oct 23, 2018 -  Read in 1 Min </div>
-    </header>
-
-    很简单，用15.1stata打开文件，进入命令行
-. use cfps2010family_report_nat092014.dta 发现乱码 . clear . unicode analyze cfps2010family_report_nat092014 发现需要转译 . unicode encoding set gb18030 设置默认编码
-(default encoding now gb18030)
-. unicode translate cfps2010family_report_nat092014.dta 转译 再打开文件，正常了 不过有一个文件不正常 label for variable 626 (fd4_best) contains unconvertable characters
-我就直接打开数据文件，删除了fd4_best字段，然后再来一遍，一切正常 然后用spss打开，一切正常了&ndash;并没有，因为dta文件格式太新，spss不正常 导出为旧版，发现某个字段不支持。。。明天再试试excel，困了，哈哈 :wq
-    <footer>
-        <a href='https://www.jlab.tech/post/2018-10-23-jhfnetboy-blog1540298789/'><nobr>Read more →</nobr></a>
-    </footer>
-</article>
-
-    
   </div>
 </section>
 
@@ -277,6 +275,17 @@
 (function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
 fitText(document.getElementById('title'), 1)
 </script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-161158389-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 </body>
 </html>
