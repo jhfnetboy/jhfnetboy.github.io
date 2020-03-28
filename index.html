@@ -185,8 +185,8 @@ more  https://talk.citahub.com/t/topic/1161
     </header>
 
     如何在hugo模版使用shortcodes嵌入bilibili视频？ 如题，嵌入一段hugo支持的变量带入了即可   md文档上的代码：
-   $$   $$
-   需要在layouts/shortcodes/下添加一个bilibili.html模版，内容如下：
+   /{/{&lt; bilibili aid=30760926&amp;cid=53700533&amp;page=1 &gt;/}/}      去掉斜杠
+  需要在layouts/shortcodes/下添加一个bilibili.html模版，内容如下：
   &lt;div class=&quot;embed video-player&quot;&gt; &lt;iframe src=&quot;//player.bilibili.com/player.html?{{ .Get 0 }} &quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt; &lt;/div&gt;   原理：使用最粗暴的get 来获取第一个变量，实际是copy自bilibili的分享视频的url，里面有aid和cid，我是简单化，当作一个参数传入
   正常build，发布，你的hugo就可以显示你指定的bilibili视频拉
   示例网址：https://www.jlab.tech/post/2020-03-14_jlab_blog1584154858/
