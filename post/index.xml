@@ -6,10 +6,38 @@
     <description>Recent content in Posts on jLab - A Source of Creativity and Innovation!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.jlab.tech/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The_Second_BSN_Coding_Chalenge</title>
+      <link>https://www.jlab.tech/post/2020-03-28_The_Second_BSN_Coding_Chalenge_jlab_tech/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2020-03-28_The_Second_BSN_Coding_Chalenge_jlab_tech/</guid>
+      <description>The_Second_BSN_Coding_Chalenge  As title said, i join it~  My App named :Pet-Gourment / 宠物美食家   一些介绍
+   Some information :
+  参赛要求 参赛者可以是个人、团队或企业，年龄、职业和国籍不限； 参赛者须至少基于Hyperledger Fabric、FISCO BCOS、CITA、XuperChain中一种底层框架编写智能合约。如果基于多个框架编写了不同版本的智能合约，将在最终评分上分别给予1.1、1.3和1.5的系数加成； 基于不同底层框架的不同版本智能合约应实现完全相同的业务功能，具体编写可以根据各框架的要求和特点。除了代码包外，还需要有文档详细描述智能合约的功能及设计说明。如果涉及多框架，应描述在不同框架下编写的区别和体会； 大赛对智能合约的具体实现功能不做限制，创意新颖、功能通用、设计巧妙、编码规范、说明文档全面是主要的评分标准； 参赛作品为完整的智能合约代码包和说明文件，以不超过10M的ZIP文件方式提交，压缩包内按照底层框架分为不同的文件夹，说明文件放置在根目录； 获奖作品或其他有参考意义的作品将无偿公布，供其他开发者学习参考。原作者拥有版权和署名权； 编写智能合约的语言不限，根据各底层框架所支持的语言为准。可以针对不同的底层框架用不同语言编写，但必须保证智能合约内的方法功能完全一致； 本次大赛作品适用各框架的版本号：Farbic v1.4.3；FISCO BCOS v2.2.0; CITA v20.2.0; XuperChain v3.7。
+评审标准 大赛组委会将于作品递交结束后公布大赛评委名单。本次评委组由具有丰富编程经验的资深开发人员组成。以下为评审标准： 智能合约创意新颖、设计巧妙和通用性强：40%; 智能合约函数、事件、结构等设计规范合理、执行效率和安全性：20%; 代码编写简洁规范、可读性强，注释清晰准确：20%; 设计说明文档规范、结构完整、内容详细准确：20%; 如果开发了多底层框架版本，所有版本必须实现完全相同功能。如果功能不一致，则只选择其中一个版本参加评审; 在功能一致的前提下，如果基于多个框架编写了不同版本的智能合约，将在最终评分上分别给予1.1、1.3和1.5的系数加成。
+more  https://talk.citahub.com/t/topic/1161    </description>
+    </item>
+    
+    <item>
+      <title>The_Character_of_a_Talent</title>
+      <link>https://www.jlab.tech/post/2020-03-26_The_Character_of_a_Talent_jlab_blog_1585211409/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2020-03-26_The_Character_of_a_Talent_jlab_blog_1585211409/</guid>
+      <description>The_Character_of_a_Talent   人才观 不断提升的标准，JasonJiao对自己的自我要求，版权所有，盗版不究，不过给个链接吧
+聪明 不是小聪明，是有知识，爱学习，开放心态，灵活不拘泥于规矩又在框架内解决问题最高标准是Life Long Learner，终身学习者，来自https://www.jlab.tech
+逻辑 有缜密的思维，严谨的分解和推导，掌握常规的思考和分析方法，能够快速归纳抽象和演绎落地最高标准是洞察者，掌握多种模式，并熟练应用各种场景来迅速给出最优解决方案，来自https://www.jlab.tech
+坚韧 磨难和困阻是磨刀石，所有外部信息会选择性接收和吸取，都转化为自己成长的动力最高标准是幸存者，心态平和，坚定不移的朝自己的目标前进，来自https://www.jlab.tech
+乐观 坚信未来，并且能够从中汲取力量，积极主动，并能影响他人，辐射团队最高标准是克制的乐观者，享受且不放纵，乐观且不轻浮，来自https://www.jlab.tech
+原则 拥有自己的原则和底线，并用一生来践行，从而塑造自己最高标准是达者，达则兼济天下，不是为标准而标准，通晓背后的意义，来自https://www.jlab.tech
+  </description>
+    </item>
     
     <item>
       <title>读书笔记：机器学习实用案例解析3</title>
@@ -17,7 +45,15 @@
       <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/post/2020-03-18_jlab_blog1584497589/</guid>
-      <description>读书笔记：机器学习实用案例解析3 继续/兵分两路  1.安装Rstudio和相关swirl课程后，利用碎片时间持续学习，实验，这个不要求速度 2.书本上指导的项目，跟进   </description>
+      <description>读书笔记：机器学习实用案例解析3 继续/兵分两路   1.安装Rstudio和相关swirl课程后，利用碎片时间持续学习，实验，这个不要求速度
+  2.书本上指导的项目，跟进
+重要～！   纸质版书籍并没有说随书的代码和数据相关在哪里，自己搜到的
+  https://codeload.github.com/johnmyleswhite/ML_for_Hackers/zip/master
+  如果下载不下来，可以从我用了一个晚上下载下来的百度盘
+  链接:https://pan.baidu.com/s/1OGValLn6Prn46Vsq5O6cGg 密码:qjvt
+    第一个实验    setwd(&#39;/Users/greed/Documents/ML_for_Hackers-master&amp;rsquo;) dir() [1] &amp;ldquo;01-Introduction&amp;rdquo; &amp;ldquo;02-Exploration&amp;rdquo; &amp;ldquo;03-Classification&amp;rdquo;
+[4] &amp;ldquo;04-Ranking&amp;rdquo; &amp;ldquo;05-Regression&amp;rdquo; &amp;ldquo;06-Regularization&amp;rdquo;
+[7] &amp;ldquo;07-Optimization&amp;rdquo; &amp;ldquo;08-PCA&amp;rdquo; &amp;ldquo;09-MDS&amp;rdquo; [10] &amp;ldquo;10-Recommendations&amp;rdquo; &amp;ldquo;11-SNA&amp;rdquo; &amp;ldquo;12-Model_Comparison&amp;rdquo; [13] &amp;ldquo;fast_check.R&amp;rdquo; &amp;ldquo;package_installer.R&amp;rdquo; &amp;ldquo;README.md&amp;rdquo; [16] &amp;ldquo;slides&amp;rdquo; source(&amp;lsquo;package_installer.R&amp;rsquo;) This script will now attempt to install all of the R packages used in &amp;lsquo;Machine Learning for Hackers&amp;rsquo;e1071 missing, will attempt to install</description>
     </item>
     
     <item>
@@ -26,8 +62,9 @@
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.jlab.tech/post/2020-03-17_jlab_blog1584408038/</guid>
-      <description>如何在hugo模版实用shortcodes嵌入bilibili视频？ 如题，嵌入一段hugo支持的变量带入了即可   md文档上的代码：
-      需要在layouts/shortcodes/下添加一个bilibili.html模版，内容如下：
+      <description>如何在hugo模版使用shortcodes嵌入bilibili视频？ 如题，嵌入一段hugo支持的变量带入了即可   md文档上的代码：
+   $$   $$
+   需要在layouts/shortcodes/下添加一个bilibili.html模版，内容如下：
   &amp;lt;div class=&amp;quot;embed video-player&amp;quot;&amp;gt; &amp;lt;iframe src=&amp;quot;//player.bilibili.com/player.html?{{ .Get 0 }} &amp;quot; scrolling=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; frameborder=&amp;quot;no&amp;quot; framespacing=&amp;quot;0&amp;quot; allowfullscreen=&amp;quot;true&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt; &amp;lt;/div&amp;gt;   原理：使用最粗暴的get 来获取第一个变量，实际是copy自bilibili的分享视频的url，里面有aid和cid，我是简单化，当作一个参数传入
   正常build，发布，你的hugo就可以显示你指定的bilibili视频拉
   示例网址：https://www.jlab.tech/post/2020-03-14_jlab_blog1584154858/
@@ -904,6 +941,23 @@ be a quiet reader,Thx!</description>
       <description>jupyter/datascience-notebook Source on GitHub | Dockerfile commit history | Docker Hub image tags
 jupyter/datascience-notebook includes libraries for data analysis from the Julia, Python, and R communities.
 Everything in the jupyter/scipy-notebook and jupyter/r-notebook images, and their ancestor images The Julia compiler and base environment IJulia to support Julia code in Jupyter notebooks HDF5, Gadfly, and RDatasets packages docker run &amp;ndash;rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v &amp;ldquo;$PWD&amp;rdquo;:/Users/mac/Library/Mobile Documents/com~apple~CloudDocs/log jupyter/datascience-notebook:latest docker run &amp;ndash;rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v &amp;ldquo;/Users/mac/Library/Mobile Documents/com~apple~CloudDocs/log&amp;rdquo; jupyter/datascience-notebook:latest</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.jlab.tech/post/good_production_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/good_production_design/</guid>
+      <description>-好的设计是创新的。 -Gutes Design sollte inovative sein.
+  -好的设计使产品实用。 -Gutes Design macht ein Produkt brauchbar.
+  -好的设计是具美学意义的设计。 -Gutes Design ist ästhetisches Design.
+  -好的设计让产品易被理解。 -Gutes Design macht ein Produkt verständlich.
+  -好的设计是诚实的。 -Gutes Design ist ehrlich.
+  -好的设计是谦虚的。 -Gutes Design ist unaufdringlich.
+  -好的设计是持久耐用的。 -Gutes Design ist langlebig.
+  -好的设计将一致性坚持到最后一个细节。 -Gutes Design ist konsequent bis ins letzte Detail.
+  -好的设计是对环境友好的。 -Gutes Design ist umweltfreundlich.</description>
     </item>
     
     <item>
