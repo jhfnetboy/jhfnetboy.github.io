@@ -1,6 +1,6 @@
 <img src="./jhfnetboy.png" alt="jhfnetboy" style="zoom:18%;border-radius:50%;" />
 
-Updated ：
+Updated ：2021-03-25 10:31:37 UTC+8
 
 ### **Personal information**
 
@@ -22,7 +22,7 @@ Updated ：
 
 + MBA / Financial Track(involves quant, data analysis, probability ) graduate at 2019.
 + ZheJiang University(**QS No. 53 in 2021** )
-+ Information Management (almost computer science  and mathimatics).
++ Information Management (almost computer science  and mathimatics) 
 + North China University of Technology (NCUT)
 
 ### **Skill**
