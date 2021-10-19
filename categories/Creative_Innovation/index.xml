@@ -6,10 +6,15 @@
     <description>Recent content in Creative_Innovation on jLab - A Source of Creativity and Innovation!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.jlab.tech/categories/Creative_Innovation/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jlab.tech/categories/Creative_Innovation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021-New-Journey-Waitting-for-me</title>
+      <link>https://www.jlab.tech/post/2021-10-19_2021-New-Journey-Waitting-for-me_jlab_tech/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jlab.tech/post/2021-10-19_2021-New-Journey-Waitting-for-me_jlab_tech/</guid>
+      <description>2021-New-Journey-Waitting-for-me  时间很快，快到恍惚间，两年多过去了，快到自己都产生了恍惚的感觉。。 在这家曾经认为，可以为天下的孩子，提供一点点教育上的助力，但形势比人强，无论是疫情还是国家政策，让人迷惑，无所适从 无论如何，直接或者间接帮助教育，提升孩子们的认知，帮助他们可能获得更好的生活，是正确的事情 倾心付出，无数讨论，加班，设计，奋斗，争吵，许许多多团队同学，像电影一样，快速轮转着。。 期待开启新征程，科技改变世界，科技让人生活更美好，是一个理工男的毕生追求。 post下自己的一些信息，方便refer： Apply for PH.D: Html version Pdf version Apply for Job: Resume 对新机会，开放心态，计划在11-5之前确定新工作，目标是CTO/技术总监/研发负责人之类角色，能够在业务架构/技术架构主导或者部分主导，真正帮助企业构建和扩展核心竞争力的工作 感谢，感恩~！  </description>
+    </item>
     
     <item>
       <title>How_to_get_a_fast_meal_by_man</title>
@@ -247,7 +252,7 @@ So，Get it Done，少年～！</description>
   https://codeload.github.com/johnmyleswhite/ML_for_Hackers/zip/master
   如果下载不下来，可以从我用了一个晚上下载下来的百度盘
   链接:https://pan.baidu.com/s/1OGValLn6Prn46Vsq5O6cGg 密码:qjvt
-    第一个实验    setwd(&#39;/Users/greed/Documents/ML_for_Hackers-master&amp;rsquo;) dir() [1] &amp;ldquo;01-Introduction&amp;rdquo; &amp;ldquo;02-Exploration&amp;rdquo; &amp;ldquo;03-Classification&amp;rdquo;
+    第一个实验    setwd(&#39;/Users/greed/Documents/ML_for_Hackers-master&#39;) dir() [1] &amp;ldquo;01-Introduction&amp;rdquo; &amp;ldquo;02-Exploration&amp;rdquo; &amp;ldquo;03-Classification&amp;rdquo;
 [4] &amp;ldquo;04-Ranking&amp;rdquo; &amp;ldquo;05-Regression&amp;rdquo; &amp;ldquo;06-Regularization&amp;rdquo;
 [7] &amp;ldquo;07-Optimization&amp;rdquo; &amp;ldquo;08-PCA&amp;rdquo; &amp;ldquo;09-MDS&amp;rdquo; [10] &amp;ldquo;10-Recommendations&amp;rdquo; &amp;ldquo;11-SNA&amp;rdquo; &amp;ldquo;12-Model_Comparison&amp;rdquo; [13] &amp;ldquo;fast_check.R&amp;rdquo; &amp;ldquo;package_installer.R&amp;rdquo; &amp;ldquo;README.md&amp;rdquo; [16] &amp;ldquo;slides&amp;rdquo; source(&amp;lsquo;package_installer.R&amp;rsquo;) This script will now attempt to install all of the R packages used in &amp;lsquo;Machine Learning for Hackers&amp;rsquo;e1071 missing, will attempt to install</description>
     </item>
@@ -539,7 +544,7 @@ d：匹配方向，+1表示正向，-1表示逆向； a：每次匹配失败后�
 通常的分析系统，都力图在分词阶段消除所有歧义切分现象。而有些系统则在后续过程中来处理歧义切分问题，其分词过程只是整个语言理解过程的一小部分。其基本思想就是在分词的同时进行句法、语义分析，利用句法信息和语义信息来处理歧义现象。它通常包括三个部分：分词子系统、句法语义子系统、总控部分。在总控部分的协调下，分词子系统可以获得有关词、句子等的句法和语义信息来对分词歧义进行判断，即它模拟了人对句子的理解过程。这种分词方法需要使用大量的语言知识和信息。由于汉语语言知识的笼统、复杂性，难以将各种语言信息组织成机器可直接读取的形式，因此目前基于理解的分词系统还处在试验阶段。
 3、基于统计的分词方法
 从形式上看，词是稳定的字的组合，因此在上下文中，相邻的字同时出现的次数越多，就越有可能构成一个词。因此字与字相邻共现的频率或概率能够较好的反映成词的可信度。可以对语料中相邻共现的各个字的组合的频度进行统计，计算它们的互现信息。
-定义两个字的互现信息为： M(X,Y)=logP(X,Y)/P(X).P(Y)，其中 P(X,Y)是汉字X、Y的相邻共现概率，P(X) 、P(Y)分别是X、Y在语料中出现的概率。互现信息体现了汉字之间结合关系的紧密程度。当紧密程度高于某一个阈值时，便可认为此字组可能构成了一个词。这种方法只需对语料中的字组频度进行统计，不需要切分词典，因而又叫做无词典分词法或统计取词方法。但这种方法也有一定的局限性，会经常抽出一些共现频度高、但并不是词的常用字组，例如&amp;quot;这一&amp;rdquo;、&amp;ldquo;之一&amp;rdquo;、&amp;ldquo;有的&amp;rdquo;、&amp;ldquo;我的&amp;rdquo;、&amp;ldquo;许多的&amp;quot;等，并且对常用词的识别精度差，时空开销大。实际应用的统计分词系统都要使用一部基本的分词词典（常用词词典）进行串匹配分词，同时使用统计方法识别一些新的词，即将串频统计和串匹配结合起来，既发挥匹配分词切分速度快、效率高的特点，又利用了无词典分词结合上下文识别生词、自动消除歧义的优点。
+定义两个字的互现信息为： M(X,Y)=logP(X,Y)/P(X).P(Y)，其中 P(X,Y)是汉字X、Y的相邻共现概率，P(X) 、P(Y)分别是X、Y在语料中出现的概率。互现信息体现了汉字之间结合关系的紧密程度。当紧密程度高于某一个阈值时，便可认为此字组可能构成了一个词。这种方法只需对语料中的字组频度进行统计，不需要切分词典，因而又叫做无词典分词法或统计取词方法。但这种方法也有一定的局限性，会经常抽出一些共现频度高、但并不是词的常用字组，例如&amp;quot;这一&amp;quot;、&amp;ldquo;之一&amp;rdquo;、&amp;ldquo;有的&amp;rdquo;、&amp;ldquo;我的&amp;rdquo;、&amp;ldquo;许多的&amp;quot;等，并且对常用词的识别精度差，时空开销大。实际应用的统计分词系统都要使用一部基本的分词词典（常用词词典）进行串匹配分词，同时使用统计方法识别一些新的词，即将串频统计和串匹配结合起来，既发挥匹配分词切分速度快、效率高的特点，又利用了无词典分词结合上下文识别生词、自动消除歧义的优点。
 几种典型的自动分词系统评介
 衡量自动分词系统的主要指标是切分精度和速度。由于切分速度与所运行的软、硬件平台密切相关，在没有注明运行平台时，切分速度只是一个参考指标，没有可比性。
 另外，所注明的切分精度都是开发者自测试的结果。

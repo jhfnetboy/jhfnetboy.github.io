@@ -6,11 +6,7 @@
     <description>Recent content in Code_Problem on jLab - A Source of Creativity and Innovation!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jun 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.jlab.tech/categories/Code_Problem/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 07 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jlab.tech/categories/Code_Problem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>虚张声势：WP_Image_Editor_Imagick 指令注入漏洞</title>
       <link>https://www.jlab.tech/post/2016-06-07-oh-blog27/</link>
